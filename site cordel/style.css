@@ -6,8 +6,13 @@
     margin: 0%;
 }
 
+body{
+    min-height: 100vh;
+}
+
 header{
     background-color: black;
+    text-align: center;
     margin: auto;
     padding: 67px;
     
@@ -15,7 +20,6 @@ header{
 
 h1{
     color: white;
-    text-align: center;
     font-size: 90px;
     margin: auto;
     
@@ -23,7 +27,6 @@ h1{
 
 h2{
     color: white;
-    text-align: center;
     font-size: 20px;
     margin: auto;
     margin-top: 10px;
@@ -31,10 +34,8 @@ h2{
 
 h2 > a{
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
-    text-align: center;
-    padding: 0px;
 }
 
 a:hover{
@@ -43,8 +44,9 @@ a:hover{
 
 main.menus{
     background-color: white;
-    padding: 50px;
-    margin: 30px 10px 20px 25px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
 }
 
 p.pdosmenus{
@@ -52,7 +54,7 @@ p.pdosmenus{
     font-size: 40px;
     font-weight: bold;
     font-family: sans-serif;
-    line-height: 90px;
+    line-height: 2em;
 }
 
 div.imagem1{
@@ -63,7 +65,7 @@ div.imagem1{
     background-attachment: fixed;
     padding: 80px;
     margin: auto;
-    margin: 0px -5px 30px -5px;
+    width: 100%;
 }
 
 div.imagem2{
@@ -74,20 +76,19 @@ div.imagem2{
     background-attachment: fixed;
     padding: 80px;
     margin: auto;
-    margin: 0px -5px 30px -5px;
+    width: 100%;
 }
 
 article.conteudodasimagens{
     background-color: rgba(0, 0, 0, 0.506);
-    margin: 10px 661px 10px 10px;
-    padding: 10px 0px 10px 0px;
+    width: 400px;
 }
 
 p.pdasimagens{
     color: white;
     font-size: 45px;
     font-weight: bold;
-    line-height: 90px;
+    line-height: 2em;
 }
 
 
