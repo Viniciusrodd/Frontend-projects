@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fontetitulo: 'Passion One', sans-serif;
+    --fonteparagrafo: 'Sriracha', cursive;
+}
 
 
 *{
@@ -8,20 +17,22 @@
 
 body{
     min-height: 100vh;
+    font-family: var(--fonte01);
 }
 
 header{
     background-color: black;
     text-align: center;
-    margin: auto;
-    padding: 67px;
-    
+    width: 100vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 h1{
     color: white;
-    font-size: 90px;
+    font-size: 10vw;
     margin: auto;
+    font-family: var(--fontetitulo);
     
 }
 
@@ -49,16 +60,19 @@ main.menus{
     padding-left: 30px;
 }
 
+p{
+    font-family: var(--fonteparagrafo);
+    font-size: 3vw;
+}
+
 p.pdosmenus{
     margin: 10px 10px 10px 10px;
-    font-size: 40px;
     font-weight: bold;
-    font-family: sans-serif;
     line-height: 2em;
 }
 
 div.imagem1{
-    box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.372);
+    box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.257);
     background-image: url(imagens/background001.jpg);
     background-position: center left;
     background-repeat: no-repeat;
@@ -69,7 +83,7 @@ div.imagem1{
 }
 
 div.imagem2{
-    box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.372);
+    box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.265);
     background-image: url(imagens/background002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -81,12 +95,13 @@ div.imagem2{
 
 article.conteudodasimagens{
     background-color: rgba(0, 0, 0, 0.506);
-    width: 400px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 p.pdasimagens{
     color: white;
-    font-size: 45px;
     font-weight: bold;
     line-height: 2em;
 }
@@ -99,10 +114,10 @@ footer{
 }
 
 p.pdofooter{
-    font-size: 25px;
     font-weight: bold;
     text-align: center;
     color: white;
+    font-family: var(--fonte01);
 }
 
 p.pdofooter > a{
