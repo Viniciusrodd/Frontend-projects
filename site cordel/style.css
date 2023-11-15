@@ -62,7 +62,7 @@ main.menus{
 
 p{
     font-family: var(--fonteparagrafo);
-    font-size: 3vw;
+    font-size: 3.1vw;
 }
 
 p.pdosmenus{
@@ -74,10 +74,10 @@ p.pdosmenus{
 div.imagem1{
     box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.257);
     background-image: url(imagens/background001.jpg);
-    background-position: center left;
+    background-position: right center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 80px;
+    padding: 25px;
     margin: auto;
     width: 100%;
 }
@@ -86,9 +86,10 @@ div.imagem2{
     box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.265);
     background-image: url(imagens/background002.jpg);
     background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 80px;
+    padding: 25px;
     margin: auto;
     width: 100%;
 }
@@ -96,14 +97,15 @@ div.imagem2{
 article.conteudodasimagens{
     background-color: rgba(0, 0, 0, 0.506);
     display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 40px 10px 40px 10px;
 }
 
 p.pdasimagens{
     color: white;
     font-weight: bold;
     line-height: 2em;
+    font-size: 3.3vw;
 }
 
 
