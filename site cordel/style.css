@@ -41,10 +41,21 @@ a:hover{
     text-decoration: underline;
 }
 
+main.menus{
+    background-color: white;
+    padding: 50px;
+    margin: 30px 10px 20px 25px;
+}
 
+p.pdosmenus{
+    margin: 10px 10px 10px 10px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: 90px;
+}
 
-
-div.primeira{
+div.imagem1{
     box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.372);
     background-image: url(imagens/background001.jpg);
     background-position: center left;
@@ -55,34 +66,7 @@ div.primeira{
     margin: 0px -5px 30px -5px;
 }
 
-article.primeira{
-    background-color: rgba(0, 0, 0, 0.506);
-    margin: 10px 661px 10px 10px;
-    padding: 10px 0px 10px 0px;
-}
-
-p.primeira{
-    color: white;
-    font-size: 45px;
-    font-weight: bold;
-    line-height: 90px;
-}
-
-main.segundo{
-    background-color: white;
-    padding: 50px;
-    margin: 30px 10px 20px 25px;
-}
-
-p.segundo{
-    margin: 10px 10px 10px 10px;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: sans-serif;
-    line-height: 90px;
-}
-
-div.segundo{
+div.imagem2{
     box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.372);
     background-image: url(imagens/background002.jpg);
     background-position: center center;
@@ -93,24 +77,38 @@ div.segundo{
     margin: 0px -5px 30px -5px;
 }
 
+article.conteudodasimagens{
+    background-color: rgba(0, 0, 0, 0.506);
+    margin: 10px 661px 10px 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+p.pdasimagens{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 90px;
+}
+
+
 footer{
     padding: 15px 5px 15px 5px;
     margin: auto;
     background-color: black;
 }
 
-p.terceiro{
+p.pdofooter{
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     color: white;
 }
 
-p.terceiro > a{
+p.pdofooter > a{
     color: white;
     text-decoration: none;
 }
 
-p.terceiro > a:hover{
+p.pdofooter > a:hover{
     text-decoration: underline;
 }
