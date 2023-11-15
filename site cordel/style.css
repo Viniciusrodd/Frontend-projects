@@ -13,6 +13,7 @@
 
 *{
     margin: 0%;
+    padding: 0%;
 }
 
 body{
@@ -23,7 +24,6 @@ body{
 header{
     background-color: black;
     text-align: center;
-    width: 100vw;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -31,7 +31,6 @@ header{
 h1{
     color: white;
     font-size: 10vw;
-    margin: auto;
     font-family: var(--fontetitulo);
     
 }
@@ -39,7 +38,6 @@ h1{
 h2{
     color: white;
     font-size: 20px;
-    margin: auto;
     margin-top: 10px;
 }
 
@@ -75,23 +73,15 @@ div.imagem1{
     box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.257);
     background-image: url(imagens/background001.jpg);
     background-position: right center;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
-    padding: 25px;
-    margin: auto;
-    width: 100%;
 }
 
 div.imagem2{
     box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.265);
     background-image: url(imagens/background002.jpg);
-    background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 25px;
-    margin: auto;
-    width: 100%;
 }
 
 article.conteudodasimagens{
