@@ -11,7 +11,7 @@ body, html{
     width: 100vw;
 }
 body{
-    background-image: url(imagens/fundo-madeira.jpg);
+    background-image: url(imagens/redessociais.jpg);
     background-size: cover;
     background-position: top center;
     background-attachment: fixed;
@@ -37,8 +37,8 @@ section#celular{
 iframe{
     position: relative; /*para criar (top e left)*/
     top: 80px;
-    left: 23px;
-    width: 266px; /*altura/largura de ajuste para caber no cel*/
+    left: 21.5px;
+    width: 268.5px; /*altura/largura de ajuste para caber no cel*/
     height: 472px;
 }
 section#redes{
