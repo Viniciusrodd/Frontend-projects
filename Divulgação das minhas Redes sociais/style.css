@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: sans-serif;
 }
 
@@ -33,6 +33,31 @@ section#celular{
     height: 627px; /*altura da imagem vista no gimp*/
     width: 311px; /*largura da imagem vista no gimp*/
     background: url(imagens/frame-iphone.png) no-repeat;
+}
+iframe{
+    position: relative; /*para criar (top e left)*/
+    top: 80px;
+    left: 23px;
+    width: 267px; /*altura/largura de ajuste para caber no cel*/
+    height: 472px;
+}
+section#redes{
+    text-align: left;
+}
+section#redes img{
+    width: 65px; /*altura/largura das logos*/
+    margin: 10px;
+    border-radius: 50%; /*arredondamento das logos*/
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.504);
+    border: 4px solid rgba(0, 0, 0, 0.963);
+}
+section#redes img:hover{
+    border: 4px solid rgba(255, 255, 255, 0.963);
 
+    transform: translate(4px, -4px); /*mover se 4px pra esquerda e -4 pra cima quando dado efeito hover*/
+
+    transition: transform 0.5s, border 1s; /*para se mover mais suavemnete com duração de até meio segundo*/
     
+
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.706);
 }
