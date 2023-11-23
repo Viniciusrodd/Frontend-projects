@@ -1,1 +1,38 @@
 @charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+main{
+    position: relative; /*é frequentemente utilizado para criar um contexto de posicionamento para elementos filhos que usam position: absolute, permitindo um posicionamento preciso em relação ao contêiner.*/
+
+    height: 100vh;
+}
+section#celular{
+    position: absolute; /*position: absolute. Esse elemento é posicionado em relação ao seu ancestral mais próximo que possui uma propriedade position diferente de static (que é o valor padrão). Como o ancestral mais próximo com uma posição diferente é o main, a posição de #celular é ajustada em relação ao main.*/
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%); /*Quando você define um elemento com position: absolute e top: 50%; left: 50%, ele é inicialmente posicionado com seu ponto de referência (canto superior esquerdo) no meio do contêiner pai. No entanto, isso significa que o centro do elemento estará no meio do contêiner, mas o próprio elemento se estenderá para baixo e para a direita a partir desse ponto.
+    A propriedade transform: translate(-50%, -50%) corrige isso, movendo o elemento de volta 50% da sua própria largura para a esquerda e 50% da sua própria altura para cima. Isso resulta no centro real do elemento estando agora perfeitamente no meio do contêiner. gera também responsividade*/
+
+    height: 627px; /*altura da imagem vista no gimp*/
+    width: 311px; /*largura da imagem vista no gimp*/
+    background: url(imagens/frame-iphone.png) no-repeat;
+
+    
+}
