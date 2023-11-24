@@ -43,8 +43,9 @@ header.cabeçalho{
     margin-top: 45px;
     height: 13vh;
     width: 81vw;
-    background-color: #138A36;
+    background-image: linear-gradient(to right, #89CE94, #7D5BA6);
     border-radius: 15px;
+    border: 5px solid  var(--cor02);
 }
 
 ul.menu{
@@ -77,11 +78,10 @@ a:hover{
 
 section{
     background-image: linear-gradient(to right, #86A59C, #89CE94);
-    background-image: url(imagens/familia.internet.avif);
+    background-image: url(imagens/familia-2.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    border: 3px solid black;
+    background-position: right bottom;
+    border: 5px solid var(--cor05);
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -103,17 +103,32 @@ h2{
     padding: 30px 30px 30px 30px;
 }
 
-div.container{
-    margin: auto;
-    border: 3px solid black;
+div.pai{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:auto;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #333333, #643173, #7D5BA6);
+    background-image: linear-gradient(to right, #7D5BA6, white, #adf0b8);
     margin-top: 50px;
     margin-bottom: 50px;
     height: 80vh;
     width: 83vw;
 }
 
-div > p{
+div.filho{
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #333333, #643173, #7D5BA6);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 60vh;
+    width: 25vw;
+}
+.filho > p{
+    font-size: 30px;
     text-align: center;
 }
+
+
