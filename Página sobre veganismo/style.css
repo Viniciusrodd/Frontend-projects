@@ -40,7 +40,7 @@ li{
 
 a#titulo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 27px;
+    font-size: 18px;
     font-weight: bold;
     color: var(--cor03);
     text-decoration: none;
@@ -48,6 +48,10 @@ a#titulo{
 a#titulo:hover{
     transform: translate(6px, 6px);
     text-decoration: underline;
+    background-color: var(--cor04);
+    padding: 15px;
+    border-radius: 20px;
+    transition: 0.5s;
 }
 a.cabeçalho{
     font-size: 15px;
@@ -60,7 +64,7 @@ a.cabeçalho:hover{
     padding: 15px;
     border-radius: 20px;
     transition: 0.5s;
-    transform: translate(6px, -6px);
+    transform: translate(6px, 6px);
 }
 
 main{
@@ -85,7 +89,7 @@ h3{
     position: relative;
     top: -370px;
     left: 630px;
-    padding: 9px 0px 9px 0px;
+    padding: 10px 5px 10px 5px;
 }
 h3:hover{
     background-color: var(--cor04);
