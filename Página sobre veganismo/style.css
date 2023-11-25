@@ -91,12 +91,13 @@ h3{
     color: var(--cor02);
     padding: 10px;
     top: 200px;
-    left: 700px;
+    left: 660px;
 }
 h3:hover{
     background-color: var(--cor04);
     background-size: cover;
-    transform: translate(6px, -6px);
+    transform: translate(0px, 0px);
+    transition: 0.5s
 }
 
 div#secundaria{
