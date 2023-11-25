@@ -68,6 +68,7 @@ a.cabeçalho:hover{
 }
 
 main{
+    display: flex;
     background-color: var(--cor01);
     height: 80vh;
     margin: 40px 40px 0px 40px;
@@ -76,20 +77,21 @@ main{
 h1#albert{
     color: var(--cor02);
     font-size: 60px;
-    position: relative;
-    top: -10px;
-    left: 40px;
+    justify-content: flex-start;
+}
+
+div#secundaria{
+    position: absolute;
 }
 
 h3{
-    display: inline-block;
+    position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: var(--cor02);
-    position: relative;
-    top: -370px;
-    left: 630px;
-    padding: 10px 5px 10px 5px;
+    padding: 10px;
+    top: 200px;
+    left: 700px;
 }
 h3:hover{
     background-color: var(--cor04);
@@ -98,7 +100,5 @@ h3:hover{
 }
 
 div#secundaria{
-    position: relative;
-    top: 50px;
-    left: 50px;
+    
 }
