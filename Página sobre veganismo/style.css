@@ -102,26 +102,27 @@ h3:hover{
 
 article#historia{
     position: relative;
-    height: 100vh;
+    height: 80vh;
     padding: 20px;
     background-image: url(imagens/veganimo-história.jpg);
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.701);
 }
 section#seçãohistoria{
     position: relative;
-    top: 5%;
-    left: 5%;
+    top: 7%;
+    left: 23%;
     display: inline-block;
-    height: 90vh;
+    height: 70vh;
     margin: 60px 60px 60px 60px;
     padding: 0px;
     margin: auto;
     background-color: #19372296;
 }
 h1.tituloseção,p.pseção{
-    margin: 10px 10px 10px 100px;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
+    text-align: center;
 }
