@@ -57,7 +57,6 @@ ul.menu, li{
 }
 
 a{
-    display: block;
     padding: 10px;
     font-size: 19px;
     color: white;
@@ -103,32 +102,70 @@ h2{
     padding: 30px 30px 30px 30px;
 }
 
-div.pai{
+div.cardpai{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin:auto;
+    justify-content: center;
     border-radius: 10px;
     background-image: linear-gradient(to right, #7D5BA6, white, #adf0b8);
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 80vh;
-    width: 83vw;
 }
 
-div.filho{
-    margin: auto;
+div#cardfilho1{
     border: 3px solid black;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #333333, #643173, #7D5BA6);
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background-image: url(imagens/internet.card.avif);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
     height: 60vh;
     width: 25vw;
+    margin: 20px;
 }
-.filho > p{
-    font-size: 30px;
-    text-align: center;
+div#cardfilho2{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-image: url(imagens/internet.card.avif);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    height: 60vh;
+    width: 25vw;
+    margin: 20px;
+}
+div#cardfilho3{
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-image: url(imagens/internet.card.avif);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: cover;
+    height: 60vh;
+    width: 25vw;
+    margin: 20px;
+}
+.h1card{
+    padding: 5px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+button.bnt{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    height: 8vh;
+    width: 12vw;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: white;
+    color: var(--cor02);
+}
+.bnt:hover{
+    background-color: #643173;
+    color: white;
+    padding: 15px;
+    transition: 0.5s;
 }
 
 
