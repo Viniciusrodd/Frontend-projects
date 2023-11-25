@@ -100,6 +100,25 @@ h3:hover{
     transition: 0.5s
 }
 
-div#secundaria{
-    
+article#historia{
+    height: 100vh;
+    padding: 20px;
+    margin: 50px 80px 0px 80px;
+    background-image: url(imagens/veganimo-história.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#seçãohistoria{
+    display: inline-block;
+    height: 90vh;
+    margin: 60px 60px 60px 60px;
+    padding: 0px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.361);
+}
+#seçãohistoria > h1,p{
+    margin: 10px 10px 10px 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
