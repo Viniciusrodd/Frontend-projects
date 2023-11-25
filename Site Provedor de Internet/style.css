@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Prompt:wght@500 & family= Sriracha & display=swap');
+
 /*
 paleta de cores:
 #333333 preto
@@ -76,7 +78,9 @@ a:hover{
 }
 
 section{
-    background-image: linear-gradient(to right, #86A59C, #89CE94);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-image: url(imagens/familia-2.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -88,18 +92,32 @@ section{
     width: 83vw;
     border-radius: 15px;
 }
-h1{
+h1#conexão{
+    font-size: 60px;
     color: white;
     text-align: left;
-    margin: 20px;
-    padding: 30px 30px 30px 30px;
+    margin: 10px;
+    margin-left: 40px;
+    background-image: linear-gradient(to right, #89ce95, rgba(125, 91, 166, 0));
+    padding: 20px;
 }
 
-h2{
+h2#section1{
     color: white;
     text-align: left;
     margin: 20px;
-    padding: 30px 30px 30px 30px;
+    margin-left: 40px;
+    background-image: linear-gradient(to right, #7D5BA6, #8662b100, rgba(125, 91, 166, 0));
+    padding: 20px;
+}
+
+h2#section2{
+    color: white;
+    text-align: left;
+    margin: 20px;
+    margin-left: 40px;
+    background-image: linear-gradient(to right, #7D5BA6, #8662b100, rgba(125, 91, 166, 0));
+    padding: 20px;
 }
 
 div.cardpai{
@@ -109,7 +127,7 @@ div.cardpai{
     background-image: linear-gradient(to right, #7D5BA6, white, #adf0b8);
 }
 
-div#cardfilho1{
+div.cardfilho{
     border: 3px solid black;
     border-radius: 10px;
     background-image: url(imagens/internet.card.avif);
@@ -120,28 +138,12 @@ div#cardfilho1{
     width: 25vw;
     margin: 20px;
 }
-div#cardfilho2{
-    border: 3px solid black;
-    border-radius: 10px;
-    background-image: url(imagens/internet.card.avif);
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    background-size: cover;
-    height: 60vh;
-    width: 25vw;
-    margin: 20px;
-}
-div#cardfilho3{
-    align-items: center;
-    border: 3px solid black;
-    border-radius: 10px;
-    background-image: url(imagens/internet.card.avif);
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    background-size: cover;
-    height: 60vh;
-    width: 25vw;
-    margin: 20px;
+
+div.cardfilho:hover{
+    transform: translate(13px, -13px);
+    transition: transform 0.5s, border 1s;
+    background-position: bottom right;
+    box-shadow: rgba(0, 0, 0, 0.551) 0px 54px 55px, rgba(0, 0, 0, 0.468) 0px -12px 30px, rgba(0, 0, 0, 0.554) 0px 4px 6px, rgba(0, 0, 0, 0.552) 0px 12px 13px,rgba(0, 0, 0, 0.552) 0px -3px 5px;
 }
 .h1card{
     padding: 5px;
