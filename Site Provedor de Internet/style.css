@@ -45,7 +45,7 @@ header.cabeçalho{
     margin: auto;
     margin-top: 45px;
     height: 13vh;
-    width: 81vw;
+    width: 86vw;
     background-image: linear-gradient(to right, #89CE94, #7D5BA6);
     border-radius: 15px;
     border: 5px solid  var(--cor02);
@@ -82,6 +82,7 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
     background-image: url(imagens/familia-2.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -90,16 +91,14 @@ section{
     margin-top: 50px;
     margin-bottom: 50px;
     height: 80vh;
-    width: 83vw;
+    width: 86vw;
     border-radius: 15px;
 }
 h1#conexão{
     font-family: 'Prompt', sans-serif;
     font-size: 60px;
     color: white;
-    text-align: left;
-    margin: 10px;
-    margin-left: 40px;
+    justify-content: flex-start;
     background-image: linear-gradient(to right, #89ce95, rgba(125, 91, 166, 0));
     padding: 20px;
 }
@@ -107,9 +106,7 @@ h1#conexão{
 h2#section1{
     font-family: 'Sriracha', cursive;
     color: white;
-    text-align: left;
-    margin: 20px;
-    margin-left: 40px;
+    justify-content: flex-start;
     background-image: linear-gradient(to right, #7D5BA6, #8662b100, rgba(125, 91, 166, 0));
     padding: 20px;
 }
@@ -117,21 +114,20 @@ h2#section1{
 h2#section2{
     font-family: 'Sriracha', cursive;
     color: white;
-    text-align: left;
-    margin: 20px;
-    margin-left: 40px;
+    justify-content: flex-start;
     background-image: linear-gradient(to right, #7D5BA6, #8662b100, rgba(125, 91, 166, 0));
     padding: 20px;
 }
 
 div.main{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 div.card{
+    margin: 5px;
     text-align: center;
-    margin: 20px;
     background-color: rgba(0, 0, 0, 0.305);
     border: 5px solid #643173;
     width: 320px;
