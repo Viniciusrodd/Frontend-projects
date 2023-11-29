@@ -131,7 +131,7 @@ div.card{
     background-color: rgba(0, 0, 0, 0.305);
     border: 5px solid #643173;
     width: 320px;
-    height: 550px;
+    height: 520px;
     border-radius: 20px;
     font-weight: 900;
     font-size: 25px;
@@ -142,7 +142,7 @@ div.card:hover{
     letter-spacing: 1px;
     font-size: 30px;
     height: 570px;
-    transition: 0.5s;
+    transition: 1s;
     background-color: #80e791bd;
 }
 
@@ -169,8 +169,8 @@ button:hover{
     color: white;
     background-color: #7d5ba6;
     transition: 0.5s;
-    font-size: 30px;
-    padding: 20px;
+    font-size: 25px;
+    padding: 15px;
     border-radius: 30px;
     border: 5px solid black;
 }
