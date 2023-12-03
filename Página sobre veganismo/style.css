@@ -149,7 +149,6 @@ main#terceiro{
     background-color: var(--cor01);
     height: 30vh;
     width: 81.3vw;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 main#terceiro:hover{
     background-color: black;
@@ -158,7 +157,7 @@ main#terceiro:hover{
 
 p#terceiro{
     text-align: center;
-    color: var(--cor03);
+    color: var(--cor02);
     font-size: 25px;
     font-weight: bold;
     margin-left: 10px;
@@ -168,10 +167,11 @@ p#terceiro{
 }
 p#terceiro:hover{
     transition-duration: 1.5s;
+    color: var(--cor03);
 }
 
 a#terceiro{
-    color: var(--cor03);
+    color: var(--cor02);
     font-size: 25px;
     font-weight: bold;
 }
@@ -226,8 +226,18 @@ p#ambiente{
 }
 
 main#quinto{
-    display: flex;
+    display: block;
     background-color: var(--cor01);
-    height: 80vh;
+    height: 100vh;
     width: 81.3vw;
+}
+
+section#saude{
+    display: ;
+    top: 50%;
+    left: 50%;
+    height: 70vh;
+    width: 70vw;
+    background-image: url(imagens/corrida.jpg);
+    background-size: cover;
 }
