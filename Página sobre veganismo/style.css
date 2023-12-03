@@ -54,9 +54,10 @@ a#titulo:hover{
     transition: 0.5s;
 }
 a.cabeçalho{
-    font-size: 15px;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--cor02);
 }
 a.cabeçalho:hover{
@@ -98,7 +99,9 @@ h3:hover{
     background-color: var(--cor04);
     background-size: cover;
     transform: translate(0px, 0px);
-    transition: 0.5s
+    transition: 0.5s;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 article#historia{
@@ -108,7 +111,7 @@ article#historia{
     background-image: url(imagens/veganimo-história.jpg);
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.701);
+    box-shadow: inset 15px -15px 15px 15px rgba(0, 0, 0, 0.7);
 }
 section#seçãohistoria{
     position: relative;
@@ -120,6 +123,12 @@ section#seçãohistoria{
     padding: 20px;
     margin: auto;
     background-color: #00000096;
+}
+section#seçãohistoria:hover{
+    background-color: black;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 1s;
 }
 h1.historia{
     text-decoration: underline;
@@ -139,15 +148,51 @@ p.historia{
     text-indent: 30px;
 }
 
-main#segundo{
-    box-shadow: rgb(0, 0, 0) 30px 50px 70px -12px inset, rgb(0, 0, 0) 30px 50px 70px -12px, inset;
+main#terceiro{
+    display: flex;
+    background-color: var(--cor01);
+    height: 30vh;
+    width: 81.3vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+main#terceiro:hover{
+    background-color: black;
+    transition-duration: 1.5s;
+}
+
+p#terceiro{
+    text-align: center;
+    color: var(--cor03);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 40px;
+    text-indent: 60px;
+    text-shadow: 1px 1px 1px var(--cor02);
+}
+p#terceiro:hover{
+    transition-duration: 1.5s;
+}
+
+a#terceiro{
+    color: var(--cor03);
+    font-size: 25px;
+    font-weight: bold;
+}
+a#terceiro:hover{
+    transition-duration: 0.5s;
+    color: var(--cor01);
+}
+
+main#quarto{
+    box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.477);
     display: flex;
     background-image: url(imagens/meioambiente.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left left;
-    height: 90vh;
+    height: 100vh;
     width: 81.3vw;
 }
 
@@ -158,24 +203,28 @@ article#ambiente{
 
 h1#ambiente{
     text-decoration: underline;
-    color: var(--cor03);
+    color: var(--cor01);
     text-align: center;
     font-size: 40px;
     background-color: #000000ac;
-    padding: 50px 10px 5px 10px; 
+    margin-top: 50px;
+    margin-left: 36px;
+    padding: 40px 10px 5px 10px; 
 }
 
 p#ambiente{
     color: var(--cor03);
     background-color: #000000ac;
-    padding: 20px 20px 83px 20px;
+    padding: 20px 20px 50px 20px;
+    margin-bottom: 30px;
+    margin-left: 36px;
     text-align: left;
     font-size: 20px;
     font-weight: bold;
     text-indent: 30px;
 }
 
-main#terceiro{
+main#quinto{
     display: flex;
     background-color: var(--cor01);
     height: 80vh;
