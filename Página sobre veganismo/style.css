@@ -196,26 +196,20 @@ article#ambiente{
     height: 90vh;
     width: 40vw;
 }
-article#ambiente:hover{
-    background-color: black;
-    border-radius: 15px;
-    transition: 1s;
-}
 
 h1#ambiente{
     text-decoration: underline;
     color: var(--cor01);
     text-align: center;
     font-size: 40px;
-    background-color: #000000ac;
     margin-top: 50px;
     margin-left: 36px;
     padding: 40px 10px 5px 10px; 
+    background-color: rgba(0, 0, 0, 0.736); 
 }
 
 p#ambiente{
     color: var(--cor03);
-    background-color: #000000ac;
     padding: 20px 20px 50px 20px;
     margin-bottom: 30px;
     margin-left: 36px;
@@ -223,8 +217,8 @@ p#ambiente{
     font-size: 20px;
     font-weight: bold;
     text-indent: 30px;
+    background-color: rgba(0, 0, 0, 0.736); 
 }
-
 main#quinto{
     display: block;
     background-color: var(--cor01);
@@ -233,7 +227,7 @@ main#quinto{
 }
 
 section#saude{
-    display: ;
+    display: re;
     top: 50%;
     left: 50%;
     height: 70vh;
