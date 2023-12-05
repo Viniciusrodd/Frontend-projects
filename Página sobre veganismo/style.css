@@ -128,20 +128,19 @@ section#seçãohistoria:hover{
 }
 h1.historia{
     text-decoration: underline;
-    color: white;
+    color: #EB6F01;
     font-size: 50px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 15px 15px 15px 0px black;
+    text-shadow: 2px 2px 2px var(--cor02);
 }
 p.historia{
     color: white;
     font-size: 20px;
     font-weight: bold;
     text-align: left;
-    text-shadow: 15px 15px 15px 0px black;
-    text-indent: 30px;
+    text-shadow: 2px 2px 2px var(--cor02);
 }
 
 main#terceiro{
@@ -198,6 +197,7 @@ article#ambiente{
 }
 
 h1#ambiente{
+    text-shadow: 2px 2px 2px var(--cor02);
     text-decoration: underline;
     color: var(--cor01);
     text-align: center;
@@ -215,6 +215,7 @@ h1#ambiente:hover{
 
 p#ambiente{
     color: var(--cor03);
+    text-shadow: 2px 2px 2px var(--cor02);
     padding: 20px 20px 50px 20px;
     margin-bottom: 30px;
     margin-left: 36px;
@@ -246,7 +247,7 @@ main#quinto:hover{
 p#quinto{
     text-align: left;
     color: var(--cor02);
-    font-size: 27px;
+    font-size: 25px;
     font-weight: bold;
     margin-top: 15px;
     text-indent: 60px;
@@ -260,6 +261,9 @@ p#quinto:hover{
 article#saude{
     display: flex;
     background-image: url(imagens/corredor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     width: 81.3vw;
 }
@@ -268,8 +272,15 @@ section#saude{
     height: 82vh;
     width: 42vw;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.29);
+    background-color: rgba(255, 255, 255, 0.17);
     padding: 30px;
+}
+section#saude:hover{
+    background-color: rgba(0, 0, 0, 0.543);
+    height: 84vh;
+    width: 44vw;
+    border-radius: 10px;
+    transition-duration: 1s;
 }
 
 h1#saude{
@@ -278,6 +289,7 @@ h1#saude{
     margin-bottom: 40px;
     font-size: 55px;
     color: lightblue;
+    text-shadow: 2px 2px 2px var(--cor02);
     text-decoration: underline;
 }
 
@@ -285,6 +297,6 @@ p#saude{
     text-align: left;
     font-size: 24px;
     font-weight: bold;
-    text-shadow: 15px 15px 15px 0px black;
-    color: black;
+    text-shadow: 2px 2px 2px var(--cor02);
+    color: var(--cor01);
 }
