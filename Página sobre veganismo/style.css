@@ -207,6 +207,11 @@ h1#ambiente{
     padding: 40px 10px 5px 10px; 
     background-color: rgba(0, 0, 0, 0.736); 
 }
+h1#ambiente:hover{
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    transition-duration: 1s;
+}
 
 p#ambiente{
     color: var(--cor03);
@@ -218,6 +223,11 @@ p#ambiente{
     font-weight: bold;
     text-indent: 30px;
     background-color: rgba(0, 0, 0, 0.736); 
+}
+p#ambiente:hover{
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    transition-duration: 1s;
 }
 
 main#quinto{
@@ -247,9 +257,34 @@ p#quinto:hover{
     color: var(--cor03);
 }
 
-main#sexto{
-    display: block;
+article#saude{
+    display: flex;
     background-image: url(imagens/corredor.jpg);
     height: 100vh;
     width: 81.3vw;
+}
+
+section#saude{
+    height: 82vh;
+    width: 42vw;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.29);
+    padding: 30px;
+}
+
+h1#saude{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 55px;
+    color: lightblue;
+    text-decoration: underline;
+}
+
+p#saude{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 15px 15px 15px 0px black;
+    color: black;
 }
