@@ -1,1 +1,63 @@
 @charset "UTF-8";
+
+/*
+Paleta de cores: 
+1. #ffe5d4
+2. #03012C 
+3. #190E4F
+4. #B33C86
+5. #EA638C
+*/
+
+:root{
+    --cor01: #ffe5d4;
+    --cor02: #03012C;
+    --cor03: #190E4F;
+    --cor04: #B33C86;
+    --cor05: #EA638C;
+}
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /* em uma box normal definir a largura de um elemento para 100 pixels, as bordas e o preenchimento adicionam espaço extra ao tamanho total do elemento. Ao usar box-sizing: border-box, o tamanho total do elemento é calculado incluindo tanto o conteúdo quanto as bordas e o preenchimento.*/
+}
+body, html{
+    height: 100vh;
+    width: 100vw;   
+    background-color: black;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 25px;
+    overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.683);
+    border: 3px solid #ffe5d4;
+}
+
+section#login > div#imagem{
+    display: block;
+    background: url(../imagens/Imagemlogin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
