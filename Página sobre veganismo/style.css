@@ -182,7 +182,7 @@ a#terceiro:hover{
 main#quarto{
     box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.477);
     display: flex;
-    background-image: url(imagens/meioambiente.png);
+    background-image: url(imagens/meioambiente3.avif);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -208,7 +208,7 @@ h1#ambiente{
     background-color: rgba(0, 0, 0, 0.736); 
 }
 h1#ambiente:hover{
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px 10px 0px 0px;
     transition-duration: 1s;
 }
@@ -226,7 +226,7 @@ p#ambiente{
     background-color: rgba(0, 0, 0, 0.736); 
 }
 p#ambiente:hover{
-    padding: 10px;
+    padding: 40px;
     border-radius: 0px 0px 10px 10px;
     transition-duration: 1s;
 }
@@ -236,7 +236,7 @@ main#quinto{
     justify-content: center;
     align-items: center;
     background-color: var(--cor01);
-    height: 45vh;
+    height: 35vh;
     width: 81.3vw;
 }
 main#quinto:hover{
@@ -245,7 +245,7 @@ main#quinto:hover{
 }
 
 p#quinto{
-    text-align: left;
+    text-align: center;
     color: var(--cor02);
     font-size: 25px;
     font-weight: bold;
