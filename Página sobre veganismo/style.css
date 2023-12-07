@@ -300,3 +300,10 @@ p#saude{
     text-shadow: 2px 2px 2px var(--cor02);
     color: var(--cor01);
 }
+
+aside#receitas{
+    display: flex;
+    background-color: var(--cor01);
+    height: 80vh;
+    width: 81.3vw;
+}
