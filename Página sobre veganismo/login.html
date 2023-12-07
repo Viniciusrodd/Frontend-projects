@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
+    <title>Login</title>
     <style>
         :root{
     --cor01: #FCF9ED;
@@ -19,7 +19,7 @@
     }
 
     body{
-        background-color: #f2ebd6;
+        background-image: linear-gradient(to top, #f2ebd6, #d3efdc);
     }
 
     div{
@@ -33,31 +33,75 @@
 
     form{
         position: relative;
-        width: 400px;
-        height: 450px;
+        width: 450px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     fieldset{
-        width: 400px;
-        height: 450px;
+        background-color: #FCF9ED;
+        width: 450px;
+        height: 430px;
         justify-content: center;
         text-align: center;
+        border: 4px solid black;
     }
 
     legend{
-        font-size: 50px;
+        font-size: 40px;
+        padding: 15px;
+        font-weight: bold;
         text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #516e5b;
+        background-color: #FCF9ED;
+        border: 4px solid black;
+        border-radius: 20px;
     }
 
     p{
         text-align: center;
+        font-weight: bold;
+        color: #3d5244;
     }
 
     input{
         margin: auto;
+        padding: 8px;
+        width: 280px;
+        height: 30px;
+        border: 3px solid black;
+        border-radius: 20px;
+    }
+
+    p#email{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 25px;
+        margin-bottom: 1px;
+    }
+
+    p#password{
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    input#enviar{
+        width: 100px;
+        height: 35px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        background-color: #d3efdc;
+    }
+    input#apagar{
+        width: 100px;
+        height: 35px;
+        font-weight: bold;
+        background-color: #d3efdc;
     }
     </style>
 </head>
@@ -66,16 +110,16 @@
         <form action="index.html">
             <fieldset>
                 <legend>Log-in</legend>
-                <p>
-                    <label for="iname">Name:</label>
-                    <input type="text" id="iname">
+                <p id="email">
+                    <label for="iname">Email:</label> <br>
+                    <input type="email" id="iname" required placeholder="Example@gmail.com">
                 </p>
-                <p>
-                    <label for="isenha">Password:</label>
-                    <input type="password" name="senha" id="isenha">
+                <p id="password">
+                    <label for="isenha">Password:</label> <br>
+                    <input type="password" name="senha" id="isenha" required minlength="8" placeholder="min: 8 letters or numbers">
                 </p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Apagar">
+                <input id="enviar" type="submit" value="Enviar"> <br>
+                <input id="apagar" type="reset" value="Apagar">
             </fieldset>
         </form>
     </div>
