@@ -17,6 +17,8 @@ Paleta de cores:
     --cor05: #EA638C;
 }
 
+/*MOBILE FIRST*/
+
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
@@ -26,7 +28,8 @@ Paleta de cores:
 body, html{
     height: 100vh;
     width: 100vw;   
-    background-color: black;
+    background-image: url(../imagens/Imagemlogin2.jpg);
+    background-size: cover;
 }
 
 main{
@@ -46,7 +49,7 @@ section#login{
     border-radius: 25px;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.683);
-    border: 3px solid #ffe5d4;
+    border: 4px solid white;
     transition: width 0.5s, height 0.5s; /*Para tempo de transição entre devices breakpoints*/
     transition-timing-function: ease; /*Para suavizar animação de transição*/
 }
@@ -93,11 +96,11 @@ input{
     padding: 6px;
     width: 230px;
     border: 3px solid black;
-    transform: translateY(-6px);
+    transform: translateY(-6px); /*Para alinha input com simbolo do span*/
     border-radius: 6px;
 }
 
-input:focus-within{
+input:focus-within{  /*A subclasse :focus-within serve para que ao clicarmos sobre a caixa do input ele fzer alterações*/
     background-color: #03012C;
     color: white;
 }
@@ -109,7 +112,7 @@ span{
     border-radius: 8px;
 }
 
-form > input[type=submit] {
+form > input[type=submit] {  /*Nova forma de seleção, pelo tipp de input, sem necessáriamente criar id ou classe*/
     display: block;
     margin: auto;
     margin-top: 15px;
@@ -121,17 +124,16 @@ form > input[type=submit] {
     border-radius: 10px;
     color: white;
     background-color: var(--cor02);
-    cursor: pointer;
+    cursor: pointer; /*Ao passar seta em cima ele virar mão*/
 }
 
 form > input[type=submit]:hover {
-    background-color: rgb(250, 178, 249);
+    background-color: rgb(255, 0, 251);
     border: 4px solid black;
     color: black;
 }
 
 form > a.botao{
-    margin-top: 5px;
     color: #03012C;
     display: block;
     text-align: center;
