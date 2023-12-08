@@ -42,7 +42,7 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 300px;
-    height: 540px;
+    height: 550px;
     border-radius: 25px;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.683);
