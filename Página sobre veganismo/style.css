@@ -301,9 +301,45 @@ p#saude{
     color: var(--cor01);
 }
 
+h1#receitas{
+    color: var(--cor01);
+    background-color: rgba(0, 0, 0, 0.69);
+    padding: 15px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    border: 7px solid var(--cor01);
+    border-radius: 25px;
+}
+
 aside#receitas{
+    background-color: var(--cor04);
     display: flex;
-    background-color: var(--cor01);
+    flex-direction: column;
+    height: 120vh;
+    width: 79.1vw;
+    border: 15px solid black;
+}
+
+div > ul{
+    background-color: rgba(0, 0, 0, 0.804);
+    margin: auto;
+    flex-direction: column;
+    align-items: left;
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    border: 5px solid white;
     height: 80vh;
-    width: 81.3vw;
+    width: 50vw;
+}
+li{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
 }
