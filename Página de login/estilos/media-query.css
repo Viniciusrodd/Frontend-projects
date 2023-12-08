@@ -20,7 +20,53 @@ Breakpoint: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to bottom, black, #B33C86, #ffe5d4);
+    }
+
     section#login{
         width: 90vw;
+    }
+
+    section#login > div#imagem{
+        float: left; /*Utilizada para definir como um elemento deve ser posicionado em relação aos outros elementos ao seu redor. Siginifica Flutuar */
+        width: 30%;
+        height: 100%;
+        background-position: center center
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to left, black, #020023, #020023, #e67f9e);
+    }
+
+    section#login{
+        width: 950px;
+    }
+
+    section#login > div#imagem{
+        float: right;
+        width: 45%;
+        height: 100%;
+        background-position: center center;
+    }
+
+    section#login > div#formulario{
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1.3em;
     }
 }
