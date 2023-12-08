@@ -18,7 +18,7 @@ Breakpoint: 992px até 1200px
 Monitores grandes ou telas de alta resolução:
 Breakpoint: acima de 1200px
 */
-
+/*Para Tablets*/
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
         background-image: linear-gradient(to bottom, black, #B33C86, #ffe5d4);
@@ -39,8 +39,36 @@ Breakpoint: acima de 1200px
         float: right;
         width: 70%;
     }
+
+
+    form > div.campo{
+        display: block;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        margin: 5px 110px;
+    }
+    
+    div.campo > label{
+        display: none;
+    }
+
+    input{
+        padding: 6px;
+        width: 230px;
+        border: 3px solid black;
+        transform: translateY(-6px);
+        border-radius: 6px;
+    }
+    
+    input:focus-within{
+        background-color: #03012C;
+        color: white;
+    }
+    
 }
 
+/*Para Pcs e Tvs*/
 @media screen and (min-width: 992px) {
     body{
         background-image: linear-gradient(to left, black, #020023, #020023, #e67f9e);
@@ -68,5 +96,31 @@ Breakpoint: acima de 1200px
 
     div#formulario > p{
         font-size: 1.3em;
+    }
+
+    form > div.campo{
+        display: block;
+        align-items: center;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        margin: 5px 70px;
+    }
+    
+    div.campo > label{
+        display: none;
+    }
+
+    input{
+        padding: 6px;
+        width: 230px;
+        border: 3px solid black;
+        transform: translateY(-6px);
+        border-radius: 6px;
+    }
+    
+    input:focus-within{
+        background-color: #03012C;
+        color: white;
     }
 }
