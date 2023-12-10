@@ -4,116 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <style>
-        :root{
-    --cor01: #FCF9ED;
-    --cor02: #193722;
-    --cor03: #7aa789;
-    --cor04: #d3efdc;
-    }
-
-    *{
-        margin: 0px;
-        padding: 0px;
-        font-family: sans-serif;
-    }
-
-    body{
-        background-image: linear-gradient(to top, #f2ebd6, #a8d5b6);
-    }
-
-    div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        min-height: 100vh;
-        width: 100%;
-    }
-
-    form{
-        position: relative;
-        width: 450px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    fieldset{
-        background-color: #FCF9ED;
-        width: 450px;
-        height: 510px;
-        justify-content: center;
-        text-align: center;
-        border: 4px solid black;
-    }
-
-    legend{
-        font-size: 40px;
-        padding: 8px;
-        font-weight: bold;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #516e5b;
-        background-color: #FCF9ED;
-        border: 4px solid black;
-        border-radius: 20px;
-    }
-
-    p{
-        text-align: center;
-        font-weight: bold;
-        color: #3d5244;
-    }
-
-    input{
-        margin: auto;
-        padding: 8px;
-        width: 280px;
-        height: 35px;
-        border: 3px solid black;
-        border-radius: 20px;
-    }
-
-    p#email{
-        text-align: center;
-        font-size: 20px;
-        padding: 10px;
-        margin-top: 25px;
-        margin-bottom: 1px;
-    }
-
-    p#password{
-        text-align: center;
-        font-size: 20px;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    p > a{
-        color: #193722;
-        font-weight: bolder;
-        font-size: 20px;
-        text-decoration: none;
-    }
-
-    input#enviar{
-        width: 115px;
-        height: 43px;
-        margin-top: 25px;
-        margin-bottom: 10px;
-        font-size: 17px;
-        font-weight: bold;
-        background-color: #d3efdc;
-    }
-    input#apagar{
-        width: 115px;
-        height: 43px;
-        font-size: 17px;
-        font-weight: bold;
-        background-color: #d3efdc;
-    }
-    </style>
+    <link rel="stylesheet" href="loginstyle.css">
 </head>
 <body>
     <div>
@@ -129,7 +20,7 @@
                     <input type="password" name="senha" id="isenha" required minlength="8" placeholder="min: 8 letters or numbers">
                 </p>
                 <p>
-                    Did not register? <br> <ins><a href="https://www.google.com/" target="_blank">register here</a></ins>
+                    Did not register? <br> <a href="https://www.google.com/" target="_blank">register here</a>
                 </p>
                 <input id="enviar" type="submit" value="Enviar"> <br>
                 <input id="apagar" type="reset" value="Apagar">
