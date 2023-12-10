@@ -258,11 +258,11 @@ Breakpoint: acima de 1200px
         }
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1200px){
+    @media screen and (min-width: 768px) and (max-width: 1373px){
         body{
-            background-image: url(imagens/pexelsvegantransparent.jpg);
+            background-image: url(imagens/fundoveganismo.jpg);
             background-size: cover;
-            background-position: right bottom;
+            background-repeat: no-repeat;
         }
 
         div{
@@ -276,35 +276,39 @@ Breakpoint: acima de 1200px
     
         form{
             position: relative;
-            width: 650px;
+            width: 900px;
             display: flex;
             justify-content: center;
             align-items: center;
         }
     
         fieldset{
-            background-image: linear-gradient(to bottom, white, #f2ebd6, #a8d5b6, #193722, #0d1d12);
-            width: 650px;
-            height: 460px;
+            background-image: linear-gradient(to top, white, #f2ebd6, #a8d5b6,#a8d5b6, #193722, #0d1d12, black);
+            width: 900px;
+            height: 480px;
             justify-content: center;
             text-align: center;
-            border: 7px solid black;
-            border-radius: 40px;
+            border: 10px solid #0d1d12;
+            border-radius: 30px;
         }
     
         legend{
-            font-size: 60px;
+            font-size: 40px;
             font-weight: bold;
             text-align: center;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: black;
+            padding: 15px;
+            color: white;
+            background-color: black;
+            border: 10px solid #0d1d12;
+            border-radius: 50px;
         }
     
         p{
             font-size: 18px;
             text-align: center;
             font-weight: bolder;
-            color: black;
+            color: white;
         }
     
         input{
@@ -312,7 +316,7 @@ Breakpoint: acima de 1200px
             padding: 8px;
             width: 280px;
             height: 30px;
-            border: 3px solid black;
+            border: 4px solid black;
             border-radius: 20px;
             cursor: pointer;
         }
@@ -336,9 +340,15 @@ Breakpoint: acima de 1200px
             padding: 10px;
             margin-bottom: 1px;
         }
+
+        #register{
+            color: black;
+            font-weight: bolder;
+            font-size: 18px;
+        }
     
         a{
-            color: white;
+            color: black;
             font-weight: bolder;
             font-size: 16px;
             text-decoration: none;
