@@ -194,6 +194,9 @@ main#quarto{
 article#ambiente{
     height: 90vh;
     width: 40vw;
+    background-color: #00000096;
+    margin-left: 30px;
+    margin-top: 25px;
 }
 
 h1#ambiente{
@@ -202,33 +205,19 @@ h1#ambiente{
     color: var(--cor01);
     text-align: center;
     font-size: 40px;
-    margin-top: 50px;
-    margin-left: 36px;
-    padding: 40px 10px 5px 10px; 
-    background-color: rgba(0, 0, 0, 0.736); 
-}
-h1#ambiente:hover{
-    padding: 30px;
-    border-radius: 10px 10px 0px 0px;
-    transition-duration: 1s;
+    margin-top: 80px;
+    margin-left: 36px; 
 }
 
 p#ambiente{
     color: var(--cor03);
-    text-shadow: 2px 2px 2px var(--cor02);
-    padding: 20px 20px 50px 20px;
-    margin-bottom: 30px;
-    margin-left: 36px;
-    text-align: left;
+    color: white;
     font-size: 20px;
     font-weight: bold;
-    text-indent: 30px;
-    background-color: rgba(0, 0, 0, 0.736); 
-}
-p#ambiente:hover{
-    padding: 40px;
-    border-radius: 0px 0px 10px 10px;
-    transition-duration: 1s;
+    text-align: left;
+    text-shadow: 2px 2px 2px var(--cor02); 
+    margin-top: 30px;
+    margin-left: 36px;
 }
 
 main#quinto{
@@ -446,7 +435,7 @@ li{
     article#historia{
         display: flex;
         height: 120vh;
-        width: 81.3vw;
+        width: 100vw;
         background-image: url(imagens/veganimo-história.jpg);
         background-size: cover;
         background-attachment: fixed;
@@ -457,7 +446,7 @@ li{
         width: 60vw;
         padding: 20px;
         margin: auto;
-        background-color: #00000096;
+        background-color: #000000d1;
     }
     section#seçãohistoria:hover{
         background-color: black;
@@ -468,7 +457,7 @@ li{
     h1.historia{
         text-decoration: underline;
         color: #EB6F01;
-        font-size: 50px;
+        font-size: 35px;
         margin-bottom: 20px;
         font-weight: bold;
         text-align: center;
@@ -476,7 +465,7 @@ li{
     }
     p.historia{
         color: white;
-        font-size: 20px;
+        font-size: 14.7px;
         font-weight: bold;
         text-align: left;
         text-shadow: 2px 2px 2px var(--cor02);
@@ -486,7 +475,7 @@ li{
         display: flex;
         background-color: var(--cor01);
         height: 30vh;
-        width: 81.3vw;
+        width: 100vw;
     }
     main#terceiro:hover{
         background-color: black;
@@ -496,10 +485,9 @@ li{
     p#terceiro{
         text-align: center;
         color: var(--cor02);
-        font-size: 25px;
+        font-size: 17.5px;
         font-weight: bold;
-        margin-left: 10px;
-        margin-top: 40px;
+        margin: auto;
         text-indent: 60px;
         text-shadow: 1px 1px 1px var(--cor02);
     }
@@ -510,7 +498,7 @@ li{
     
     a#terceiro{
         color: var(--cor02);
-        font-size: 25px;
+        font-size: 17.5px;
         font-weight: bold;
     }
     a#terceiro:hover{
@@ -527,12 +515,18 @@ li{
         background-size: cover;
         background-position: left left;
         height: 100vh;
-        width: 81.3vw;
+        width: 100vw;
     }
     
     article#ambiente{
-        height: 90vh;
-        width: 40vw;
+        height: 70vh;
+        width: 70vw;
+        margin: auto;
+    }
+    article#ambiente:hover{
+        background-color: black;
+        border-radius: 15px;
+        transition: 1s;
     }
     
     h1#ambiente{
@@ -540,34 +534,17 @@ li{
         text-decoration: underline;
         color: var(--cor01);
         text-align: center;
-        font-size: 40px;
-        margin-top: 50px;
-        margin-left: 36px;
-        padding: 40px 10px 5px 10px; 
-        background-color: rgba(0, 0, 0, 0.736); 
-    }
-    h1#ambiente:hover{
-        padding: 30px;
-        border-radius: 10px 10px 0px 0px;
-        transition-duration: 1s;
+        font-size: 35px; 
+        margin: 20px;
     }
     
     p#ambiente{
-        color: var(--cor03);
-        text-shadow: 2px 2px 2px var(--cor02);
-        padding: 20px 20px 50px 20px;
-        margin-bottom: 30px;
-        margin-left: 36px;
-        text-align: left;
-        font-size: 20px;
+        color: white;
+        font-size: 14.7px;
         font-weight: bold;
-        text-indent: 30px;
-        background-color: rgba(0, 0, 0, 0.736); 
-    }
-    p#ambiente:hover{
-        padding: 40px;
-        border-radius: 0px 0px 10px 10px;
-        transition-duration: 1s;
+        text-align: left;
+        text-shadow: 2px 2px 2px var(--cor02); 
+        margin: 20px;
     }
     
     main#quinto{
