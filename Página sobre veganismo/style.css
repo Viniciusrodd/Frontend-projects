@@ -432,11 +432,10 @@ li{
         font-size: 14px;
         color: var(--cor02);
         padding: 10px;
-        top: 250px;
+        top: 245px;
         left: 250px;
     }
     h3:hover{
-        font-size: 15px;
         background-color: var(--cor04);
         background-size: cover;
         transition: 0.5s;
