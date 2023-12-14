@@ -52,6 +52,7 @@ a#titulo:hover{
     padding: 15px;
     border-radius: 20px;
     transition: 0.5s;
+    cursor: pointer;
 }
 a.cabeçalho{
     font-size: 20px;
@@ -66,6 +67,7 @@ a.cabeçalho:hover{
     border-radius: 20px;
     transition: 0.5s;
     transform: translate(6px, 6px);
+    cursor: pointer;
 }
 
 main#primeiro{
@@ -102,6 +104,7 @@ h3:hover{
     transition: 0.5s;
     padding: 20px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 article#historia{
@@ -125,6 +128,7 @@ section#seçãohistoria:hover{
     padding: 25px;
     border-radius: 15px;
     transition: 1s;
+    cursor: pointer;
 }
 h1.historia{
     text-decoration: underline;
@@ -152,6 +156,7 @@ main#terceiro{
 main#terceiro:hover{
     background-color: black;
     transition-duration: 1.5s;
+    cursor: pointer;
 }
 
 p#terceiro{
@@ -167,6 +172,7 @@ p#terceiro{
 p#terceiro:hover{
     transition-duration: 1.5s;
     color: var(--cor03);
+    cursor: pointer;
 }
 
 a#terceiro{
@@ -177,6 +183,7 @@ a#terceiro{
 a#terceiro:hover{
     transition-duration: 0.5s;
     color: var(--cor01);
+    cursor: pointer;
 }
 
 main#quarto{
@@ -231,6 +238,7 @@ main#quinto{
 main#quinto:hover{
     background-color: black;
     transition-duration: 1.5s;
+    cursor: pointer;
 }
 
 p#quinto{
@@ -245,6 +253,7 @@ p#quinto{
 p#quinto:hover{
     transition-duration: 1.5s;
     color: var(--cor03);
+    cursor: pointer;
 }
 
 article#saude{
@@ -270,6 +279,7 @@ section#saude:hover{
     width: 44vw;
     border-radius: 10px;
     transition-duration: 1s;
+    cursor: pointer;
 }
 
 h1#saude{
@@ -304,6 +314,11 @@ h1#receitas{
     border: 7px solid var(--cor03);
     border-radius: 25px;
 }
+h1#receitas:hover{
+    background-color: black;
+    transition: 1s;
+    cursor: pointer;
+}
 
 aside#receitas{
     background-image: url(imagens/pexelsrecipes.jpg);
@@ -330,6 +345,12 @@ div > ul{
     height: 80vh;
     width: 50vw;
 }
+div > ul:hover{
+    background-color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+
 li{
     color: white;
     font-size: 20px;
