@@ -133,7 +133,7 @@ h1.historia{
     margin-bottom: 20px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 2px 2px 2px var(--cor02);
+    text-shadow: 3px 3px 3px black;
 }
 p.historia{
     color: white;
@@ -182,7 +182,7 @@ a#terceiro:hover{
 main#quarto{
     box-shadow: inset 15px 15px 15px 15px rgba(0, 0, 0, 0.477);
     display: flex;
-    background-image: url(imagens/meioambiente3.avif);
+    background-image: url(imagens/pexelsambiente.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,12 +301,16 @@ h1#receitas{
     margin-bottom: 30px;
     font-size: 40px;
     font-weight: bolder;
-    border: 7px solid var(--cor01);
+    border: 7px solid var(--cor03);
     border-radius: 25px;
 }
 
 aside#receitas{
-    background-color: var(--cor04);
+    background-image: url(imagens/pexelsrecipes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     height: 120vh;
@@ -322,7 +326,7 @@ div > ul{
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
-    border: 5px solid white;
+    border: 5px solid var(--cor03);
     height: 80vh;
     width: 50vw;
 }
