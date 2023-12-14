@@ -422,7 +422,7 @@ li{
         color: var(--cor02);
         padding: 10px;
         top: 245px;
-        left: 250px;
+        left: 200px;
     }
     h3:hover{
         background-color: var(--cor04);
@@ -617,15 +617,11 @@ li{
     }
     
     h1#receitas{
+        margin: auto;
         color: var(--cor01);
         background-color: rgba(0, 0, 0, 0.69);
-        padding: 15px;
-        margin-left: 350px;
-        margin-right: 350px;
-        text-align: center;
-        margin-top: 40px;
-        margin-bottom: 30px;
-        font-size: 40px;
+        padding: 20px;
+        font-size: 30px;
         font-weight: bolder;
         border: 7px solid var(--cor01);
         border-radius: 25px;
@@ -636,8 +632,14 @@ li{
         display: flex;
         flex-direction: column;
         height: 120vh;
-        width: 79.1vw;
+        width: 94vw;
         border: 15px solid black;
+    }
+
+    div{
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 70px;
     }
     
     div > ul{
@@ -650,7 +652,7 @@ li{
         columns: 2;
         border: 5px solid white;
         height: 80vh;
-        width: 50vw;
+        width: 80vw;
     }
     li{
         color: white;
