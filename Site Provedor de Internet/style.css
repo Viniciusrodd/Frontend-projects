@@ -28,7 +28,7 @@ paleta de cores:
 
 body, html{
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     background-image: linear-gradient(to right, #7D5BA6, white, #adf0b8);
 }
 
@@ -186,7 +186,7 @@ section#vantagens{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -195,12 +195,19 @@ section#vantagens{
     border-radius: 15px;
 }
 
+h2#vantagens{
+    color: #4A15E2;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
 
 div#imagem{
     background-color: #5A07A2;
     height: 80vh;
     width: 42.8vw;
-    margin-left: 595px;
+    margin-left: 220px;
     border-radius: 15px;
 }
 
