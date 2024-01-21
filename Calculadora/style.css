@@ -7,21 +7,40 @@
 h1{
     text-align: center;
 }
+input#visor{
+    width: 100%;
+    padding: 8px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+#geral{
+    background-color: rgb(43, 43, 43);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#visor{
+    width: 100%;
+    padding: 20px;
+}
 #keys{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    flex-wrap: wrap;
-    width: 25%;
-    height: 70%;
-    border: 2px solid green;
+    /*Usando grid layout para isso*/
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
 }
 button{
     width: 80px;
     height: 80px;
+    margin: 2px;
     border-radius: 50px;
+    padding: 10px;
     border: none;
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(79, 79, 79);
     color: white;
     font-size: 30px;
     cursor: pointer;
