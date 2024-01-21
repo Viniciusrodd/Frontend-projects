@@ -7,3 +7,22 @@
 h1{
     text-align: center;
 }
+#keys{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 70%;
+    border: 2px solid green;
+}
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
