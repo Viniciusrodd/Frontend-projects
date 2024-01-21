@@ -14,9 +14,9 @@
                 <td colspan="4" id="visor"></td>
             </tr>
             <tr>
-                <td colspan="2">CE</td>
+                <td colspan="2" id="apagar" onclick="apagar()">CE</td>
                 <td>%</td>
-                <td>+</td>
+                <td id="soma" onclick="somar()">+</td>
             </tr>
             <tr>
                 <td onclick="click7()">7</td>
@@ -39,12 +39,27 @@
             <tr>
                 <td onclick="click0()">0</td>
                 <td>,</td>
-                <td colspan="2">=</td>
+                <td colspan="2" onclick="igual()">=</td>
             </tr>
         </table>
 
         <script>
         var vis = document.getElementById('visor')
+            function somar() {
+                var soma = vis + vis
+                vis.innerText = '+'
+            }
+
+            function igual() {
+                var res = soma
+                    vis.innerHTML = res
+            }
+
+            function apagar() {
+                var apg = null
+                    vis.innerHTML = apg
+            }
+
             function click7() {
                 var n7 = 7
                     vis.innerText += n7
