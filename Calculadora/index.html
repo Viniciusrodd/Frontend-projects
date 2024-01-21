@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+        <table>
+            <tr>
+                <td colspan="4" id="visor"></td>
+            </tr>
+            <tr>
+                <td colspan="2">CE</td>
+                <td>%</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td onclick="click7()">7</td>
+                <td onclick="click8()">8</td>
+                <td onclick="click9()">9</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td onclick="click4()">4</td>
+                <td onclick="click5()">5</td>
+                <td onclick="click6()">6</td>
+                <td>x</td>
+            </tr>
+            <tr>
+                <td onclick="click1()">1</td>
+                <td onclick="click2()">2</td>
+                <td onclick="click3()">3</td>
+                <td>/</td>
+            </tr>
+            <tr>
+                <td onclick="click0()">0</td>
+                <td>,</td>
+                <td colspan="2">=</td>
+            </tr>
+        </table>
+
+        <script>
+        var vis = document.getElementById('visor')
+            function click7() {
+                var n7 = 7
+                    vis.innerText += n7
+            }
+
+            function click8() {
+                var n8 = 8
+                    vis.innerText += n8                  
+            }
+            
+            function click9() {
+                var n9 = 9
+                    vis.innerText += n9                  
+            }
+
+            function click4() {
+                var n4 = 4
+                    vis.innerText += n4                  
+            }
+
+            function click5() {
+                var n5 = 5
+                    vis.innerText += n5                  
+            }
+
+            function click6() {
+                var n6 = 6
+                    vis.innerText += n6                  
+            }
+        </script>
+</body>
+</html>
