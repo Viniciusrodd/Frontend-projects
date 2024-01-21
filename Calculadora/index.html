@@ -7,28 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calculadora</h1>
 
     <div id="geral">
         <input type="number" id="visor">
         <div id="keys">
-            <button onclick="clicou('+')">+</button>
+            <button onclick="clicou('+')" class="operadores">+</button>
             <button onclick="clicou('7')">7</button>
             <button onclick="clicou('8')">8</button>
             <button onclick="clicou('9')">9</button>
-            <button onclick="clicou('-')">-</button>
+            <button onclick="clicou('-')" class="operadores">-</button>
             <button onclick="clicou('4')">4</button>
             <button onclick="clicou('5')">5</button>
             <button onclick="clicou('6')">6</button>
-            <button onclick="clicou('*')">*</button>
+            <button onclick="clicou('*')" class="operadores">*</button>
             <button onclick="clicou('1')">1</button>
             <button onclick="clicou('2')">2</button>
             <button onclick="clicou('3')">3</button>
-            <button onclick="clicou('/')">/</button>
+            <button onclick="clicou('/')" class="operadores">/</button>
             <button onclick="clicou('0')">0</button>
             <button onclick="clicou('.')">.</button>
             <button onclick="calculo('=')">=</button>
-            <button onclick="limpou('C')">C</button>
+            <button onclick="limpou('C')" class="operadores">C</button>
         </div>
     </div>
 </body>

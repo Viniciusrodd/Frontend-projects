@@ -4,13 +4,20 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
 }
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 h1{
     text-align: center;
 }
 input#visor{
     width: 100%;
     padding: 8px;
-    font-size: 5rem;
+    font-size: 50px;
     text-align: left;
     border: none;
     background-color: rgb(63, 63, 63);
@@ -19,7 +26,8 @@ input#visor{
 #geral{
     background-color: rgb(43, 43, 43);
     border-radius: 15px;
-    max-width: 500px;
+    max-width: 450px;
+    max-height: 600px;
     overflow: hidden;
 }
 #visor{
@@ -30,18 +38,32 @@ input#visor{
     /*Usando grid layout para isso*/
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 10px;
+    gap: 8px;
+    padding: 8px;
 }
 button{
-    width: 80px;
-    height: 80px;
-    margin: 2px;
+    width: 100px;
+    height: 90px;
     border-radius: 50px;
-    padding: 10px;
     border: none;
     background-color: rgb(79, 79, 79);
     color: white;
     font-size: 30px;
     cursor: pointer;
+    margin: auto;
+}
+button:hover{
+    background-color: rgb(97, 97, 97);
+}
+button:active{
+    background-color: rgb(131, 131, 131)
+}
+.operadores{
+    background-color: rgb(236, 156, 6);
+}
+.operadores:hover{
+    background-color: rgb(240, 166, 30);
+}
+.operadores:active{
+    background-color: rgb(255, 201, 99);
 }
