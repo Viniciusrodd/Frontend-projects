@@ -9,7 +9,8 @@
 <body>
 
     <div id="geral">
-        <input type="number" id="visor">
+        <input id="visor" readonly>
+        <!--Atributo readonly é um modificador de acesso que indica que aquele campo é somente leitura, ou seja, só pode ser lido, mas não pode ser sobrescrito.-->
         <div id="keys">
             <button onclick="clicou('+')" class="operadores">+</button>
             <button onclick="clicou('7')">7</button>
@@ -30,5 +31,7 @@
             <button onclick="limpou('C')" class="operadores">C</button>
         </div>
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
