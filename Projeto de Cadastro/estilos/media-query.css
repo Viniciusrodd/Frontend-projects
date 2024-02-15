@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*
+Typical Device Breakpoints
+________________________________________________________
+Smartphones em modo retrato:
+Breakpoint: 576px
+
+Smartphones em modo paisagem e tablets em modo retrato:
+Breakpoint: 600px até 768px
+
+Tablets em modo paisagem:
+Breakpoint: 768px até 992px
+
+Laptops e desktops:
+Breakpoint: 992px até 1200px
+
+Monitores grandes ou telas de alta resolução:
+Breakpoint: acima de 1200px
+*/
+/*PARA TABLETS*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to right, black, rgb(255, 149, 198), rgb(255, 243, 225));
+    }
+
+    section#cadastro{
+        width: 90vw;
+        height: 400px;
+    }
+
+    div#imagem{
+        float: left; /*Utilizada para definir como um elemento deve ser posicionado em relação aos outros elementos ao seu redor. Siginifica Flutuar */
+        width: 40%;
+        height: 100%;
+        background-position: center center;
+    }
+
+    div#formulario{
+        float: right;
+        width: 60%;
+    }
+
+    div.campo{
+        display: block;
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        margin: 5px 65px;
+    }
+
+    input{
+        padding: 6px;
+        width: 230px;
+        border: 3px solid black;
+        transform: translateY(-6px);
+        border-radius: 6px;
+    }
+    
+    input:focus-within{
+        background-color: #03012C;
+        color: white;
+    }
+}
