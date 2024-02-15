@@ -22,7 +22,7 @@ Breakpoint: acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
-        background-image: linear-gradient(to left, black, rgb(255, 185, 217), rgb(255, 243, 225));
+        background-image: linear-gradient(to right, black, rgb(255, 185, 217), rgb(255, 243, 225));
         background-size: cover;
     }
 
