@@ -22,24 +22,29 @@ Breakpoint: acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
-        background-image: linear-gradient(to right, black, rgb(255, 149, 198), rgb(255, 243, 225));
+        background-image: linear-gradient(to left, black, rgb(255, 185, 217), rgb(255, 243, 225));
+        background-size: cover;
+    }
+
+    main{
+        display: flex;
+        height: 100%;
+        width: 100%;
     }
 
     section#cadastro{
+        margin-top: 15vh;
+        align-items: center;
+        transform: translate(0%, 5%);
         width: 90vw;
-        height: 400px;
+        height: 350px;
     }
 
     div#imagem{
         float: left; /*Utilizada para definir como um elemento deve ser posicionado em relação aos outros elementos ao seu redor. Siginifica Flutuar */
-        width: 40%;
+        width: 38%;
         height: 100%;
         background-position: center center;
-    }
-
-    div#formulario{
-        float: right;
-        width: 60%;
     }
 
     div.campo{
@@ -48,18 +53,20 @@ Breakpoint: acima de 1200px
         height: 40px;
         border-radius: 5px;
         margin: 5px 65px;
+        transform: translateX(-36px);
+    }
+
+    span{
+        color: white;
+        background-color: rgb(65, 47, 20);
+        padding: 8px;
+        border-radius: 8px;
     }
 
     input{
         padding: 6px;
         width: 230px;
         border: 3px solid black;
-        transform: translateY(-6px);
         border-radius: 6px;
-    }
-    
-    input:focus-within{
-        background-color: #03012C;
-        color: white;
     }
 }

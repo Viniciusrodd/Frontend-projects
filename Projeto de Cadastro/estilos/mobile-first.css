@@ -10,7 +10,8 @@
 body{
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 243, 225);
+    background-image: linear-gradient(to left, black, rgb(255, 185, 217), rgb(255, 243, 225));
+    background-size: cover;
 }
 
 main{
@@ -89,13 +90,21 @@ span{
     border-radius: 8px;
 }
 
+span:hover{
+    background-color: rgb(166, 91, 91);
+    color: white;
+    border: 3px solid black;
+}
+
 input{
     margin-top: 8px;
-    padding: 8px;
+    height: 40px;
     width: 230px;
     border: 3px solid black;
     transform: translateY(-6px); /*Para alinha input com simbolo do span*/
     border-radius: 6px;
+    padding: 8px;
+    font-weight: bold;
 }
 
 input#botão{
@@ -106,4 +115,14 @@ input#botão{
     width: 70px;
     border: 3px solid black;
     border-radius: 6px;
+}
+
+#botão:hover{
+    background-color: rgb(166, 91, 91);
+    color: white;
+    font-weight: bold;
+    border: 3px solid black;
+    height: 45px;
+    width: 75px;
+    cursor: pointer;
 }
