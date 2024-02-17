@@ -104,7 +104,6 @@ input{
     transform: translateY(-6px); /*Para alinha input com simbolo do span*/
     border-radius: 6px;
     padding: 8px;
-    font-weight: bold;
 }
 
 input#botão{

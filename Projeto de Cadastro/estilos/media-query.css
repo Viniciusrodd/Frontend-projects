@@ -75,7 +75,7 @@ Breakpoint: acima de 1200px
 
 @media screen and (min-width: 992px){
     body{
-        background-image: linear-gradient(to right, black, rgb(255, 185, 217), rgb(255, 243, 225));
+        background-image: linear-gradient(to left, rgb(255, 243, 225), rgb(75, 48, 7), rgb(255, 243, 225));
         background-size: cover;
     }
 
@@ -85,17 +85,29 @@ Breakpoint: acima de 1200px
         width: 100%;
     }
 
+    #formulario > h1{
+        font-size: 40px;
+    }
+
+    #formulario > p{
+        font-size: 25px;
+    }
+
+    h1, p{
+        transform: translateY(70px);
+    }
+
     section#cadastro{
         margin-top: 15vh;
         align-items: center;
-        transform: translate(0%, 5%);
-        width: 992px;
-        height: 560px;
+        transform: translate(0%, -5%);
+        width: 970px;
+        height: 480px;
     }
 
     div#imagem{
         float: left;
-        width: 38%;
+        width: 35%;
         height: 100%;
         background-position: center center;
     }
@@ -106,20 +118,29 @@ Breakpoint: acima de 1200px
         height: 40px;
         border-radius: 5px;
         margin: 5px 65px;
-        transform: translateX(-36px);
+        transform: translateX(-30px);
     }
 
     span{
         color: white;
         background-color: rgb(65, 47, 20);
-        padding: 8px;
+        width: 50px;
+        padding: 11px;
         border-radius: 8px;
     }
 
     input{
         padding: 6px;
-        width: 230px;
+        width: 270px;
+        height: 50px;
         border: 3px solid black;
         border-radius: 6px;
+    }
+
+    input#botão{
+        margin-top: 15px;
+        padding: 10px;
+        height: 45px;
+        width: 80px;
     }
 }
