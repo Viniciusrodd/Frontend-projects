@@ -21,14 +21,14 @@ header{
     width: 100%;
 }
 
-section{
+section#header{
     padding: 10px;
     margin: auto;
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
     background-color: black;
-    height: 700px;
+    height: 150vh;
     width: 100%;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     transition: width 0.5s, height 0.5s; /*Para tempo de transição entre devices breakpoints*/
@@ -41,7 +41,14 @@ div#header{
     align-items: center;
     flex-wrap: wrap;
     color: white;
-    transform: translateY(110px);
+    transform: translateY(40px);
+}
+
+h1{
+    font-size: 35px;
+    color: yellow;
+    text-shadow: 0px 0px 4px 4px rgb(124, 124, 0);
+    margin-bottom: 40px;
 }
 
 p#pheader{
