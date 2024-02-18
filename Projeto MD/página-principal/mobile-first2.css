@@ -24,10 +24,13 @@ header{
 section.modeloS{
     padding: 10px;
     margin: auto;
+    margin-bottom: 150px;
+    padding: 30px 0px 30px 0px;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    height: 150vh;
+    background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
+    background-repeat: no-repeat;
+    height: 300vh;
     width: 100%;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     transition: width 0.5s, height 0.5s; /*Para tempo de transição entre devices breakpoints*/
@@ -41,6 +44,7 @@ div#header{
     flex-wrap: wrap;
     color: white;
     transform: translateY(40px);
+    margin-bottom: 70px;
 }
 
 h1{
@@ -105,15 +109,21 @@ div.cards{
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
+    margin-bottom: 30px;
     background-color: rgb(29, 29, 29);
-    height: 480px;
+    border: 3px solid white;
+    height: 530px;
     width: 90vw;
 }
 
 div.imagemcard{
+    background-image: url(../imagens/cardimage.jpg);
+    background-size: cover;
+    background-position: center center;
     align-self: baseline;
+    border: 3px solid white;
     background-color: orangered;
-    height: 200px;
+    height: 250px;
     width: 100vh;
     margin-bottom: 20px;
 }
