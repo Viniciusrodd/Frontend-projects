@@ -5,7 +5,7 @@ function enviar() {
 
         res.style.fontSize = '16px'
         res.style.textAlign = 'center'
-        res.style.fontWeight = 'bold'
+        res.style.fontWeight = 'bolder'
 
         if(nome == ''){
             res.innerHTML = `Houve um erro`

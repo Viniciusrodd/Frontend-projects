@@ -111,7 +111,7 @@ div.cards{
     margin: auto;
     margin-bottom: 30px;
     background-color: rgb(29, 29, 29);
-    border: 3px solid white;
+    border: 2px solid white;
     height: 530px;
     width: 90vw;
 }
@@ -121,7 +121,7 @@ div.imagemcard{
     background-size: cover;
     background-position: center center;
     align-self: baseline;
-    border: 3px solid white;
+    border: 2px solid white;
     background-color: orangered;
     height: 250px;
     width: 100vh;
