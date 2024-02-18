@@ -24,17 +24,20 @@ header{
 section.modeloS{
     padding: 10px;
     margin: auto;
-    margin-bottom: 150px;
     padding: 30px 0px 30px 0px;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
     background-repeat: no-repeat;
-    height: 700vh;
+    height: 420vh;
     width: 100%;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     transition: width 0.5s, height 0.5s; /*Para tempo de transição entre devices breakpoints*/
     transition-timing-function: ease; /*Para suavizar animação de transição*/
+}
+
+section#modeloS2{
+    
 }
 
 div#header{
@@ -59,7 +62,7 @@ p.modeloP{
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     color: white;
 }
 
@@ -67,7 +70,7 @@ p.modeloP2{
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     flex-wrap: wrap;
     color: white;
 }
@@ -97,7 +100,8 @@ button:hover{
 }
 
 button#botão2{
-    margin-top: 22px;
+    margin-top: 92px;
+    margin-bottom: 50px;
     height: 50px;
     width: 400px;
     border: 0px;
@@ -134,10 +138,10 @@ div.cards{
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     background-color: rgb(29, 29, 29);
     border: 2px solid white;
-    height: 540px;
+    height: 560px;
     width: 90vw;
 }
 
@@ -151,4 +155,13 @@ div.imagemcard{
     height: 250px;
     width: 100vh;
     margin-bottom: 20px;
+}
+
+div#cardsinterativos{
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: rgb(53, 53, 53);
+    border: 2px solid yellow;
+    height: 600px;
+    width: 95vw;
 }
