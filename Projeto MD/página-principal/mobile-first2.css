@@ -166,13 +166,20 @@ div.imagemcard{
     margin-bottom: 20px;
 }
 
-div#cardsinterativos{
-    margin: auto;
+div#cardsinterativos{    
     margin-bottom: 50px;
-    padding: 20px;
+    padding-top: 15px;
     background-color: rgb(29, 29, 29);
     border-top: 3px solid yellow;
     border-bottom: 3px solid yellow;
     height: 600px;
     width: 100vw;
+}
+
+#cardscarrosel{
+    margin-top: 30px;
+    margin: auto;
+    background-color: aliceblue;
+    height: 450px;
+    width: 90vw;
 }
