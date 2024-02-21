@@ -183,6 +183,20 @@ div#cardsinterativos{
     text-align: center;
     margin-top: 20px;
     background-color: aliceblue;
+    border-radius: 15px;
     height: 400px;
-    width: 80vw;
+    width: 75vw;
+}
+
+#voltaavança{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px;
+}
+
+#voltar, #avançar{
+    margin-right: 10px;
+    height: 30px;
+    width: 80px;
 }
