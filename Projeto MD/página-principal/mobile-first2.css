@@ -195,8 +195,7 @@ div#cardsinterativos{
     margin: 15px;
 }
 
-#voltar, #avançar{
-    margin-right: 10px;
+#avançar{
     height: 30px;
     width: 80px;
 }
