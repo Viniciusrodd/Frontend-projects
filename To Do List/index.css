@@ -1,1 +1,64 @@
 @charset  "UTF-8";
+
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    background-color: lightblue;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: white;         
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 15px;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+}
+
+#foot{
+    text-align: center;
+    font-size: 18px;
+}
+
+input{
+    padding: 8px;
+    border: 3px solid black;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+
+#btt:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+ul{
+    display: block;
+    background-color: lightblue;
+    padding: 8px;
+    font-size: 19px;
+    text-align: center;
+}
+
+li{
+    
+    display: block;
+    font-size: 19px;
+    padding: 10px;
+    text-decoration: underline;
+}
