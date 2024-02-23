@@ -16,16 +16,20 @@ section{
     align-items: center;
 }
 
+h1#header{
+    font-size: 40px;
+}
+
 div{
     background-color: white;         
     margin: auto;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px black;
-    padding: 15px;
+    padding: 35px;
 }
 
 p{
-    font-size: 18px;
+    font-size: 19px;
     text-align: center;
 }
 
@@ -47,18 +51,16 @@ input{
     cursor: pointer;
 }
 
-ul{
-    display: block;
-    background-color: lightblue;
-    padding: 8px;
-    font-size: 19px;
-    text-align: center;
+p#resposta{
+    margin-bottom: 10px;
 }
 
 li{
-    
-    display: block;
-    font-size: 19px;
     padding: 10px;
-    text-decoration: underline;
+    background-color: rgba(173, 216, 230, 0.388);
+    border: 3px solid black;
+    border-radius: 30px;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }

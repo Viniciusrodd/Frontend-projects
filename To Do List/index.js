@@ -5,6 +5,8 @@ function adicionar() {
     let res = document.getElementById('resposta')
     var NE = document.createElement('li')
     res.appendChild(NE)
+    
+    
     NE.textContent = tarefa
 
     if(tarefa == '0'){
