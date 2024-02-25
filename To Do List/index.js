@@ -9,7 +9,7 @@ function adicionar() {
     
     NE.textContent = tarefa
 
-    if(tarefa == '0'){
+    if(tarefa == '0' || tarefa == ''){
         window.alert('Houve um erro, Por favor adicione só tarefas!')
     }
 }
