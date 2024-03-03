@@ -51,6 +51,10 @@ section#modeloS2{
 }
 
 section#modeloS3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-image: url(../imagens/coach.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,7 +62,7 @@ section#modeloS3{
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: 160vh;
     width: 100%;
     padding: 20px;
 }
@@ -163,6 +167,30 @@ button#botão2{
     text-shadow: 0px 0px 5px 5px rgb(3, 3, 3);
 }
 
+#botão3{
+    height: 70px;
+    width: 380px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(0, 159, 0);
+    color: white;
+    text-shadow: 0px 0px 5px 5px rgb(23, 23, 23);
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 4px rgb(99, 169, 99);
+}
+
+#botão3:hover{
+    height: 55px;
+    width: 360px;
+    font-size: 17px;
+    transition-duration: 0.5s;
+    transform: translateY(-8px);
+    color: white;
+    text-shadow: 0px 0px 5px 5px rgb(3, 3, 3);
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -212,6 +240,9 @@ div#cardsinterativos{
     text-align: center;
     margin-top: 20px;
     background-color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     border-radius: 15px;
     height: 400px;
     width: 75vw;
@@ -227,4 +258,13 @@ div#cardsinterativos{
 #avançar{
     height: 30px;
     width: 80px;
+}
+
+div#foto{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: white;
 }
