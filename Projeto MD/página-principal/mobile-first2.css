@@ -44,7 +44,20 @@ section#modeloS2{
     transition-timing-function: ease;
     background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
     background-repeat: no-repeat;
-    height: 220vh;
+    height: 94.5vh;
+    width: 100%;
+}
+
+section#modeloS3{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
+    background-image: linear-gradient(to bottom, gray, white);
+    background-repeat: no-repeat;
+    height: 120vh;
     width: 100%;
 }
 
