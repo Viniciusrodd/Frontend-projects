@@ -43,22 +43,24 @@ section#modeloS2{
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
     background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid yellow;
     background-repeat: no-repeat;
-    height: 94.5vh;
+    height: 95vh;
     width: 100%;
 }
 
 section#modeloS3{
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+    background-image: url(../imagens/coach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden;
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
-    background-image: linear-gradient(to bottom, gray, white);
     background-repeat: no-repeat;
     height: 120vh;
     width: 100%;
+    padding: 20px;
 }
 
 div#header{
@@ -79,6 +81,13 @@ h1{
     margin-bottom: 40px;
 }
 
+h2{
+    margin-top: 30%;
+    margin-bottom: 35px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
 p.modeloP{
     text-align: center;
     font-size: 25px;
@@ -94,6 +103,15 @@ p.modeloP2{
     margin-bottom: 15px;
     flex-wrap: wrap;
     color: white;
+}
+
+p.modeloP3{
+    background-color: aliceblue;
+    margin-top: 6px;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 15px;
+    color: black;
 }
 
 button#botão1{
@@ -186,8 +204,6 @@ div#cardsinterativos{
     flex-direction: column;
     margin: auto;
     background-color: rgb(29, 29, 29);
-    border-top: 3px solid yellow;
-    border-bottom: 3px solid yellow;
     height: 620px;
     width: 100vw;
 }
