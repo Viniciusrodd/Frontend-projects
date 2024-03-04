@@ -8,15 +8,16 @@
 }
 
 body{
-    height: 100%;
+    height: 100vh;
     width: 100%;
-    background-color: black;
+    background-image: linear-gradient(to bottom, black, rgb(213, 213, 213), black);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 main{
     display: flex;
-    height: 100%;
+    height: 90vh;
     width: 100%;
 }
 
@@ -26,7 +27,7 @@ section#cadastro{
     transform: translate(0%, 5%);
     background-color: white;
     width: 350px;
-    height: 580px;
+    height: 570px;
     border-radius: 25px;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.683);
@@ -37,7 +38,7 @@ section#cadastro{
 
 div#imagem{
     display: block;
-    background: url(../imagens/busines.jpg);
+    background: url(../imagens/dinheiro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
@@ -85,13 +86,13 @@ p.input{
 
 span{
     color: white;
-    background-color: rgb(65, 47, 20);
+    background-color: rgb(20, 65, 32);
     padding: 8px;
     border-radius: 8px;
 }
 
 span:hover{
-    background-color: rgb(166, 91, 91);
+    background-color: rgb(0, 39, 0);
     color: white;
     border: 3px solid black;
 }
@@ -117,7 +118,7 @@ input#botão{
 }
 
 #botão:hover{
-    background-color: rgb(166, 91, 91);
+    background-color: rgb(0, 42, 0);
     color: white;
     font-weight: bold;
     border: 3px solid black;
