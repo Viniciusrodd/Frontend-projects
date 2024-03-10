@@ -1,19 +1,28 @@
 
+    function adicionar() {
 
-function adicionar() {
-    let botão = document.querySelectorAll('#btt')
-    let tarefa = String(document.getElementById('itar').value)
-    let res = document.getElementById('resposta')
-    var NE = document.createElement('li')
-    res.appendChild(NE)
+        validações()
     
-
-    if(btt = true){
         
-        NE.textContent = tarefa
     }
 
-    if(tarefa == '0' || tarefa == ''){
-        window.alert('Houve um erro, Por favor adicione só tarefas!')
+    function validações() {
+        let array = []
+
+        let botão = document.querySelectorAll('#btt')
+        let tarefaInput = String(document.getElementById('itar').value)
+        let res = document.getElementById('resposta')
+        var NE = document.createElement('li')
+        res.appendChild(NE)
+
+            if(botão = true){ 
+                NE.textContent = tarefaInput
+                array += tarefaInput
+            }
+        
+            if(array[tarefaInput] == '0' || array[tarefaInput] == ''){
+                window.alert('Preencha o campo apenas com tarefas, por favor reinicie!')
+                res.innerHTML = ''
+                NE.innerHTML = ''
+            }
     }
-}
