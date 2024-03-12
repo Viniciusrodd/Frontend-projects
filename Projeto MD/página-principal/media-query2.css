@@ -1,1 +1,64 @@
 @charset "UTF-8";
+
+/*
+Typical Device Breakpoints
+________________________________________________________
+Smartphones em modo retrato:
+Breakpoint: 576px
+
+Smartphones em modo paisagem e tablets em modo retrato:
+Breakpoint: 600px até 768px
+
+Tablets em modo paisagem:
+Breakpoint: 768px até 992px
+
+Laptops e desktops:
+Breakpoint: 992px até 1200px
+
+Monitores grandes ou telas de alta resolução:
+Breakpoint: acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(28, 28, 28);
+        height: 20vh;
+        width: 100%;
+    }
+
+    #h3header{
+        color: white;
+        margin-right: 350px;
+        font-size: 35px;
+        align-self: center;
+    }
+    
+    .bheader{
+        align-self: center;
+        background-color: yellow;
+        font-weight: bold;
+        border: 3px solid black;
+        border-radius: 30px;
+        font-size: 17px;
+        margin-left: 10px;
+        height: 50px;
+        width: 110px;
+    }
+    .bheader:hover{
+        height: 50px;
+        width: 105px;
+        font-size: 16px;
+        border: 4px solid black;
+        transition: 0.5s;
+    }
+}
