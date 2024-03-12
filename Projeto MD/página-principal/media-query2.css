@@ -201,7 +201,7 @@ Breakpoint: acima de 1200px
     section.modeloS{
         justify-content: center;
         align-items: center;
-        height: 475vh;
+        height: 530vh;
         width: 100%;
     }
 
@@ -244,4 +244,37 @@ Breakpoint: acima de 1200px
         transition-duration: 0.5s;
         font-size: 18px;
     }
+
+    /*COMEÇANDO OS CARDS*/
+
+    div.cards{
+        height: 670px;
+        width: 60vw;
+    }
+    
+    div.imagemcard{
+        background-image: url(../imagens/cardimage.jpg);
+        background-size: cover;
+        background-position: center center;
+        align-self: baseline;
+        border: 2px solid white;
+        background-color: orangered;
+        height: 300px;
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+
+    button#botão2{
+        margin-top: 35px;
+        height: 70px;
+        width: 420px;
+        font-size: 19px;
+    }
+    #botão2:hover{
+        height: 70px;
+        width: 410px;
+        font-size: 18px;
+    }
+
+    /*FIM DOS CARDS*/
 }
