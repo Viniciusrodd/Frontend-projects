@@ -58,7 +58,7 @@ section.modeloS{
     height: 416vh;
     width: 100%;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
-    transition: width 0.5s, height 0.5s; /*Para tempo de transição entre devices breakpoints*/
+    transition: width 1s, height 1s; /*Para tempo de transição entre devices breakpoints*/
     transition-timing-function: ease; /*Para suavizar animação de transição*/
 }
 
@@ -234,6 +234,8 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
+/*COMEÇANDO OS CARDS*/
 
 div.cards{
     display: flex;

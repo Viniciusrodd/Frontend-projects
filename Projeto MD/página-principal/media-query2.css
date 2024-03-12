@@ -69,7 +69,7 @@ Breakpoint: acima de 1200px
         align-items: center;
         background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
         background-repeat: no-repeat;
-        height: 445vh;
+        height: 475vh;
         width: 100%;
         overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
         transition: width 0.5s, height 0.5s; /*Para tempo de transição entre devices breakpoints*/
@@ -88,19 +88,21 @@ Breakpoint: acima de 1200px
     }
 
     h1{
+        font-size: 40px;
         text-align: center;
-        margin-left: 50px;
         margin-bottom: 60px;
     }
 
     p.modeloP{
         text-align: justify;
         margin-bottom: 40px;
+        font-size: 28px;
     }
 
     p.modeloP2{
         text-align: justify;
         margin-bottom: 40px;
+        font-size: 20px;
     }
 
     button#botão1{
@@ -114,4 +116,24 @@ Breakpoint: acima de 1200px
         color: white;
         text-shadow: 0px 0px 5px 5px rgb(3, 3, 3);
     }
+
+    /*COMEÇANDO OS CARDS*/
+
+    div.cards{
+        height: 600px;
+        width: 80vw;
+    }
+
+    div.imagemcard{
+        background-image: url(../imagens/busines.jpg);
+        height: 260px;
+        width: 110vh;
+        background-position: center top;
+    }
+
+    /*FIM DOS CARDS*/
+    /*COMEÇANDO CARDS INTERATIVOS*/
+
+
+
 }
