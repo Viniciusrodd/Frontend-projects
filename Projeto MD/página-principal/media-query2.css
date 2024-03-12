@@ -60,7 +60,7 @@ Breakpoint: acima de 1200px
     section.modeloS{
         justify-content: center;
         align-items: center;
-        height: 475vh;
+        height: 490vh;
         width: 100%;
     }
 
@@ -156,6 +156,10 @@ Breakpoint: acima de 1200px
         font-size: 19px;
         transition-duration: 0.5s;
     }
+
+    footer{
+        height: 115vh;
+    }
 }
 
 /*PARA PCs E TVs:*/
@@ -202,7 +206,7 @@ Breakpoint: acima de 1200px
     section.modeloS{
         justify-content: center;
         align-items: center;
-        height: 530vh;
+        height: 545vh;
         width: 100%;
     }
 
