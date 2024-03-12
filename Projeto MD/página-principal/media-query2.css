@@ -277,4 +277,29 @@ Breakpoint: acima de 1200px
     }
 
     /*FIM DOS CARDS*/
+    /*COMEÇANDO CARDS INTERATIVOS*/
+
+    section#modeloS2{
+        height: 750px;
+        width: 100%;
+    }
+
+    div#cardsinterativos{
+        height: 750px;
+        width: 100vw;
+    }
+
+    div#cardscarrosel{
+        height: 400px;
+        width: 55vw;
+    }
+
+    #avançar{
+        font-size: 18px;
+        margin-top: 20px;
+        height: 45px;
+        width: 110px;
+    }
+
+    /*FIM CARDS INTERATIVOS*/
 }
