@@ -235,8 +235,6 @@ a:hover{
     text-decoration: underline;
 }
 
-/*COMEÇANDO OS CARDS*/
-
 div.cards{
     display: flex;
     justify-content: center;
