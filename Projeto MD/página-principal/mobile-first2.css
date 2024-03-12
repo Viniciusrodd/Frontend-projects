@@ -94,7 +94,7 @@ section#modeloS3{
     padding: 20px;
 }
 
-div#header{
+div.header{
     display: flex;
     justify-content: center;
     align-items: center;

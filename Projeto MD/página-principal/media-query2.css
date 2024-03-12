@@ -38,7 +38,7 @@ Breakpoint: acima de 1200px
 
     #h3header{
         color: white;
-        margin-right: 350px;
+        margin-right: 250px;
         font-size: 35px;
         align-self: center;
     }
@@ -69,21 +69,49 @@ Breakpoint: acima de 1200px
         align-items: center;
         background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
         background-repeat: no-repeat;
-        height: 416vh;
+        height: 445vh;
         width: 100%;
         overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
         transition: width 0.5s, height 0.5s; /*Para tempo de transição entre devices breakpoints*/
         transition-timing-function: ease; /*Para suavizar animação de transição*/
     }
 
-    div#header{
+    div.header{
         display: flex;
-        justify-content: center;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         flex-wrap: wrap;
         color: white;
         transform: translateY(40px);
-        margin-bottom: 70px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        text-align: center;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+
+    p.modeloP{
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+
+    p.modeloP2{
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+
+    button#botão1{
+        margin-top: 60px;
+    }
+    #botão1:hover{
+        width: 355px;
+        transition-duration: 0.5s;
+        transform: translateY(-8px);
+        font-size: 18px;
+        color: white;
+        text-shadow: 0px 0px 5px 5px rgb(3, 3, 3);
     }
 }
