@@ -61,4 +61,29 @@ Breakpoint: acima de 1200px
         border: 4px solid black;
         transition: 0.5s;
     }
+
+    section.modeloS{
+        margin: auto;
+        padding: 30px 0px 30px 0px;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
+        background-repeat: no-repeat;
+        height: 416vh;
+        width: 100%;
+        overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
+        transition: width 0.5s, height 0.5s; /*Para tempo de transição entre devices breakpoints*/
+        transition-timing-function: ease; /*Para suavizar animação de transição*/
+    }
+
+    div#header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+        transform: translateY(40px);
+        margin-bottom: 70px;
+    }
 }
