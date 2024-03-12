@@ -16,7 +16,7 @@ function rolar() {
 
     if(botão1 = true){
         window.scrollTo({
-            top: 900,
+            top: 950,
             behavior: 'smooth'
         })
     }

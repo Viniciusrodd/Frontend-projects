@@ -55,7 +55,7 @@ section.modeloS{
     align-items: center;
     background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
     background-repeat: no-repeat;
-    height: 416vh;
+    height: 425vh;
     width: 100%;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     transition: width 1s, height 1s; /*Para tempo de transição entre devices breakpoints*/
@@ -89,7 +89,7 @@ section#modeloS3{
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
     background-repeat: no-repeat;
-    height: 160vh;
+    height: 140vh;
     width: 100%;
     padding: 20px;
 }
@@ -113,7 +113,7 @@ h1{
 }
 
 h2{
-    margin-top: 30%;
+    margin-top: 5%;
     margin-bottom: 35px;
     text-align: center;
     background-color: aliceblue;
@@ -309,6 +309,6 @@ footer{
     flex-direction: column;
     background-image: linear-gradient(to right, rgb(96, 38, 38), black);
     padding-top: 50px;
-    height: 100vh;
+    height: 115vh;
     width: 100%;
 }
