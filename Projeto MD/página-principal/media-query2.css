@@ -145,5 +145,32 @@ Breakpoint: acima de 1200px
     }
 
     /*FIM CARDS INTERATIVOS*/
+    /*COMEÇANDO BIOGRAFIA*/
 
+    section#modeloS3{
+        height: 140vh;
+        width: 100%;
+        background-position: center top;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-top: 0%;
+    }
+
+    p.modeloP3{
+        font-size: 20px;
+    }
+
+    #botão3{
+        height: 70px;
+        width: 480px;
+        font-size: 22px;
+    }
+    #botão3:hover{
+        height: 70px;
+        width: 410px;
+        font-size: 19px;
+        transition-duration: 0.5s;
+    }
 }
