@@ -57,7 +57,7 @@ section.modeloS{
     align-items: center;
     background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
     background-repeat: no-repeat;
-    height: 450vh;
+    height: 430vh;
     width: 100%;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     transition: width 2s, height 2s; /*Para tempo de transição entre devices breakpoints*/
