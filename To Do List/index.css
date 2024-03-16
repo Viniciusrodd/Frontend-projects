@@ -38,6 +38,14 @@ p{
     text-align: center;
 }
 
+#pInput{
+    margin-bottom: 2px;
+}
+
+#pButton{
+    margin-top: 2px;
+}
+
 #foot{
     text-align: center;
     font-size: 18px;
@@ -50,7 +58,15 @@ input{
     margin-bottom: 5px;
 }
 
-#btt:hover{
+#itar{
+    width: 240px;
+}
+
+#botaoAdicionar{
+    margin-top: 5px;
+}
+
+.btt:hover{
     background-color: black;
     color: white;
     cursor: pointer;

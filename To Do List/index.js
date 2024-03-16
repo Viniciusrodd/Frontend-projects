@@ -1,15 +1,9 @@
 
+
     function adicionar() {
-
-        validações()
-    
-        
-    }
-
-    function validações() {
         let array = []
 
-        let botão = document.querySelectorAll('#btt')
+        let botão = document.querySelectorAll('#botaoAdicionar')
         let tarefaInput = String(document.getElementById('itar').value)
         let res = document.getElementById('resposta')
         var NE = document.createElement('li')
