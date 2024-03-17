@@ -27,7 +27,7 @@ header{
 
 #h3header{
     color: white;
-    margin-right: 50px;
+    margin-right: 30px;
     font-size: 35px;
     align-self: center;
 }
@@ -57,7 +57,7 @@ section.modeloS{
     align-items: center;
     background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
     background-repeat: no-repeat;
-    height: 430vh;
+    height: 435vh;
     width: 100%;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     transition: width 2s, height 2s; /*Para tempo de transição entre devices breakpoints*/
@@ -91,7 +91,7 @@ section#modeloS3{
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
     background-repeat: no-repeat;
-    height: 140vh;
+    height: 130vh;
     width: 100%;
     padding: 20px;
 }
@@ -103,7 +103,7 @@ div.header{
     flex-wrap: wrap;
     color: white;
     transform: translateY(40px);
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 h1{
@@ -115,7 +115,6 @@ h1{
 }
 
 h2{
-    margin-top: 5%;
     margin-bottom: 35px;
     text-align: center;
     background-color: aliceblue;
@@ -180,10 +179,10 @@ button#botão1{
 }
 
 button#botão2{
-    margin-top: 92px;
-    margin-bottom: 50px;
+    margin-top: 110px;
+    margin-bottom: 10px;
     height: 60px;
-    width: 400px;
+    width: 380px;
     border: 0px;
     border-radius: 20px;
     font-weight: bold;
@@ -245,7 +244,7 @@ div.cards{
     margin-bottom: 50px;
     background-color: rgb(29, 29, 29);
     border: 2px solid white;
-    height: 560px;
+    height: 580px;
     width: 90vw;
 }
 
@@ -311,6 +310,6 @@ footer{
     flex-direction: column;
     background-image: linear-gradient(to right, rgb(96, 38, 38), black);
     padding-top: 50px;
-    height: 135vh;
+    height: 120vh;
     width: 100%;
 }
