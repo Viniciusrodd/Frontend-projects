@@ -1,13 +1,11 @@
 
 
-
-
-function avançou() {
-    let avançar = document.getElementById('avançar')
-    let carrosel = document.getElementById('cardscarrosel')
+function clicou() {
+    let iframe = document.getElementById('iframeID')
     
-   
-
+    if(clicou){
+        iframe.style.visibility = 'visible'
+    }
 }
 
 function rolar() {
