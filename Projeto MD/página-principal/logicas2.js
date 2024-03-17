@@ -5,10 +5,9 @@
 function avançou() {
     let avançar = document.getElementById('avançar')
     let carrosel = document.getElementById('cardscarrosel')
+    
+   
 
-    if(avançar = true){
-        carrosel.style.backgroundImage = "url('../imagens/bitcoin.jpg')"
-    }
 }
 
 function rolar() {
@@ -16,7 +15,7 @@ function rolar() {
 
     if(botão1 = true){
         window.scrollTo({
-            top: 950,
+            top: 960,
             behavior: 'smooth'
         })
     }
@@ -27,7 +26,7 @@ function rolar2() {
 
     if(botão2 = true){
         window.scrollTo({
-            top: 3600,
+            top: 3700,
             behavior: 'smooth'
         })
     }
