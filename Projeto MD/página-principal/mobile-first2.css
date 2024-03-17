@@ -27,7 +27,7 @@
 
     #h3header{
         color: white;
-        margin-right: 30px;
+        margin-right: 20px;
         font-size: 35px;
         align-self: center;
     }
@@ -57,7 +57,7 @@
         align-items: center;
         background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
         background-repeat: no-repeat;
-        height: 435vh;
+        height: 450vh;
         width: 100%;
         overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
         transition: width 2s, height 2s; /*Para tempo de transição entre devices breakpoints*/
@@ -130,7 +130,7 @@
 
     p.modeloP2{
         text-align: center;
-        font-size: 18px;
+        font-size: 17px;
         font-weight: bold;
         margin-bottom: 15px;
         flex-wrap: wrap;
@@ -290,7 +290,7 @@
     iframe{
         visibility: hidden;
         height: 400px;
-        width: 400px;
+        width: 370px;
         border-radius: 10px;
     }   
 
@@ -326,6 +326,6 @@
         flex-direction: column;
         background-image: linear-gradient(to right, rgb(96, 38, 38), black);
         padding-top: 50px;
-        height: 120vh;
+        height: 130vh;
         width: 100%;
     }
