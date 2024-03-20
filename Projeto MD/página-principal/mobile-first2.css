@@ -1,7 +1,4 @@
 @charset "UTF-8";
-
-
-@media screen and (min-width: 400px){
     
     *{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
@@ -30,7 +27,7 @@
 
     #h3header{
         color: white;
-        margin-right: 20px;
+        margin-right: 50px;
         font-size: 30px;
         align-self: center;
     }
@@ -60,7 +57,7 @@
         align-items: center;
         background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
         background-repeat: no-repeat;
-        height: 510vh;
+        min-height: 470vh;
         width: 100%;
         overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
         transition: width 2s, height 2s; /*Para tempo de transição entre devices breakpoints*/
@@ -251,7 +248,7 @@
         margin-bottom: 50px;
         background-color: rgb(29, 29, 29);
         border: 2px solid white;
-        height: 580px;
+        height: 90vh;
         width: 90vw;
     }
 
@@ -293,7 +290,7 @@
     iframe{
         visibility: hidden;
         height: 400px;
-        width: 330px;
+        width: 82vw;
         border-radius: 10px;
     }   
 
@@ -329,8 +326,7 @@
         flex-direction: column;
         background-image: linear-gradient(to right, rgb(96, 38, 38), black);
         padding-top: 50px;
-        height: 170vh;
+        height: 140vh;
         width: 100%;
     }
 
-}
