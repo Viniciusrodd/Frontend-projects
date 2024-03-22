@@ -1,5 +1,23 @@
 
 
+function mouseEntrou() {
+    let header = document.getElementById('hh')
+
+    if(mouseEntrou){
+        header.style.backgroundColor = 'rgba(255, 255, 78, 0.582)'
+    }
+
+        header.addEventListener('mouseleave', sair)
+        function sair() {
+            
+            if(sair){
+                header.style.backgroundColor = 'rgb(28, 28, 28)'
+            }
+        }
+}
+
+
+
 function clicou() {
     let iframe = document.getElementById('iframeID')
     
