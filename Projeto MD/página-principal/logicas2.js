@@ -29,10 +29,10 @@ function rolar() {
     let botão1 = document.getElementById('bheader1')
 
     if(botão1 = true){
-        window.scrollTo({
-            top: 960,
-            behavior: 'smooth'
-        })
+        let aula = document.getElementById('aula')
+            aula.scrollIntoView({
+                behavior: "smooth"
+            })
     }
 }
 
@@ -40,9 +40,9 @@ function rolar2() {
     let botão2 = document.getElementById('bheader2')
 
     if(botão2 = true){
-        window.scrollTo({
-            top: 3700,
-            behavior: 'smooth'
-        })
+        let biografia = document.getElementById('modeloS3')
+            biografia.scrollIntoView({
+                behavior: "smooth"
+            })
     }
 }
