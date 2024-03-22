@@ -10,7 +10,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to bottom, black, rgb(213, 213, 213), black);
+    background-image: linear-gradient(to right, pink, white);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,7 +24,7 @@ main{
 section#cadastro{
     margin: auto;
     align-items: center;
-    transform: translate(0%, 5%);
+    transform: translate(0%, 2%);
     background-color: white;
     width: 350px;
     height: 590px;
@@ -38,7 +38,8 @@ section#cadastro{
 
 div#imagem{
     display: block;
-    background: url(../imagens/dinheiro.jpg);
+    background: url(../imagens/busines.jpg);
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
@@ -46,7 +47,8 @@ div#imagem{
 
 div#formulario{
     display: block;
-    padding: 10px;
+    margin-top: 5px;
+    height: 380px;
 }
 
 #formulario > h1{
@@ -78,15 +80,10 @@ p.input{
 
 span{
     color: white;
-    background-color: rgb(20, 65, 32);
+    background-color: rgb(197, 197, 197);
+    border: 3px solid black;
     padding: 8px;
     border-radius: 8px;
-}
-
-span:hover{
-    background-color: rgb(0, 39, 0);
-    color: white;
-    border: 3px solid black;
 }
 
 input{
@@ -110,12 +107,9 @@ input#botão{
 }
 
 #botão:hover{
-    background-color: rgb(0, 42, 0);
-    color: white;
+    background-color: rgb(197, 197, 197);
     font-weight: bold;
     border: 3px solid black;
-    height: 45px;
-    width: 75px;
     cursor: pointer;
 }
 
