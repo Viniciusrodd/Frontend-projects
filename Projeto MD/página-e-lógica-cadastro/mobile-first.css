@@ -17,7 +17,7 @@ body{
 
 main{
     display: flex;
-    height: 90vh;
+    height: 95vh;
     width: 100%;
 }
 
@@ -27,7 +27,7 @@ section#cadastro{
     transform: translate(0%, 5%);
     background-color: white;
     width: 350px;
-    height: 570px;
+    height: 590px;
     border-radius: 25px;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.683);
@@ -63,14 +63,6 @@ div#formulario{
 }
 
 div.campo{
-    display: block;
-    width: 100%;
-    height: 40px;
-    border-radius: 5px;
-    margin: 5px, 0px;
-}
-
-div#resposta{
     display: block;
     width: 100%;
     height: 40px;
@@ -125,4 +117,19 @@ input#botão{
     height: 45px;
     width: 75px;
     cursor: pointer;
+}
+
+p#resposta{
+    margin-top: 10px;
+}
+
+a{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 42, 0);
+}
+a:hover{
+    color: rgb(0, 186, 0);
+    font-size: 16px;
+    transition: 0.5s;
 }
