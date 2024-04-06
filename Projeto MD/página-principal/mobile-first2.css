@@ -35,7 +35,7 @@
         background-color: white;
         height: 15vh;
         width: 100%;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     }
 
     #h3header{
@@ -65,10 +65,10 @@
 
     section.modeloS{
         margin: auto;
-        padding: 30px 0px 30px 0px;
+        padding: 0px 0px 30px 0px;
         justify-content: center;
         align-items: center;
-        background-image: white;
+        background-color: #eaefff3d;
         background-repeat: no-repeat;
         height: 410vh;
         width: 100%;
