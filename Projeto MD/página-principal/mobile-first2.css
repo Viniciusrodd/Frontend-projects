@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+:root{
+    --cor1: #C6D4FF;
+    --cor2: #7A82AB;
+    --cor3: #003554;
+    --cor4: #051923;
+    --cor5: #49D49D;
+}
+
+    mark{
+        background-color: var(--cor1);
+    }
+
     *{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
         'Open Sans', 'Helvetica Neue', sans-serif;
@@ -20,30 +32,35 @@
     header{
         display: flex;
         justify-content: center;
-        background-color: rgb(28, 28, 28);
+        background-color: white;
         height: 15vh;
         width: 100%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
 
     #h3header{
-        color: black;
-        border: 3px solid black;
-        background-color: yellow;
+        color: var(--cor3);
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
+        letter-spacing: 4px;
+        text-decoration: overline;
         padding: 8px;
-        margin-right: 50px;
+        margin-right: 20px;
         font-size: 30px;
         align-self: center;
     }
 
     .bheader{
+        color: var(--cor3);
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
+        background-color: var(--cor1);
+        border: 2.5px solid black;
+        border-radius: 30px;
         align-self: center;
-        background-color: yellow;
-        font-weight: bold;
-        border: 3px solid black;
-        font-size: 13px;
+        font-weight: bolder;
+        font-size: 16px;
         margin-left: 10px;
-        height: 35px;
-        width: 70px;
+        height: 40px;
+        width: 90px;
     }
 
     section.modeloS{
@@ -51,9 +68,9 @@
         padding: 30px 0px 30px 0px;
         justify-content: center;
         align-items: center;
-        background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
+        background-image: white;
         background-repeat: no-repeat;
-        height: 440vh;
+        height: 410vh;
         width: 100%;
         overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
         transition: width 2s, height 2s; /*Para tempo de transição entre devices breakpoints*/
@@ -68,8 +85,8 @@
         transition: width 0.5s, height 0.5s;
         transition-timing-function: ease;
         background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
-        border-top: 3px solid yellow;
-        border-bottom: 3px solid yellow;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
         background-repeat: no-repeat;
         height: 120vh;
         width: 100%;
@@ -87,7 +104,7 @@
         transition: width 0.5s, height 0.5s;
         transition-timing-function: ease;
         background-repeat: no-repeat;
-        height: 160vh;
+        height: 130vh;
         width: 100%;
         padding: 20px;
     }
@@ -105,7 +122,7 @@
     h1{
         font-size: 35px;
         color: black;
-        background-color: yellow;
+        background-color: var(--cor1);
         text-shadow: 0px 0px 4px 4px rgb(124, 124, 0);
         margin-bottom: 40px;
     }
@@ -121,7 +138,7 @@
         font-size: 25px;
         font-weight: bold;
         margin-bottom: 15px;
-        color: white;
+        color: black;
     }
 
     p.modeloP2{
@@ -130,11 +147,11 @@
         font-weight: bold;
         margin-bottom: 15px;
         flex-wrap: wrap;
-        color: white;
+        color: black;
     }
 
     p.modeloP3{
-        background-color: aliceblue;
+        background-color: #d5dffd;
         margin-top: 6px;
         text-align: center;
         font-size: 19px;
@@ -162,11 +179,10 @@
         border-radius: 20px;
         font-weight: bold;
         font-size: 17px;
-        background-color: rgb(0, 159, 0);
-        color: white;
+        background-color: var(--cor5);
         text-shadow: 0px 0px 5px 5px rgb(23, 23, 23);
+        box-shadow: 0px 0px 4px 4px #65d1a6;
         cursor: pointer;
-        box-shadow: 0px 0px 4px 4px rgb(99, 169, 99);
     }
     #botão1:hover{
         height: 60px;
@@ -179,7 +195,7 @@
     }
 
     button#botão2{
-        margin-top: 150px;
+        margin-top: 100px;
         margin-bottom: 10px;
         height: 60px;
         width: 380px;
@@ -187,11 +203,11 @@
         border-radius: 20px;
         font-weight: bold;
         font-size: 17px;
-        background-color: rgb(0, 159, 0);
         color: white;
-        text-shadow: 0px 0px 5px 5px rgb(23, 23, 23);
         cursor: pointer;
-        box-shadow: 0px 0px 4px 4px rgb(99, 169, 99);
+        background-color: var(--cor5);
+        text-shadow: 0px 0px 5px 5px rgb(23, 23, 23);
+        box-shadow: 0px 0px 4px 4px #65d1a6;
     }
     #botão2:hover{
         height: 60px;
@@ -210,11 +226,10 @@
         border-radius: 20px;
         font-weight: bold;
         font-size: 18px;
-        background-color: rgb(0, 159, 0);
-        color: white;
-        text-shadow: 0px 0px 5px 5px rgb(23, 23, 23);
         cursor: pointer;
-        box-shadow: 0px 0px 4px 4px rgb(99, 169, 99);
+        background-color: var(--cor5);
+        text-shadow: 0px 0px 5px 5px rgb(23, 23, 23);
+        box-shadow: 0px 0px 4px 4px #65d1a6;
     }
 
     #botão3:hover{
@@ -228,7 +243,7 @@
 
     a{
         text-decoration: none;
-        color: white;
+        color: black;
         text-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
     }
     a:hover{
@@ -242,9 +257,9 @@
         margin: auto;
         margin-top: 30px;
         margin-bottom: 50px;
-        background-color: rgb(29, 29, 29);
-        border: 2px solid white;
-        height: 90vh;
+        background-color: #eef2ff;
+        border: 3px solid black;
+        height: 80vh;
         width: 90vw;
     }
 
@@ -253,7 +268,6 @@
         background-size: cover;
         background-position: center center;
         align-self: baseline;
-        border: 2px solid white;
         background-color: orangered;
         height: 250px;
         width: 100vh;
@@ -266,7 +280,7 @@
         align-items: center;
         flex-direction: column;
         margin: auto;
-        background-color: rgb(29, 29, 29);
+        background-color: #eef2ff;
         height: 120vh;
         width: 100vw;
     }
@@ -274,13 +288,14 @@
     #cardscarrosel{
         text-align: center;
         margin-top: 20px;
-        background-color: aliceblue;
+        background-color: var(--cor1);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
         border-radius: 15px;
         height: 400px;
         width: 80vw;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     }
 
     iframe{
@@ -294,9 +309,10 @@
         margin-top: 15px;
         height: 50px;
         width: 100px;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
-        background-color: yellow;
+        background-color: var(--cor3);
+        color: white;
         border: 3px solid black;
         border-radius: 20px;
     }
@@ -320,9 +336,9 @@
         display: flex;
         justify-content: baseline;
         flex-direction: column;
-        background-image: linear-gradient(to right, rgb(96, 38, 38), black);
+        background-color: black;
         padding-top: 50px;
-        height: 140vh;
+        height: 120vh;
         width: 100%;
     }
 
