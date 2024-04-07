@@ -46,9 +46,8 @@ Breakpoint: acima de 1200px
 
     .bheader{
         border-radius: 30px;
-        font-size: 13px;
-        height: 40px;
-        width: 70px;
+        font-size: 14px;
+        margin-left: 10px;
     }
 
     h1{
