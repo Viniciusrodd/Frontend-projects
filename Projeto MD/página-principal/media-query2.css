@@ -45,6 +45,7 @@ Breakpoint: acima de 1200px
     }
 
     .bheader{
+        display: inline;
         border-radius: 30px;
         font-size: 14px;
         margin-left: 10px;
@@ -194,8 +195,13 @@ Breakpoint: acima de 1200px
         font-size: 35px;
         align-self: center;
     }
+
+    #pSpan{
+        display: none;
+    }
     
     .bheader{
+        display: inline;
         border-radius: 30px;
         font-size: 17px;
     }
@@ -349,7 +355,12 @@ Breakpoint: acima de 1200px
         justify-self: center;
     }
 
+    #pSpan{
+        display: none;
+    }
+
     .bheader{
+        display: inline;
         font-size: 25px;
         border-radius: 30px;
     }
