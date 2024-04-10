@@ -32,7 +32,7 @@
     header{
         display: flex;
         justify-content: center;
-        background-color: #e2e9fe;
+        background-color: #b6bfda;
         height: 15vh;
         width: 100%;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -53,13 +53,10 @@
         height: 30px;
         width: 30px;
         margin-top: 35px;
-        margin-left: 90px;
+        margin-left: 10px;
         cursor: pointer;
     }
-    #pSpan:hover{
-        background-color: var(--cor1);
-        border-radius: 70px;
-    }
+
 
     .material-symbols-outlined{
         height: 30px;
@@ -68,20 +65,16 @@
     
     .bheader{
         display: none;
+        text-decoration: overline;
         transition: opacity 1s ease;
-        color: var(--cor3);
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
+        color: var(--cor4);
         align-self: center;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
         font-weight: bolder;
         font-size: 18px;
         margin-top: 40px;
-        margin-left: 30px;
-        text-decoration: overline;
+        margin-left: 20px;
         cursor: pointer;
-    }
-    .bheader:hover{
-        background-color: var(--cor1);
-        padding: 3px;
     }
 
     section.modeloS{
@@ -93,7 +86,7 @@
         justify-content: center;
         align-items: center;
         background-color: #eaefff3d;
-        height: 410vh;
+        height: 425vh;
         width: 100%;
         overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
         transition: width 2s, height 2s; /*Para tempo de transição entre devices breakpoints*/
@@ -120,7 +113,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-image: url(../imagens/coach.jpg);
+        background-image: url(../imagens/pexels-karolina-grabowska-5942606\ \(1\).jpg);
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -153,7 +146,6 @@
     h2{
         margin-bottom: 35px;
         text-align: center;
-        background-color: aliceblue;
     }
 
     p.modeloP{
@@ -162,6 +154,7 @@
         font-weight: bold;
         margin-bottom: 15px;
         color: white;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
     }
 
     p.modeloP2{
@@ -171,6 +164,7 @@
         margin-bottom: 15px;
         flex-wrap: wrap;
         color: white;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
     }
 
     p.modeloP3{
@@ -180,6 +174,7 @@
         font-size: 19px;
         margin-bottom: 15px;
         color: white;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
     }
 
     p.modeloP4{
@@ -188,6 +183,7 @@
         text-align: center;
         margin-bottom: 15px;
         color: white;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
     }
 
     p.modeloP5{
@@ -227,7 +223,7 @@
     }
 
     button#botão2{
-        margin-top: 100px;
+        margin-top: 70px;
         margin-bottom: 10px;
         height: 60px;
         width: 380px;
@@ -291,8 +287,9 @@
         margin-bottom: 50px;
         background-color: var(--cor4);
         border: 3px solid black;
-        height: 80vh;
+        height: 85vh;
         width: 90vw;
+        padding: 20px;
     }
 
     div.imagemcard{

@@ -363,6 +363,11 @@ Breakpoint: acima de 1200px
         display: inline;
         font-size: 25px;
         border-radius: 30px;
+        margin-left: 40px;
+    }
+
+    .bheader:hover{
+        text-decoration: underline;
     }
 
     section.modeloS{

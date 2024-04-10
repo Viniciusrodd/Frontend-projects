@@ -49,8 +49,9 @@ function clicouSpan() {
     let botão1 = document.getElementById('bheader1')
     let botão2 = document.getElementById('bheader2')
     
-    if(clicouSpan){
-       menu.style.display = 'none'
+    if(clicouSpan = true){
+        menu.style.display = 'none'
+        menu.style.transform = 'rotate(90deg)'
         botão1.style.display = 'inline'
         botão2.style.display = 'inline'
     }
