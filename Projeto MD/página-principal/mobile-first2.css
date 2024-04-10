@@ -32,7 +32,7 @@
     header{
         display: flex;
         justify-content: center;
-        background-color: #b6bfda;
+        background-color: var(--cor2);
         height: 15vh;
         width: 100%;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -41,7 +41,7 @@
     #h3header{
         color: var(--cor4);
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
-        letter-spacing: 4px;
+        letter-spacing: 5px;
         text-decoration: overline;
         padding: 8px;
         margin-right: 20px;
@@ -53,7 +53,7 @@
         height: 30px;
         width: 30px;
         margin-top: 35px;
-        margin-left: 10px;
+        margin-left: 100px;
         cursor: pointer;
     }
 
@@ -79,7 +79,7 @@
 
     section.modeloS{
         background-image: url(../imagens/mulherdinheiro.jpg);
-        background-position: bottom;
+        background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
         margin: auto;
@@ -115,7 +115,6 @@
         flex-direction: column;
         background-image: url(../imagens/pexels-karolina-grabowska-5942606\ \(1\).jpg);
         background-size: cover;
-        background-repeat: no-repeat;
         overflow: hidden;
         transition: width 0.5s, height 0.5s;
         transition-timing-function: ease;
@@ -137,6 +136,7 @@
 
     h1{
         font-size: 35px;
+        text-align: center;
         color: white;
         background-color: var(--cor4);
         text-shadow: 0px 0px 4px 4px rgb(124, 124, 0);
@@ -186,7 +186,7 @@
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
     }
 
-    p.modeloP5{
+    p#modeloP5{
         text-align: center;
         font-size: 17px;
         font-weight: bold;

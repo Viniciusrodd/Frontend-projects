@@ -1,46 +1,16 @@
 
 
-let cardsCarrosel = document.getElementById('cardscarrosel')
-let divCor = document.getElementById('cor')
-let p = document.getElementById('modeloP5')
-let currentItem = 0
+let green = 'green'
+let purple  = 'purple'
 
-let arrayObject = [
-    {
-        id: 1,
-        cor: 'green',
-        info: 'blablabla111',
-    },
-    {
-        id: 2,
-        cor: 'orange',
-        info: 'blablabla222',
-    },
-    {
-        id:3,
-        cor: 'black',
-        info: 'blablabla333'
-    }
-]
+function clicoubtt() {
+    let cores = [green, purple]
+    
+    let random = Math.floor(Math.random() * cores.length)
 
-window.addEventListener('DOMContentLoaded', function() {
-    showItems()
-})
+    let divcor = document.getElementById('cor')
+    divcor.style.backgroundColor = cores[random]
 
-function showItems() {
-    let item = arrayObject[currentItem]
-
-    divCor.style = item.cor
-    p.textContent = item.info
-}
-
-function clicou() {
-    currentItem++
-
-    if(currentItem > arrayObject.length - 1){
-        currentItem = 0
-    }
-    showItems()
 }
 
 

@@ -373,7 +373,7 @@ Breakpoint: acima de 1200px
     section.modeloS{
         justify-content: center;
         align-items: center;
-        min-height: 530vh;
+        min-height: 540vh;
         width: 100%;
     }
 
@@ -427,7 +427,7 @@ Breakpoint: acima de 1200px
     /*COMEÇANDO OS CARDS*/
 
     div.cards{
-        height: 670px;
+        height: 700px;
         width: 60vw;
     }
     
@@ -459,18 +459,18 @@ Breakpoint: acima de 1200px
     /*COMEÇANDO CARDS INTERATIVOS*/
 
     section#modeloS2{
-        height: 750px;
+        height: 760px;
         width: 100%;
     }
 
     div#cardsinterativos{
-        height: 750px;
+        height: 760px;
         width: 100vw;
     }
 
     div#cardscarrosel{
         height: 400px;
-        width: 55vw;
+        width: 35vw;
     }
 
     iframe{
@@ -478,6 +478,11 @@ Breakpoint: acima de 1200px
         height: 400px;
         width: 55vw;
     }   
+
+    #cor{
+        width: 100%;
+        height: 400px;
+    }
 
     
 
@@ -487,7 +492,7 @@ Breakpoint: acima de 1200px
     section#modeloS3{
         height: 135vh;
         width: 100%;
-        background-position: center center;
+        background-position: bottom;
     }
 
     h2{
