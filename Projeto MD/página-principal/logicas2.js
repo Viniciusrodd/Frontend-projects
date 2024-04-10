@@ -1,19 +1,5 @@
 
 
-let green = 'green'
-let purple  = 'purple'
-
-function clicoubtt() {
-    let cores = [green, purple]
-    
-    let random = Math.floor(Math.random() * cores.length)
-
-    let divcor = document.getElementById('cor')
-    divcor.style.backgroundColor = cores[random]
-
-}
-
-
 function clicouSpan() {
     let menu = document.getElementById('pSpan')
     let botão1 = document.getElementById('bheader1')
