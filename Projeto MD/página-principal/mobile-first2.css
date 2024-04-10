@@ -93,7 +93,7 @@
         justify-content: center;
         align-items: center;
         background-color: #eaefff3d;
-        height: 450vh;
+        height: 410vh;
         width: 100%;
         overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
         transition: width 2s, height 2s; /*Para tempo de transição entre devices breakpoints*/
@@ -138,7 +138,7 @@
         flex-wrap: wrap;
         color: white;
         transform: translateY(40px);
-        margin-bottom: 50px;
+        margin-bottom: 15px;
     }
 
     h1{
@@ -282,13 +282,15 @@
         text-decoration: underline;
     }
 
+    #aula{
+        margin-top: 50px;
+    }
+
     div.cards{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin: auto;
-        margin-top: 30px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
         background-color: var(--cor4);
         border: 3px solid black;
         height: 85vh;
