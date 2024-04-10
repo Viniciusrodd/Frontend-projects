@@ -10,9 +10,10 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to right, #7A82AB, white);
+    background-image: url(../imagens/mulherdinheiro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
 }
 
 main{
@@ -27,7 +28,7 @@ section#cadastro{
     transform: translate(0%, 2%);
     background-color: white;
     width: 350px;
-    height: 590px;
+    height: 595px;
     border-radius: 25px;
     overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.683);
@@ -53,7 +54,6 @@ div#formulario{
 
 #formulario > h1{
     letter-spacing: 3px;
-    text-decoration: overline;
     font-size: 32px;
     text-align: center;
     margin-bottom: 10px;
@@ -123,6 +123,7 @@ p#resposta{
 }
 
 a{
+    margin-top: 20px;
     font-size: 15px;
     font-weight: bold;
     color: #003554;

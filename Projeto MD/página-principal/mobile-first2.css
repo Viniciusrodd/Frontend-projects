@@ -32,7 +32,7 @@
     header{
         display: flex;
         justify-content: center;
-        background-color: var(--cor2);
+        background-color: var(--cor1);
         height: 15vh;
         width: 100%;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -41,13 +41,14 @@
 
     #h3header{
         color: var(--cor4);
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.515);
         letter-spacing: 5px;
         text-decoration: overline;
         padding: 8px;
         margin-right: 20px;
         font-size: 30px;
         align-self: center;
+        font-size: 35px;
     }
 
     #pSpan{
@@ -179,7 +180,7 @@
     }
 
     p.modeloP4{
-        font-size: 16px;
+        font-size: 15px;
         margin-top: 10px;
         text-align: center;
         margin-bottom: 15px;
@@ -313,6 +314,7 @@
         background-color: var(--cor4);
         height: 110vh;
         width: 100vw;
+        padding: 20px;
     }
 
     #cardscarrosel{
