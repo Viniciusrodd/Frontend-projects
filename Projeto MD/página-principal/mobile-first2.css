@@ -55,7 +55,7 @@
         height: 30px;
         width: 30px;
         margin-top: 35px;
-        margin-left: 100px;
+        margin-left: 50px;
         cursor: pointer;
     }
     #pSpan:hover{
@@ -88,11 +88,12 @@
         background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
-        margin: auto;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: #eaefff3d;
-        height: 425vh;
+        height: 450vh;
         width: 100%;
         overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
         transition: width 2s, height 2s; /*Para tempo de transição entre devices breakpoints*/
@@ -229,15 +230,12 @@
     }
 
     button#botão2{
-        margin-top: 70px;
-        margin-bottom: 10px;
         height: 60px;
         width: 380px;
         border: 0px;
         border-radius: 20px;
         font-weight: bold;
         font-size: 17px;
-        color: white;
         cursor: pointer;
         background-color: var(--cor5);
         text-shadow: 0px 0px 5px 5px rgb(23, 23, 23);
