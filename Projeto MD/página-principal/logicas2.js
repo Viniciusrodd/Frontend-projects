@@ -8,8 +8,8 @@ function clicouSpan() {
     if(clicouSpan = true){
         menu.style.display = 'none'
         menu.style.transform = 'rotate(90deg)'
-        botão1.style.display = 'inline'
-        botão2.style.display = 'inline'
+        botão1.style.display = 'block'
+        botão2.style.display = 'block'
     }
 }
 
