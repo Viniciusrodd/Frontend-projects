@@ -4,10 +4,11 @@ function clicouSpan() {
     let menu = document.getElementById('pSpan')
     let botão1 = document.getElementById('bheader1')
     let botão2 = document.getElementById('bheader2')
+    let divBotoes = document.getElementById('botoes')
     
     if(clicouSpan = true){
         menu.style.display = 'none'
-        menu.style.transform = 'rotate(90deg)'
+        divBotoes.style.display = 'block'
         botão1.style.display = 'block'
         botão2.style.display = 'block'
     }

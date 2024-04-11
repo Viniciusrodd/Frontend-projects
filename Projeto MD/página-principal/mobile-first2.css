@@ -32,7 +32,7 @@
     header{
         display: flex;
         background-color: var(--cor1);
-        height: 15vh;
+        height: 17vh;
         width: 100%;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
         border-bottom: 4px solid black;
@@ -45,7 +45,7 @@
         letter-spacing: 5px;
         text-decoration: overline;
         padding: 8px;
-        margin-left: 20px;
+        margin-left: 50px;
         font-size: 30px;
         align-self: center;
         font-size: 35px;
@@ -57,7 +57,7 @@
         height: 30px;
         width: 30px;
         margin-top: 35px;
-        margin-left: 100px;
+        margin-left: 80px;
         cursor: pointer;
     }
     #pSpan:hover{
@@ -71,17 +71,26 @@
         width: 30px;
     }
     
+    div#botoes{
+        display: none;
+    }
+
+    #bheader1{
+        margin-top: 20px;
+    }
+
     .bheader{
         display: none;
-        text-decoration: overline;
+        text-decoration: underline;
         transition: opacity 1s ease;
         color: var(--cor4);
         align-self: center;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
         font-weight: bolder;
-        font-size: 18px;
-        margin-top: 40px;
-        margin-left: 20px;
+        font-size: 20px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 50px;
         cursor: pointer;
     }
 
@@ -95,7 +104,7 @@
         justify-content: center;
         align-items: center;
         background-color: #eaefff3d;
-        height: 410vh;
+        height: 400vh;
         width: 100%;
         overflow: hidden; /*Qualquer conteúdo que ultrapasse as bordas desse elemento será cortado (oculto) e não será exibido.*/
         transition: width 2s, height 2s; /*Para tempo de transição entre devices breakpoints*/
@@ -113,7 +122,7 @@
         border-top: 3px solid black;
         border-bottom: 3px solid black;
         background-repeat: no-repeat;
-        height: 110vh;
+        height: 100vh;
         width: 100%;
     }
 
@@ -170,7 +179,7 @@
         text-align: center;
         font-size: 17px;
         font-weight: bold;
-        margin-bottom: 15px;
+        margin-bottom: 8px;
         flex-wrap: wrap;
         color: white;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
@@ -209,7 +218,7 @@
     }
 
     button#botão1{
-        margin-top: 22px;
+        margin-top: 20px;
         height: 50px;
         width: 360px;
         border: 0px;
@@ -318,7 +327,7 @@
         flex-direction: column;
         margin: auto;
         background-color: var(--cor4);
-        height: 110vh;
+        height: 100vh;
         width: 100vw;
         padding: 20px;
     }
