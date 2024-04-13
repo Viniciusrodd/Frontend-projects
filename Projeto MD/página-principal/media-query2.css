@@ -193,19 +193,38 @@ Breakpoint: acima de 1200px
     }
 
     #h3header{
-        margin-right: 120px;
+        margin-right: 150px;
+        margin-left: 10px;
         font-size: 35px;
         align-self: center;
     }
 
     #pSpan{
+        display: inline;
+        height: 35px;
+        width: 35px;
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+
+    div#botoes{
         display: none;
     }
     
     .bheader{
-        display: inline;
+        text-decoration: none;
+        display: block;
         border-radius: 30px;
-        font-size: 17px;
+        margin-left: 40px;
+        font-size: 19px;
+    }
+
+    .bheader:hover{
+        text-decoration: underline;
+    }
+
+    #bheader1{
+        margin-top: 30px;
     }
 
     section.modeloS{
@@ -350,7 +369,8 @@ Breakpoint: acima de 1200px
     }  
 
     #h3header{
-        margin-right: 330px;
+        margin-right: 390px;
+        margin-left: 10px;
         font-size: 50px;
         letter-spacing: 8px;
         align-self: center;
@@ -358,14 +378,28 @@ Breakpoint: acima de 1200px
     }
 
     #pSpan{
+        display: inline;
+        height: 45px;
+        width: 45px;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+    div#botoes{
         display: none;
     }
 
+    #bheader1{
+        margin-top: 30px;
+    }
+
     .bheader{
-        display: inline;
+        text-decoration: none;
+        display: block;
         font-size: 25px;
         border-radius: 30px;
         margin-left: 40px;
+        font-size: 25px;
     }
 
     .bheader:hover{
