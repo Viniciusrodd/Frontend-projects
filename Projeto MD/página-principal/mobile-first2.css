@@ -31,6 +31,9 @@
 
     header{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
         background-color: var(--cor1);
         height: 17vh;
         width: 100%;
@@ -38,22 +41,16 @@
         border-bottom: 4px solid black;
     }
 
-    #h3header{
-        justify-self: flex-start;
+    #h3header{ 
         color: var(--cor4);
         text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.515);
         letter-spacing: 5px;
-        text-decoration: overline;
-        margin-left: 70px;
-        align-self: center;
+        text-decoration: overline;  
     }
 
-    #pSpan{
-        justify-self: flex-end;
-        align-self: center;
+    #pSpan{ 
         height: 30px;
         width: 30px;
-        margin-top: 40px;
         margin-left: 80px;
         cursor: pointer;
     }
@@ -61,19 +58,9 @@
         transform: rotate(90deg);
         transition: transform 1s ease;
     }
-
-
-    .material-symbols-outlined{
-        height: 30px;
-        width: 30px;
-    }
     
     div#botoes{
         display: none;
-    }
-
-    #bheader1{
-        margin-top: 25px;
     }
 
     .bheader{
@@ -81,12 +68,11 @@
         text-decoration: underline;
         transition: opacity 1s ease;
         color: var(--cor4);
-        align-self: center;
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
         font-weight: bolder;
         font-size: 17px;
         margin-bottom: 4px;
-        margin-left: 50px;
+        margin-left: 80px;
         cursor: pointer;
     }
 
@@ -97,7 +83,6 @@
         background-size: cover;
         display: flex;
         flex-direction: column;
-        
         align-items: center;
         background-color: #eaefff3d;
         height: 410vh;
@@ -108,7 +93,8 @@
     }
 
     section#modeloS2{
-        margin: auto;
+        display: flex;
+        justify-content: center;
         align-items: center;
         overflow: hidden;
         transition: width 0.5s, height 0.5s;
@@ -152,13 +138,8 @@
         text-align: center;
         color: white;
         background-color: var(--cor4);
-        text-shadow: 0px 0px 4px 4px rgb(124, 124, 0);
+        text-shadow: 0px 0px 4px 4px rgb(0, 0, 0);
         margin-bottom: 40px;
-    }
-
-    h2{
-        margin-bottom: 35px;
-        text-align: center;
     }
 
     p.modeloP{
