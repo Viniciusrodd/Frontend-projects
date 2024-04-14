@@ -42,9 +42,10 @@
     }
 
     #h3header{ 
+        font-size: 30px;
         color: var(--cor4);
         text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.515);
-        letter-spacing: 5px;
+        letter-spacing: 4px;
         text-decoration: overline;  
     }
 
@@ -66,12 +67,13 @@
     .bheader{
         display: none;
         text-decoration: underline;
+        letter-spacing: 2px;
         transition: opacity 1s ease;
         color: var(--cor4);
-        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.515);
+        text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.515);
         font-weight: bolder;
-        font-size: 17px;
-        margin-bottom: 4px;
+        text-align: center;
+        font-size: 19px;
         margin-left: 80px;
         cursor: pointer;
     }
