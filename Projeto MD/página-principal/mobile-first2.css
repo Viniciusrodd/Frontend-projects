@@ -86,6 +86,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         background-color: #eaefff3d;
         height: 410vh;
         width: 100%;
@@ -220,7 +221,6 @@
     }
 
     button#botão2{
-        margin-top: 10px;
         height: 60px;
         width: 380px;
         border: 0px;
