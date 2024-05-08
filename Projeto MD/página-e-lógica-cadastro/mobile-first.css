@@ -60,7 +60,6 @@ div#formulario{
 }
 
 #formulario > p{
-    text-decoration: underline;
     margin-bottom: 15px;
     font-size: 19px;
     font-weight: bold;

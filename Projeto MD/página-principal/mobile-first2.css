@@ -67,7 +67,6 @@
     .bheader{
         display: none;
         text-decoration: underline;
-        letter-spacing: 2px;
         transition: opacity 1s ease;
         color: var(--cor4);
         text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.515);
@@ -86,7 +85,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         background-color: #eaefff3d;
         height: 410vh;
         width: 100%;
@@ -102,11 +100,10 @@
         overflow: hidden;
         transition: width 0.5s, height 0.5s;
         transition-timing-function: ease;
-        background-image: linear-gradient(to bottom, black, black, rgb(156, 156, 156));
         border-top: 3px solid black;
         border-bottom: 3px solid black;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 105vh;
         width: 100%;
     }
 
@@ -303,25 +300,12 @@
     div#cardsinterativos{
         display: flex;    
         align-items: center;
+        justify-content: center;
         flex-direction: column;
         background-color: var(--cor4);
-        height: 100vh;
+        height: 110vh;
         width: 100vw;
         padding: 20px;
-    }
-
-    #cardscarrosel{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 20px;
-        background-color: var(--cor1);
-        border-radius: 15px;
-        height: 400px;
-        width: 80vw;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     }
 
     iframe{
