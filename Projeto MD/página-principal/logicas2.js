@@ -5,13 +5,12 @@ function clicouSpan() {
     let botão1 = document.getElementById('bheader1')
     let botão2 = document.getElementById('bheader2')
     let divBotoes = document.getElementById('botoes')
-    
-    if(clicouSpan = true){
-        menu.style.display = 'none'
-        divBotoes.style.display = 'block'
-        botão1.style.display = 'block'
-        botão2.style.display = 'block'
-    }
+        if(clicouSpan = true){
+            menu.style.display = 'none'
+            divBotoes.style.display = 'block'
+            botão1.style.display = 'block'
+            botão2.style.display = 'block'
+        }
 }
 
 

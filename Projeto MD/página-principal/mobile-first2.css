@@ -34,7 +34,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-color: var(--cor1);
+        background-color: var(--cor2);
         height: 17vh;
         width: 100%;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
@@ -54,6 +54,7 @@
         width: 30px;
         margin-left: 80px;
         cursor: pointer;
+        color: var(--cor1);
     }
     #pSpan:hover{
         transform: rotate(90deg);
@@ -77,6 +78,10 @@
         cursor: pointer;
     }
 
+    #bheader1{
+        margin-bottom: 6px;
+    }
+
     section.modeloS{
         background-image: url(../imagens/mulherdinheiro.jpg);
         background-position: right;
@@ -84,6 +89,7 @@
         background-size: cover;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         background-color: #eaefff3d;
         height: 410vh;
