@@ -50,10 +50,10 @@ Breakpoint: acima de 1200px
         color: white;
     }
 
-    div#container{
+    div#container-pai{
         height: 100vh;
         width: 100%;
-        background-color: red;
+        background-color: white;
         overflow-x: hidden;
     }
 
@@ -68,25 +68,25 @@ Breakpoint: acima de 1200px
         background-color: white;
     }
 
-    h1#h1Header{
+    h1#h1-Header{
         font-size: 40px;
         font-style: italic;
         text-decoration: overline;
     }
 
-    div#opçõesHeader{
+    div#opções-Header{
         display: flex;
         align-items: center;
         flex-direction: row;
     }
 
-    p.pHeader{
+    p.p-Header{
         font-size: 18px;
         margin-right: 25px;
         font-weight: bold;
     }
 
-    button#bHeader{
+    button#b-Header{
         font-size: 16px;
         font-weight: bold;
         color: white;
@@ -97,7 +97,7 @@ Breakpoint: acima de 1200px
         border-radius: 40px;
     }
 
-    div#containerSection{
+    div#containerSection1{
         display: flex;
         justify-content: center;
         height: 110vh;
@@ -114,7 +114,7 @@ Breakpoint: acima de 1200px
     }
 
 
-    div#container-div-Section1{
+    div#container-pai-s1{
         margin-top: 80px;
         margin-left: 60px;
         display: flex;
@@ -126,7 +126,7 @@ Breakpoint: acima de 1200px
         border-radius: 30px;
     }
 
-    div#div-Section1{
+    div#div-filho-s1{
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -135,7 +135,7 @@ Breakpoint: acima de 1200px
         
     }
 
-    p#p-div-Section1{
+    p#p-div-s1{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bolder;
         font-size: 40px;
@@ -145,7 +145,7 @@ Breakpoint: acima de 1200px
         margin-left: 20px;
     }
 
-    p#p2-div-Section1{
+    p#p2-div-s1{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
         font-size: 17px;
@@ -156,12 +156,14 @@ Breakpoint: acima de 1200px
         margin-left: 20px;
     }
 
-    div#div2-Section1{
+    div#div-login{
         height: 60vh;
         width: 35%;
         background-color: orange;
-        border-radius: 20px;
+        border-radius: 0px 20px 20px 0px;
     }
+
+    
 
     section#s2{
         display: flex;
