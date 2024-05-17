@@ -19,13 +19,28 @@ Monitores grandes ou telas de alta resolução:
 Breakpoint: acima de 1200px
 */
 
+:root{
+    --cor1: #C6D4FF;
+    --cor2: #7A82AB;
+    --cor3: #003554;
+    --cor4: #051923;
+    --cor5: #49D49D;
+}
 
+
+/*PARA TABLETS*/
 @media screen and (min-width: 680px) and (max-width: 992px) {
 
 }
 
 /*PARA PCs E TVs:*/
-
 @media screen and (min-width: 992px) {
+    *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0px;
+        padding: 0px;
+    }
+
     
 }
