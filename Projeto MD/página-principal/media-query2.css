@@ -24,7 +24,7 @@ Breakpoint: acima de 1200px
     --cor2: #7A82AB;
     --cor3: #003554;
     --cor4: #051923;
-    --cor5: #49D49D;
+    --cor5: #49D49D;    
 }
 
 
@@ -261,7 +261,7 @@ Breakpoint: acima de 1200px
     div#containerSection3{
         display: flex;
         justify-content: center;
-        height: 190vh;
+        height: 120vh;
         width: 100%;
         background-color: white;
     }
@@ -273,7 +273,7 @@ Breakpoint: acima de 1200px
         align-items: center;
         height: 120vh;
         width: 90%;
-        background-color: #003554;
+        background-image: linear-gradient(to bottom, #051923, #003554, #C6D4FF )
     }
 
     div#biografia{
@@ -281,9 +281,10 @@ Breakpoint: acima de 1200px
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        height: 110vh;
+        height: 105vh;
         width: 70%;
         background-color: white;
+        border-radius: 40px;
     }
 
     h1#titulo-biografia{
@@ -297,8 +298,42 @@ Breakpoint: acima de 1200px
 
     .p-biografia{
         text-align: center;
-        font-size: 20px;
+        font-size: 22px;
         font-weight: bold;
         margin-bottom: 30px;
+    }
+
+
+    div#redes-sociais-imagens{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+        width: 35%;
+    }
+
+    a{
+        margin-right: 10px;
+    }
+
+    img{
+        height: 60px;
+        width: 60px;
+    }
+
+    section#s6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        width: 100%;
+        background-color: white;
+    }
+
+    .p-footer{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
     }
 }
