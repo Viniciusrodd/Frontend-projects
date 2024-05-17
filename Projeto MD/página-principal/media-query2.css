@@ -95,6 +95,10 @@ Breakpoint: acima de 1200px
         background-color: orange;
         border: 0px;
         border-radius: 40px;
+        cursor: pointer;
+    }
+    #b-header:hover{
+        text-decoration: underline;
     }
 
     div#containerSection1{
@@ -157,13 +161,72 @@ Breakpoint: acima de 1200px
     }
 
     div#div-login{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
         height: 60vh;
         width: 35%;
-        background-color: orange;
+        background-color: var(--cor4);
         border-radius: 0px 20px 20px 0px;
     }
 
-    
+    #p-login{
+        font-size: 22px;
+        font-weight: bold;
+        text-decoration: overline;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        color: white;
+    }
+
+    ul{
+        margin-left: 20px;
+    }
+
+    .p-li{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: white;
+    }
+
+    input#inome{
+        margin-top: 10px;
+    }
+
+    .input-login{
+        height: 35px;
+        width: 300px;
+        margin-bottom: 8px;
+        border: 2px solid black;
+        border-radius: 30px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    ::placeholder{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    #button-login{
+        height: 45px;
+        width: 300px;
+        margin-top: 10px;
+        border-radius: 30px;
+        border: 0px;
+        background-color: orange;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+    }
+    #button-login:hover{
+        text-decoration: underline;
+    }
 
     section#s2{
         display: flex;
@@ -197,9 +260,7 @@ Breakpoint: acima de 1200px
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
-        background-image: url(../imagens/mulherdinheiro.jpg);
-        background-size: cover;
-        background-position: bottom bottom;
+        background-color: var(--cor2);
         height: 190vh;
         width: 90%;
     }
