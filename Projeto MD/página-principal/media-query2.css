@@ -45,6 +45,11 @@ Breakpoint: acima de 1200px
         padding: 0px;
     }
 
+    mark{
+        background-color: orange;
+        color: white;
+    }
+
     div#container{
         height: 100vh;
         width: 100%;
@@ -63,6 +68,12 @@ Breakpoint: acima de 1200px
         background-color: white;
     }
 
+    h1#h1Header{
+        font-size: 40px;
+        font-style: italic;
+        text-decoration: overline;
+    }
+
     div#opçõesHeader{
         display: flex;
         align-items: center;
@@ -79,23 +90,23 @@ Breakpoint: acima de 1200px
         font-size: 16px;
         font-weight: bold;
         color: white;
-        height: 40px;
-        width: 180px;
+        height: 45px;
+        width: 190px;
         background-color: orange;
         border: 0px;
-        border-radius: 20px;
+        border-radius: 40px;
     }
 
     div#containerSection{
         display: flex;
         justify-content: center;
-        height: 200vh;
+        height: 110vh;
         width: 100%;
         background-color: white;
     }
 
-    section{
-        height: 130vh;
+    section#s1{
+        height: 110vh;
         width: 90vw;
         background-image: url(../imagens/mulherdinheiro.jpg);
         background-size: cover;
@@ -103,18 +114,19 @@ Breakpoint: acima de 1200px
     }
 
 
-    div#containerSection1e2{
+    div#container-div-Section1{
         margin-top: 80px;
         margin-left: 60px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        height: 65vh;
+        height: 60vh;
         width: 90%;
-        background-color: black;
+        background-color: white;
+        border-radius: 30px;
     }
 
-    div#section1{
+    div#div-Section1{
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -123,29 +135,126 @@ Breakpoint: acima de 1200px
         
     }
 
-    p#pSection1{
+    p#p-div-Section1{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bolder;
         font-size: 40px;
         font-style: italic;
         width: 100%;
-        color: white;
+        color: black;
+        margin-left: 20px;
     }
 
-    p#pSection2{
+    p#p2-div-Section1{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
         font-size: 17px;
         font-style: italic;
         width: 100%;
-        color: white;
+        color: black;
         margin-top: 20px;
+        margin-left: 20px;
     }
 
-    div#section2{
+    div#div2-Section1{
         height: 60vh;
         width: 35%;
-        background-color: violet;
+        background-color: orange;
         border-radius: 20px;
+    }
+
+    section#s2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        width: 100%;
+        background-color: white;
+        
+    }
+
+    p#p-Section2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+    }
+
+    div#containerSection2{
+        display: flex;
+        justify-content: center;
+        height: 190vh;
+        width: 100%;
+        background-color: white;
+    }
+
+    section#s3{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-image: url(../imagens/mulherdinheiro.jpg);
+        background-size: cover;
+        background-position: bottom bottom;
+        height: 190vh;
+        width: 90%;
+    }
+
+    div.cards{
+        display: flex;
+        align-items: center;
+        height: 50vh;
+        width: 95%;
+    }
+
+    div.imagem-cards{
+        height: 50vh;
+        width: 40%;
+        background-image: url(../imagens/cardimage.jpg);
+        background-size: cover;
+        background-position: center center;
+        border: 4px solid white;
+    }
+
+    div.descrição-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: 60%;
+        padding: 10px;
+        border: 3px solid white;
+        background-color: var(--cor4);
+    }
+
+    p.p-cards{
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    section#s4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        width: 100%;
+        background-color: white;
+    }
+
+    #button-section4{
+        height: 70px;
+        width: 300px;
+        border-radius: 40px;
+        border: 0px;
+        background-color: orange;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
     }
 }
