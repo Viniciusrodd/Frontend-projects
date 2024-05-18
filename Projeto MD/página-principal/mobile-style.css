@@ -157,6 +157,41 @@
     p.p-cards {
         font-size: 18px;
     }
+
+    /*SECTION 4*/
+
+    /*SECTION 5*/
+
+    div#containerSection5 {
+        height: 105vh;
+        width: 100%;
+    }
+
+    section#s5 {
+        height: 105vh;
+        width: 100%;
+    }
+
+    /*BIOGRAFIA*/
+
+    div#biografia {
+        height: 105vh;
+        width: 100%;
+        background-image: linear-gradient(to bottom, white, #C6D4FF, white);
+    }
+
+    h1#titulo-biografia {
+        margin-top: 50px;
+        font-size: 35px;
+    }
+
+    .p-biografia {
+        font-size: 19px;
+    }
+
+    div#redes-sociais-imagens {
+        width: 55%;
+    }
 }
 
 
