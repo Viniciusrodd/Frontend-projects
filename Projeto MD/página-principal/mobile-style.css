@@ -8,27 +8,20 @@
     --cor5: #49D49D;
 }
 
-@media screen and (max-width: 767px){
-    *{
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-        'Open Sans', 'Helvetica Neue', sans-serif;
-        margin: 0px;
-        padding: 0px;
+@media screen and (max-width: 767px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
     
-    body, html{
-        margin: 0px;
-        padding: 0px;
-    }
-    
-    mark{
+    mark {
         background-color: orange;
         color: white;
     }
 
     /*CONTAINER PAI*/
-
-    div#container-pai{
+    div#container-pai {
         height: 100vh;
         width: 100%;
         background-color: white;
@@ -36,8 +29,7 @@
     }
 
     /*HEADER*/
-
-    header{
+    header {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -48,19 +40,19 @@
         border-bottom: 3px solid black;
     }
 
-    h1#h1-Header{
+    h1#h1-Header {
         font-size: 35px;
         font-style: italic;
         text-decoration: overline;
     }
 
-    div#opções-Header{
+    div#opções-Header {
         display: flex;
         align-items: center;
         flex-direction: row;
     }
 
-    p.p-Header{
+    p.p-Header {
         font-size: 18px;
         margin-right: 20px;
         font-weight: bold;
@@ -68,16 +60,12 @@
         color: orange;
     }
 
-    button#b-Header{
+    button#b-Header {
         display: none;
     }
-    
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 991px){
-    
-}
 
 
 
