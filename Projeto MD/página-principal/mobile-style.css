@@ -40,7 +40,7 @@
     }
 
     p.p-Header {
-        font-size: 18px;
+        font-size: 19px;
         margin-right: 20px;
         cursor: pointer;
         color: orange;
@@ -160,6 +160,15 @@
 
     /*SECTION 4*/
 
+    section#s4 {
+        height: 25vh;
+    }
+
+    #button-section4 {
+        height: 65px;
+        width: 300px;
+    }
+
     /*SECTION 5*/
 
     div#containerSection5 {
@@ -192,14 +201,14 @@
     div#redes-sociais-imagens {
         width: 55%;
     }
+
+    /*SECTION 6*/
+
+    section#s6 {
+        height: 20vh;
+    }
+
+    .p-footer {
+        font-size: 18px;
+    }
 }
-
-
-
-
-
-
-
-
-   
-
