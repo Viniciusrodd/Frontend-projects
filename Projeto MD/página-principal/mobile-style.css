@@ -59,6 +59,7 @@
     section#s1 {
         height: 130vh;
         width: 100vw;
+        border-radius: 0px;
     }
 
     div#container-pai-s1 {
@@ -68,7 +69,7 @@
         align-items: center;
         flex-direction: column;
         height: 110vh;
-        width: 90%;
+        width: 80%;
         padding: 0px 10px 0px 10px;
     }
 
@@ -119,22 +120,20 @@
     /*SECTION 2*/
 
     p#p-Section2 {
-        height: 20vh;
         font-size: 23px;
-        border-bottom: 2px solid black;
     }
 
     /*SECTION 3*/
 
     div#containerSection3 {
-        height: 265vh;
+        height: 270vh;
         width: 100%;
     }
 
     section#s3 {
         justify-content: center;
         flex-direction: column;
-        height: 265vh;
+        height: 270vh;
         width: 100%;
     }
 
@@ -148,7 +147,7 @@
 
     div.imagem-cards {
         height: 40vh;
-        width: 98%;
+        width: 100%;
         margin-top: 20px;
     }
 
@@ -182,20 +181,20 @@
     section#s5 {
         height: 105vh;
         width: 100%;
-        border-radius: 0px;
     }
 
     /*BIOGRAFIA*/
 
     div#biografia {
-        height: 100vh;
-        width: 90%;
+        height: 105vh;
+        width: 100%;
         background-color: var(--cor4);
         padding: 0px 10px 0px 10px;
+        border-radius: 0px
     }
 
     h1#titulo-biografia {
-        margin-top: 30px;
+        margin-top: 50px;
         font-size: 35px;
     }
 
