@@ -277,7 +277,7 @@ body, html {
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
-        background-color: var(--cor2);
+        background-image: linear-gradient(to bottom, white, #C6D4FF, white);
         height: 190vh;
         width: 90%;
         padding: 0px 10px 0px 10px;
@@ -295,10 +295,9 @@ body, html {
     div.imagem-cards {
         height: 50vh;
         width: 40%;
-        background-image: url(../imagens/cardimage.jpg);
+        background-image: url(../imagens/aulas-card.jpg);
         background-size: cover;
         background-position: center center;
-        border: 4px solid white;
     }
 
     div.descrição-cards {
@@ -365,7 +364,7 @@ body, html {
         align-items: center;
         height: 120vh;
         width: 90%;
-        background-image: linear-gradient(to bottom, white, #C6D4FF, white);
+        background-image: linear-gradient(to bottom, white, white, #C6D4FF,white, white);
     }
 
     /*BIOGRAFIA*/
@@ -378,7 +377,6 @@ body, html {
         height: 105vh;
         width: 70%;
         background-color: white;
-        border-radius: 40px;
     }
 
     h1#titulo-biografia {
