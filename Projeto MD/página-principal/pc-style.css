@@ -137,7 +137,7 @@ body, html {
         align-items: center;
         height: 62vh;
         width: 90%;
-        background-image: url(../imagens/abstract4.jpg);
+        background-image: url(../imagens/abstract2.jpg);
         background-size: cover;
         border-radius: 30px;
     }
@@ -156,7 +156,7 @@ body, html {
         font-size: 40px;
         font-style: italic;
         width: 100%;
-        color: white;
+        color: black;
         margin-left: 20px;
     }
 
@@ -166,7 +166,7 @@ body, html {
         font-size: 17px;
         font-style: italic;
         width: 120%;
-        color: white;
+        color: black;
         margin-top: 10px;
         margin-left: 20px;
     }
@@ -187,7 +187,7 @@ body, html {
     #p-login {
         font-size: 22px;
         font-weight: bold;
-        text-decoration: overline;
+        text-decoration: underline;
         margin-top: 25px;
         margin-bottom: 5px;
         color: white;
@@ -300,6 +300,9 @@ body, html {
         background-image: url(../imagens/cardimage.jpg);
         background-size: cover;
         background-position: center center;
+        border-top: 4px solid white;
+        border-left: 4px solid white;
+        border-bottom: 4px solid white;
     }
 
     div.descrição-cards {
@@ -379,8 +382,9 @@ body, html {
         justify-content: flex-start;
         height: 105vh;
         width: 70%;
-        background-image: url(../imagens/biografia.jpg);
+        background-image: url(../imagens/abstract2.jpg);
         background-size: cover;
+        background-position: center center;
         border-radius: 40px;
     }
 
@@ -391,7 +395,7 @@ body, html {
         font-weight: bold;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: italic;
-        color: white;
+        color: black;
     }
 
     .p-biografia {
@@ -399,7 +403,7 @@ body, html {
         font-size: 22px;
         font-weight: bold;
         margin-bottom: 10px;
-        color: white;
+        color: black;
     }
 
     div#redes-sociais-imagens {
