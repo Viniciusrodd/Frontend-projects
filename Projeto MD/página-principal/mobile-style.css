@@ -32,7 +32,6 @@
     header {
         height: 13vh;
         background-color: white;
-        border-bottom: 3px solid black;
     }
 
     h1#h1-Header {
@@ -70,6 +69,7 @@
         flex-direction: column;
         height: 110vh;
         width: 80%;
+        padding: 0px 10px 0px 10px;
     }
 
     div#div-filho-s1 {
@@ -99,6 +99,7 @@
         height: 90vh;
         width: 100%;
         border-radius: 0 0px 20px 20px;
+        padding: 0px 10px 0px 10px;
     }
 
     #p-login {
@@ -187,6 +188,7 @@
         height: 105vh;
         width: 100%;
         background-image: linear-gradient(to bottom, white, #C6D4FF, white);
+        padding: 0px 10px 0px 10px;
     }
 
     h1#titulo-biografia {
@@ -206,6 +208,7 @@
 
     section#s6 {
         height: 20vh;
+        padding: 0px 10px 0px 10px;
     }
 
     .p-footer {

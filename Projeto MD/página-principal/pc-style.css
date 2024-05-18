@@ -266,6 +266,7 @@ body, html {
         background-color: var(--cor2);
         height: 190vh;
         width: 90%;
+        padding: 0px 10px 0px 10px;
     }
 
     /*CARDS*/
