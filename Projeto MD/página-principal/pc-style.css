@@ -27,10 +27,9 @@ Breakpoint: acima de 1200px
     --cor5: #49D49D;    
 }
 
-
-/*PARA TABLETS*/
-@media screen and (min-width: 680px) and (max-width: 992px) {
-
+body, html{
+    margin: 0px;
+    padding: 0px;
 }
 
 /*PARA PCs E TVs:*/
@@ -40,15 +39,12 @@ Breakpoint: acima de 1200px
         'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
-    body, html{
-        margin: 0px;
-        padding: 0px;
-    }
-
     mark{
         background-color: orange;
         color: white;
     }
+
+    /*CONTAINER PAI*/
 
     div#container-pai{
         height: 100vh;
@@ -57,9 +53,10 @@ Breakpoint: acima de 1200px
         overflow-x: hidden;
     }
 
+    /*HEADER*/
+
     header{
         display: flex;
-        align-self: baseline;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
@@ -104,6 +101,8 @@ Breakpoint: acima de 1200px
     #b-Header:hover{
         text-decoration: underline;
     }
+
+    /*SECTION 1*/
 
     div#containerSection1{
         display: flex;
@@ -163,6 +162,8 @@ Breakpoint: acima de 1200px
         margin-top: 20px;
         margin-left: 20px;
     }
+
+    /*LOGIN*/
 
     div#div-login{
         display: flex;
@@ -231,6 +232,8 @@ Breakpoint: acima de 1200px
         text-decoration: underline;
     }
 
+    /*SECTION 2*/
+
     section#s2{
         display: flex;
         justify-content: center;
@@ -250,7 +253,9 @@ Breakpoint: acima de 1200px
         font-weight: bold;
     }
 
-    div#containerSection2{
+    /*SECTION 3*/
+
+    div#containerSection3{
         display: flex;
         justify-content: center;
         height: 190vh;
@@ -304,6 +309,8 @@ Breakpoint: acima de 1200px
         margin-bottom: 10px;
     }
 
+    /*SECTION 4*/
+
     section#s4{
         display: flex;
         justify-content: center;
@@ -328,7 +335,9 @@ Breakpoint: acima de 1200px
         text-decoration: underline;
     }
 
-    div#containerSection3{
+    /*SECTION 5*/
+
+    div#containerSection5{
         display: flex;
         justify-content: center;
         height: 120vh;
