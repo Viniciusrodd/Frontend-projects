@@ -6,7 +6,6 @@
     <title>Página principal</title>
     <link rel="stylesheet" href="pc-style.css">
     <link rel="stylesheet" href="mobile-style.css">
-    <script src="../página-principal/logicas2.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
@@ -21,7 +20,7 @@
                     Aulas
                 </p>
                 <button id="b-Header">
-                    Cadastre-se
+                    <a class="a-button" href="../página-login/cadastro.html" target="_blank">Cadastre-se</a>
                 </button>
             </div>
         </header>
@@ -57,7 +56,9 @@
 
                         <input type="number" name="numero" id="inumero" class="input-login" placeholder="Insira seu WhatsApp" required>
 
-                        <button id="button-login">Confira nosso Curso</button>
+                        <button id="button-login">
+                            <a class="a-button" href="../página-login/cadastro.html" target="_blank">Receba novidades</a>
+                        </button>
                     </div>  
                 </div>
             </section>
@@ -133,7 +134,7 @@
 
         <section id="s4">
             <button id="button-section4">
-                Quero me inscrever agora
+                <a class="a-button" href="../página-login/cadastro.html" target="_blank">Quero me inscrever agora</a>
             </button>
         </section>
 
@@ -162,17 +163,17 @@
                         <mark>Presente em:</mark>
                     </p>
                     <div id="redes-sociais-imagens">
-                        <a href="#">
-                            <img src="../imagens/logo-instagram.jpg" alt="logohome"> <br>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img src="../imagens/logo-instagram.jpg" alt="logoinsta"> <br>
                         </a>
-                        <a href="#">
-                            <img src="../imagens/logo-facebook.jpg" alt="logogithub"> <br>
+                        <a href="https://pt-br.facebook.com/" target="_blank">
+                            <img src="../imagens/logo-facebook.jpg" alt="logofacebook"> <br>
                         </a>
-                        <a href="#">
-                            <img src="../imagens/logo-twitter.jpg" alt="logoinstagram"> <br>
+                        <a href="https://x.com/" target="_blank">
+                            <img src="../imagens/logo-twitter.jpg" alt="logotwiter"> <br>
                         </a>
-                        <a href="#">
-                            <img src="../imagens/logo-youtube.jpg" alt="logoinstagram"> <br>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="../imagens/logo-youtube.jpg" alt="logoyoutube"> <br>
                         </a>
                     </div>
                 </div>
@@ -188,7 +189,9 @@
             </p>
         </section>
 
-
     </div>
+
+
+    <script src="../página-principal/logicas2.js"></script>
 </body>
 </html>

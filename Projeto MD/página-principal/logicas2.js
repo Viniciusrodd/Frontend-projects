@@ -1,5 +1,5 @@
 
-
+/*
 function clicouSpan() {
     let menu = document.getElementById('pSpan')
     let botão1 = document.getElementById('bheader1')
@@ -12,7 +12,7 @@ function clicouSpan() {
             botão2.style.display = 'block'
         }
 }
-
+*/
 
 function rolar() {
     let botão1 = document.getElementById('bheader1')
