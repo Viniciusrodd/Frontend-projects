@@ -198,6 +198,13 @@ body, html {
         color: white;
     }
 
+    #form-novidades{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     input#inome {
         margin-top: 5px;
     }
