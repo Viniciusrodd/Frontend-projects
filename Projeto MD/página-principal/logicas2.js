@@ -27,7 +27,7 @@ function rolar() {
 function rolar2() {
     let botão2 = document.getElementById('bheader2')
     if(botão2 = true){
-        let biografia = document.getElementById('modeloS3')
+        let biografia = document.getElementById('biografia')
             biografia.scrollIntoView({
                 behavior: "smooth"
             })
