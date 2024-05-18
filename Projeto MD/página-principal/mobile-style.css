@@ -30,38 +30,132 @@
 
     /*HEADER*/
     header {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
         height: 13vh;
-        width: 100%;
         background-color: white;
         border-bottom: 3px solid black;
     }
 
     h1#h1-Header {
         font-size: 35px;
-        font-style: italic;
-        text-decoration: overline;
-    }
-
-    div#opções-Header {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
     }
 
     p.p-Header {
         font-size: 18px;
         margin-right: 20px;
-        font-weight: bold;
         cursor: pointer;
         color: orange;
     }
 
     button#b-Header {
         display: none;
+    }
+
+    /*SECTION 1*/
+
+    div#containerSection1 {
+        height: 130vh;
+        width: 100%;
+    }
+
+    section#s1 {
+        height: 130vh;
+        width: 100vw;
+    }
+
+    div#container-pai-s1 {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 110vh;
+        width: 80%;
+    }
+
+    div#div-filho-s1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 70vh;
+        width: 60%;
+    }
+
+    p#p-div-s1 {
+        font-size: 28px;
+        margin: 0px;
+        width: 150%;
+    }
+
+    p#p2-div-s1 {
+        font-size: 15px;
+        margin-top: 15px;
+        width: 150%;
+    }
+
+    /*LOGIN*/
+
+    div#div-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 90vh;
+        width: 100%;
+        border-radius: 0 0px 20px 20px;
+    }
+
+    #p-login {
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: overline;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        color: white;
+    }
+
+    .p-li {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: white;
+    }
+
+    input#inome {
+        margin-top: 2px;
+    }
+
+    .input-login {
+        height: 35px;
+        width: 300px;
+        margin-bottom: 8px;
+        border: 2px solid black;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    ::placeholder {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    #button-login {
+        height: 45px;
+        width: 300px;
+        margin-top: 10px;
+        border-radius: 30px;
+        border: 0;
+        background-color: orange;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+    }
+
+    #button-login:hover {
+        text-decoration: underline;
     }
 }
 
