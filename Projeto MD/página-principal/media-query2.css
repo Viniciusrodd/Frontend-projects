@@ -343,7 +343,7 @@ Breakpoint: acima de 1200px
         align-items: center;
         height: 120vh;
         width: 90%;
-        background-image: linear-gradient(to bottom, #051923, #003554, #C6D4FF )
+        background-image: linear-gradient(to bottom, white ,#C6D4FF , white )
     }
 
     div#biografia{
