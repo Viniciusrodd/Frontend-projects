@@ -18,6 +18,14 @@ body, html {
     padding: 0;
 }
 
+mark{
+    background-color: var(--cor01);
+    border-radius: 10px;
+    color: black;
+    padding: 3px;
+}
+
+/*COMEÇO DA PÁGINA*/
 #container-pai{
     display: flex;
     flex-direction: column;
@@ -33,6 +41,7 @@ div#imagem{
     background-position: center center;
 }
 
+/*HEADER*/
 header{
     display: flex;
     justify-content: space-around;
@@ -66,20 +75,31 @@ header{
     font-size: 23px;
     margin: 0;
     color: white;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.h1-titles-header:hover{
+    background-color: var(--cor01);
+    color: black;
+    border-radius: 30px;
+    padding: 15px;
+    transition: 0.5s ease, transform 0.5s ease;
 }
 
 h1#titulo{
-    color: white;
+    color: var(--cor01);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 60px;
     margin: 0;
     text-decoration: overline;
 }
 
+/*INÍCIO DOS CONTEÚDOS*/
 div#conteudo-container{
     display: flex;
     justify-content: flex-end;
-    margin-top: 30px;
-    height: 40vh;
+    margin-top: 10px;
+    height: 35vh;
     width: 100%;
 }
 
@@ -87,9 +107,15 @@ div#conteudo-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 35vh;
     width: 50vw;
-    margin-right: 30px; 
+    margin-right: 60px; 
+    cursor: pointer;
+}
+.conteudo-1:hover{
+    background-color: black;
+    border-radius: 35px;
+    transition: background-color 1s ease, transform 1s ease;
 }
 
 #h1-conteudos{
@@ -98,12 +124,13 @@ div#conteudo-container{
     color: white;
     font-style: oblique;
     margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 div#conteudo-container-2{
     display: flex;
     justify-content: flex-end;
-    height: 55vh;
+    height: 35vh;
     width: 100%;
 }
 
@@ -111,22 +138,22 @@ div#conteudo-container-2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55vh;
-    width: 40vw;
-    margin-right: 100px;
-    background-color: rgba(0, 0, 0, 0.448);
-    border-radius: 30px;
+    height: 35vh;
+    width: 60vw;
+    margin-right: 5px;
     cursor: pointer;
 }
 .conteudo-2:hover{
     background-color: black;
-    transition: background-color 0.5s ease, transform 0.5s ease;
+    border-radius: 35px;
+    transition: background-color 1s ease, transform 1s ease;
 }
 
 #p-conteudo-2{
     text-align: center;
-    font-style: italic;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 32px;
     color: white;
     margin: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
