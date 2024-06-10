@@ -111,10 +111,10 @@ div#conteudo-container{
     margin-right: 60px; 
 }
 
-#h1-conteudos{
+.h1-conteudos{
     text-align: center;
     font-size: 53px;
-    color: white;
+    color: var(--cor01);
     font-style: oblique;
     margin: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -150,6 +150,7 @@ div#conteudo-container-2{
     justify-content: flex-end;
     height: 35vh;
     width: 100%;
+    margin-top: 20px;
 }
 
 .conteudo-2{
@@ -161,11 +162,11 @@ div#conteudo-container-2{
     margin-right: 5px;
 }
 
-#p-conteudo-2{
+.p-conteudo-2{
     text-align: center;
     font-weight: bold;
     font-size: 32px;
-    color: white;
+    color: var(--cor01);
     margin: 50px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -173,7 +174,37 @@ div#conteudo-container-2{
 
 /*SECTION*/
 section#sessao-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 110vh;
     width: 100%;
-    background-color: #287FB6;
+    background-color: var(--cor01);
+}
+
+div#container-sessao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 80%;
+    
+}
+
+.h1-sessao{
+    text-align: center;
+    font-size: 38px;
+    color: black;
+    font-style: oblique;
+    margin: 0;
+    
+}
+
+.p-sessao{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    
 }
