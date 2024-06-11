@@ -149,9 +149,11 @@ button{
     color: white;
     background-color: #287FB6;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
 button:hover{
     background-color: #4fa3d7;
+    transform: scale(1.05);
 }
 
 /*CONTEÚDO 2*/
@@ -199,7 +201,7 @@ div.container-sessao{
     justify-content: center;
     align-items: center;
     height: 50vh;
-    width: 80%;
+    width: 90%;
     margin-top: 30px;
     border-bottom: 3px solid black;
 }
@@ -232,4 +234,15 @@ div#container-iframe{
 div#iframe{
     height: 100%;
     width: 50vw;
+    border-radius: 20px;
+}
+
+iframe{
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.76);
+    transition: transform 0.3s ease;
+}
+iframe:hover{
+    transform: scale(1.05);
 }
