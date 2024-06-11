@@ -9,6 +9,8 @@
 
 
 /*CONFIGS GERAIS*/
+
+
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -25,7 +27,10 @@ mark{
     padding: 3px;
 }
 
+
 /*COMEÇO DA PÁGINA*/
+
+
 #container-pai{
     display: flex;
     flex-direction: column;
@@ -34,14 +39,17 @@ mark{
 }
 
 div#imagem{
-    height: 110vh;
+    height: 120vh;
     width: 100%;
     background-image: url(../imagens/mulher-correndo.jpg);
     background-size: cover;
     background-position: center center;
 }
 
+
 /*HEADER*/
+
+
 header{
     display: flex;
     justify-content: space-around;
@@ -93,7 +101,10 @@ h1#titulo{
     text-decoration: overline;
 }
 
+
 /*CONTEÚDO 1*/
+
+
 div#conteudo-container{
     display: flex;
     justify-content: flex-end;
@@ -135,7 +146,6 @@ button{
     font-weight: bold;
     letter-spacing: 2px;
     border: none;
-    border-radius: 30px;
     color: white;
     background-color: #287FB6;
     cursor: pointer;
@@ -145,6 +155,7 @@ button:hover{
 }
 
 /*CONTEÚDO 2*/
+
 div#conteudo-container-2{
     display: flex;
     justify-content: flex-end;
@@ -173,23 +184,24 @@ div#conteudo-container-2{
 
 
 /*SECTION*/
+
 section#sessao-conteudo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 110vh;
     width: 100%;
     background-color: var(--cor01);
 }
 
-div#container-sessao{
+div.container-sessao{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 50vh;
     width: 80%;
-    
+    margin-top: 30px;
+    border-bottom: 3px solid black;
 }
 
 .h1-sessao{
@@ -198,13 +210,26 @@ div#container-sessao{
     color: black;
     font-style: oblique;
     margin: 0;
-    
 }
 
 .p-sessao{
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     color: black;
-    
+}
+
+div#container-iframe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    margin-top: 30px;
+}
+
+div#iframe{
+    height: 100%;
+    width: 50vw;
 }

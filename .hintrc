@@ -10,6 +10,14 @@
       }
     ],
     "no-inline-styles": "off",
-    "axe/structure": "off"
+    "axe/structure": "off",
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[allow]"
+        ]
+      }
+    ]
   }
 }
