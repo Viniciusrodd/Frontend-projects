@@ -129,6 +129,10 @@ div#conteudo-container{
     font-style: oblique;
     margin: 0;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.h1-conteudos:hover{
+    transform: scale(1.03);
 }
 
 div#container-button{
@@ -138,7 +142,7 @@ div#container-button{
     width: 100%;
 }
 
-button{
+#btt-container-button{
     height: 100%;
     width: 210px;
     margin-right: 300px;
@@ -151,8 +155,8 @@ button{
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-button:hover{
-    background-color: #4fa3d7;
+#btt-container-button:hover{
+    background-color: rgb(73, 157, 209);
     transform: scale(1.05);
 }
 
@@ -182,6 +186,10 @@ div#conteudo-container-2{
     color: var(--cor01);
     margin: 50px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.p-conteudo-2:hover{
+    transform: scale(1.03);
 }
 
 
@@ -200,7 +208,7 @@ div.container-sessao{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 40vh;
     width: 90%;
     margin-top: 30px;
     border-bottom: 3px solid black;
@@ -228,7 +236,7 @@ div#container-iframe{
     align-items: center;
     height: 60vh;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 div#iframe{
@@ -244,5 +252,32 @@ iframe{
     transition: transform 0.3s ease;
 }
 iframe:hover{
+    transform: scale(1.05);
+}
+
+#container-button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+#btt-section{
+    height: 65px;
+    width: 190px;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 94, 94);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+#btt-section:hover{
+    background-color: rgb(255, 0, 0);
     transform: scale(1.05);
 }
