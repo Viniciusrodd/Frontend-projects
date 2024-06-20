@@ -291,15 +291,15 @@ section#container-argumentos{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background-color: #287FB6;
+    background-color: var(--cor04);
 }
 
 h1.h1-argumentos{
     text-align: center;
     font-size: 45px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: black;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -310,6 +310,7 @@ div#argumentos-cards{
     flex-direction: row;
     width: 95%;
     background-color: #287FB6;
+    border-radius: 30px;
 }
 
 div.cards{
@@ -321,12 +322,12 @@ div.cards{
     width: 21vw;
     padding: 0px 10px 10px 10px;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.194);
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 div.cards:hover{
     transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.18);
 }
 
 div.imagem{
@@ -340,7 +341,7 @@ div.imagem{
 
 h2.h2-cards{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
     margin: 15px 0px 0px 0px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -348,8 +349,7 @@ h2.h2-cards{
 
 p.p-cards{
     text-align: center;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 19px;
     color: white;
     margin: 15px 0px 0px 0px;
 }
@@ -358,5 +358,34 @@ p.p-cards{
 /*ARGUMENTOS 2*/
 
 div#div-argumentos-2{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0px 35px 0px;
+    width: 100%;
+    background-color: var(--cor01);
+}
+
+div#descrição-produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 35%;
+    background-color: var(--cor04);
+    border-radius: 30px 0px 0px 30px;
+}
+
+li{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15px 0px 15px 0px;
+}
+
+div#imagem-produto{
+    height: 70vh;
+    width: 35%;
+    background-color: var(--cor03);
+    border-radius: 0px 30px 30px 0px;
 }
