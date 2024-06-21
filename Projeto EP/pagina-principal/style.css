@@ -41,8 +41,9 @@ div#imagem{
     height: 120vh;
     width: 100%;
     background-image: url(../imagens/mulher-correndo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
 }
 
 
@@ -291,7 +292,11 @@ section#container-argumentos{
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background-color: var(--cor04);
+    background-image: url(../imagens/pilulas2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1.h1-argumentos{
@@ -299,7 +304,7 @@ h1.h1-argumentos{
     font-size: 45px;
     margin-top: 70px;
     margin-bottom: 70px;
-    color: black;
+    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -309,8 +314,9 @@ div#argumentos-cards{
     align-items: center;
     flex-direction: row;
     width: 95%;
-    background-color: #287FB6;
+    background-color: #4898cacb;
     border-radius: 30px;
+    padding: 5px;
 }
 
 div.cards{
@@ -327,7 +333,7 @@ div.cards{
 }
 div.cards:hover{
     transform: scale(1.05);
-    background-color: rgba(0, 0, 0, 0.18);
+    background-color: rgba(0, 0, 0, 0.095);
 }
 
 div.imagem{
@@ -351,6 +357,8 @@ p.p-cards{
     text-align: center;
     font-size: 19px;
     color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin: 15px 0px 0px 0px;
 }
 
@@ -361,7 +369,7 @@ div#div-argumentos-2{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 35px 0px 35px 0px;
+    padding: 40px 0px 40px 0px;
     width: 100%;
     background-color: var(--cor01);
 }
@@ -373,19 +381,28 @@ div#descrição-produto{
     align-items: center;
     height: 70vh;
     width: 35%;
-    background-color: var(--cor04);
-    border-radius: 30px 0px 0px 30px;
+    background-color: rgba(0, 0, 0, 0.079);
+    border-radius: 40px 0px 0px 40px;
+    cursor: pointer;
+}
+div#descrição-produto:hover{
+    background-color: rgba(0, 0, 0, 0.14);
 }
 
 li{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     margin: 15px 0px 15px 0px;
+    list-style-type: none;
 }
 
 div#imagem-produto{
     height: 70vh;
     width: 35%;
-    background-color: var(--cor03);
-    border-radius: 0px 30px 30px 0px;
+    background-image: url(../imagens/pilulas.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px 40px 40px 0px;
 }
