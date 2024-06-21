@@ -316,7 +316,7 @@ div#argumentos-cards{
     align-items: center;
     flex-direction: row;
     width: 95%;
-    background-color: #1a95e2cb;
+    background-color: rgba(0, 31, 52, 0.914);
     border-radius: 30px;
     padding: 5px;
     border: 3px solid white;
@@ -498,4 +498,29 @@ p.p-cards-2{
     color: white;
     font-weight: bold;
     text-align: center;
+}
+
+
+/*RESULTADOS*/
+
+
+div#div-resultados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    background-color: var(--cor01);
+}
+
+h1#h1-resultados{
+    color: black;
+    font-size: 50px;
+    margin: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+div#iframes-resultados{
+    
 }
