@@ -155,7 +155,7 @@ div#container-button-1{
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-#btt-container-button:hover{
+#btt-conteudo-1:hover{
     background-color: rgb(73, 157, 209);
     transform: scale(1.05);
 }
@@ -685,7 +685,6 @@ section#container-footer-6{
     height: 30vh;
     width: 20vw;
     padding: 10px;
-    background-color: white;
 }
 
 .h1-cards-footer{
