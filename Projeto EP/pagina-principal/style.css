@@ -643,3 +643,19 @@ div.cards-compras{
     background-color: rgb(255, 94, 94);
     transform: scale(1.05);
 }
+
+
+/*SESSÃO 6 - FOOTER*/
+
+
+section#container-footer-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #193722;
+    padding: 30px;
+}
+
+
