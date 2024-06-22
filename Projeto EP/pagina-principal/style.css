@@ -576,6 +576,10 @@ h1.h1-compras{
     border: 2px solid white;
     margin-top: 40px;
     margin-bottom: 40px;
+    transition: transform 0.3s ease;
+}
+#iframe-compras:hover{
+    transform: scale(1.05);
 }
 
 h2#h2-compras{
@@ -586,7 +590,20 @@ h2#h2-compras{
 }
 
 div#container-cards-compras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
     height: 80vh;
-    width: 90%;
+    width: 85%;
+    padding: 5px;
     background-color: black;
+}
+
+div.cards-compras{
+    height: 100%;
+    width: 30%;
+    margin: 0px 10px 0px 10px;
+    border-radius: 20px;
+    background-color: white;
 }
