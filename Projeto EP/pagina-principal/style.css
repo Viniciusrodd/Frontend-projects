@@ -37,7 +37,7 @@ mark{
     width: 100%;
 }
 
-div#imagem{
+div#imagem-header{
     height: 120vh;
     width: 100%;
     background-image: url(../imagens/mulher-correndo.jpg);
@@ -105,7 +105,7 @@ h1#titulo{
 /*CONTEÚDO 1*/
 
 
-div#conteudo-container{
+div#conteudo-container-1{
     display: flex;
     justify-content: flex-end;
     margin-top: 10px;
@@ -135,14 +135,14 @@ div#conteudo-container{
     transform: scale(1.03);
 }
 
-div#container-button{
+div#container-button-1{
     display: flex;
     justify-content: flex-end;
     height: 10vh;
     width: 100%;
 }
 
-#btt-container-button{
+#btt-conteudo-1{
     height: 100%;
     width: 210px;
     margin-right: 300px;
@@ -198,7 +198,7 @@ div#conteudo-container-2{
 /*SECTION*/
 
 
-section#sessao-conteudo{
+section#sessao-conteudo-1{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,7 +206,7 @@ section#sessao-conteudo{
     background-color: var(--cor01);
 }
 
-div.container-sessao{
+div.container-sessao-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -217,7 +217,7 @@ div.container-sessao{
     border-bottom: 3px solid black;
 }
 
-.h1-sessao{
+.h1-sessao-1{
     text-align: center;
     font-size: 38px;
     color: black;
@@ -225,14 +225,14 @@ div.container-sessao{
     margin: 0;
 }
 
-.p-sessao{
+.p-sessao-1{
     text-align: center;
     font-weight: bold;
     font-size: 25px;
     color: black;
 }
 
-div#container-iframe{
+div#container-iframe-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,7 +242,7 @@ div#container-iframe{
     margin-top: 50px;
 }
 
-div#iframe{
+div#iframe-1{
     height: 100%;
     width: 50vw;
     border-radius: 20px;
@@ -254,11 +254,11 @@ iframe#iframe-1{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.76);
     transition: transform 0.3s ease;
 }
-iframe:hover{
+#iframe-1:hover{
     transform: scale(1.05);
 }
 
-.container-button-section{
+.container-button-section-1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,7 +268,7 @@ iframe:hover{
     margin-bottom: 40px;
 }
 
-.btt-section{
+.btt-section-1{
     height: 65px;
     width: 300px;
     font-size: 21px;
@@ -279,13 +279,13 @@ iframe:hover{
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-.btt-section:hover{
+.btt-section-1:hover{
     background-color: rgb(255, 0, 0);
     transform: scale(1.05);
 }
 
 
-/*ARGUMENTOS CARDS*/
+/*SESSÃO 2 - ARGUMENTOS 1 - CARDS*/
 
 
 section#container-argumentos{
@@ -366,10 +366,10 @@ p.p-cards{
 }
 
 
-/*ARGUMENTOS 2*/
+/*SESSÃO 3 - ARGUMENTOS 2: - PRODUTO*/
 
 
-div#div-argumentos-2{
+section#container-argumentos-2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -421,10 +421,10 @@ div#imagem-produto{
 }
 
 
-/*ARGUMENTOS 3 // CARDS 2*/
+/*SESSÃO 4 - ARGUMENTOS 2 - CARDS 2*/
 
 
-section#container-argumentos-3{
+section#container-argumentos-4{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -437,7 +437,7 @@ section#container-argumentos-3{
     background-size: cover;
 }
 
-div#div-container-argumentos-3{
+div#div-container-argumentos-4{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -447,14 +447,14 @@ div#div-container-argumentos-3{
     background-color: rgba(0, 53, 88, 0.823);
 }
 
-h1#h1-argumentos-3{
+h1#h1-argumentos-4{
     color: white;
     font-size: 50px;
     margin: 0px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-h2#h2-argumentos-3{
+h2#h2-argumentos-4{
     color: white;
     font-size: 35px;
     margin: 0px;
@@ -494,7 +494,9 @@ div.cards-2:hover{
 div.imagem-2{
     height: 100px;
     width: 100px;
-    background-color: white;
+    background-image: url(../imagens/mulher-praia.jpg);
+    background-size: cover;
+    background-position: center;
     border-radius: 100px;
 }
 
@@ -506,7 +508,7 @@ p.p-cards-2{
 }
 
 
-/*RESULTADOS*/
+/*SESSÃO 4 - RESULTADOS*/
 
 
 div#div-resultados{
@@ -547,10 +549,10 @@ iframe.iframe-2{
 }
 
 
-/*SESSÃO COMPRAS*/
+/*SESSÃO 5 - COMPRAS*/
 
 
-section#compras{
+section#container-compras-5{
     display: flex;
     justify-content: center;
     align-items: center;
