@@ -9,21 +9,19 @@
 
 @media screen and (max-width: 767px){
 
+
     /*COMEÇO DA PÁGINA*/
+
     div#imagem-header{
-        height: 120vh;
-        background-position: center;
+        background-image: url(../imagens/por-do-sol.jpg);
+        background-position: center left;
     }
 
 
     /*HEADER*/
     header{
-        display: flex;
         justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        width: 100%;
-        height: 20vh;
+        height: 17vh;
     }
 
     #titles-header-1{
@@ -36,6 +34,54 @@
 
 
     /*CONTEÚDO 1*/
+
+    div#conteudo-container-1{
+        justify-content: center;
+        margin-top: 0px;
+        height: 35vh;
+    }
     
+    .conteudo-1{
+        width: 60vw;
+        margin: 0px;
+    }
+    
+    .h1-conteudos{
+        font-size: 38px;
+    }
+    .h1-conteudos:hover{
+        transform: none;
+    }
+    
+    div#container-button-1{
+        justify-content: center;
+    }
+    
+    #btt-conteudo-1{
+        margin: 0px;
+    }
+    #btt-conteudo-1:hover{
+        transform: none;
+    }
+
+
+    /*CONTEÚDO 2*/
+
+
+    div#conteudo-container-2{
+        justify-content: center;
+        height: 45vh;
+    }
+
+    .conteudo-2{
+        width: 90vw;
+    }
+
+    .p-conteudo-2{
+        font-size: 27px;
+    }
+    .p-conteudo-2:hover{
+        transform: none;
+    }
 
 }
