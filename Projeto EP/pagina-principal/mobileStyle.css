@@ -7,7 +7,35 @@
     --cor04: #d3efdc;
 }
 
-
 @media screen and (max-width: 767px){
+
+    /*COMEÇO DA PÁGINA*/
+    div#imagem-header{
+        height: 120vh;
+        background-position: center;
+    }
+
+
+    /*HEADER*/
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: 20vh;
+    }
+
+    #titles-header-1{
+        display: none;
+    }
+    
+    #titles-header-2{
+        display: none;
+    }
+
+
+    /*CONTEÚDO 1*/
+    
 
 }
