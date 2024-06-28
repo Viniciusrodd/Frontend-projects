@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: #FCF9ED;
+    --cor02: #193722;
+    --cor03: #7aa789;
+    --cor04: #d3efdc;
+}
+
+
+@media screen and (max-width: 767px){
+
+}
