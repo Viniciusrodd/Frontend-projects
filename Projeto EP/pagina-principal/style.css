@@ -257,6 +257,16 @@ iframe#iframe-1{
     transform: scale(1.05);
 }
 
+.container-button-section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .btt-section-1{
     height: 65px;
     width: 300px;
