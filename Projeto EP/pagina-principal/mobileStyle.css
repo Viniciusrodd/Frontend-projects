@@ -238,7 +238,7 @@
         margin: 50px 0px 30px 0px;
         text-align: center;
     }
-    
+
     .iframe-2:hover{
         transform: none;
     }
@@ -247,96 +247,37 @@
 /*SESSÃO 5 - COMPRAS*/
 
 
-    section#container-compras-5{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        background-image: url(../imagens/pilulas.jpg);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    div#container-compras{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        width: 100%;
-        background-color: rgba(0, 53, 88, 0.823);
-    }
-
     h1.h1-compras{
-        color: rgb(255, 255, 255);
-        font-size: 50px;
-        margin: 0px 0px 30px 0px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: center;
     }
 
     #iframe-compras{
-        border-radius: 20px;
-        border: 2px solid white;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        transition: transform 0.3s ease;
+        width: 80%;
     }
     #iframe-compras:hover{
-        transform: scale(1.05);
+        transform: none;
     }
 
     h2#h2-compras{
-        color: white;
-        font-size: 33px;
-        margin-bottom: 20px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: center;
     }
 
     div#container-cards-compras{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        height: 80vh;
-        width: 85%;
-        padding: 5px;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 250vh;
     }
 
     div.cards-compras{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 100%;
-        width: 30%;
-        margin: 0px 10px 0px 10px;
-        border-radius: 20px;
-        background-color: white;
-        transition: transform 0.3s ease;
+        height: 60vh;
+        width: 90%;
     }
     .cards-compras:hover{
-        transform: scale(1.05);
+        transform: none
     }
 
-    .btt-compras{
-        height: 45px;
-        width: 200px;
-        font-size: 15px;
-        font-weight: bold;
-        border: none;
-        border-radius: 10px;
-        color: white;
-        background-color: rgb(255, 0, 0);
-        cursor: pointer;
-        transition: transform 0.3s ease;
-    }
     .btt-compras:hover{
-        background-color: rgb(255, 94, 94);
-        transform: scale(1.05);
+        transform: none;
     }
 
 }
