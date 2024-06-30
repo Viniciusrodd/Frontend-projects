@@ -280,4 +280,113 @@
         transform: none;
     }
 
+
+/*SESSÃO 6 - FOOTER*/
+
+
+    section#container-footer-6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 0px 30px 0px;
+        background-color: var(--cor01);
+    }
+
+    #h1-footer{
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #h2-footer{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #div-footer-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    .div-cards-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+        width: 90vw;
+        padding: 10px;
+        border-top: 3px solid black;
+    }
+
+    .h1-cards-footer{
+        font-size: 30px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .h2-cards-footer{
+        font-size: 18px;
+        margin: 5px 0px 5px 0px;
+        text-align: center;
+    }
+
+    .p-cards-footer{
+        font-size: 18px;
+        margin: 5px 0px 5px 0px;
+        text-align: center;
+    }
+
+    #div-argumentos-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        height: 90vh;
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    #argumentos-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+    }
+
+    #h1-argumentos-footer{
+        font-size: 42px;
+        margin: 0px 0px 20px 0px;
+        color: #193722;
+        text-align: center;
+    }
+
+    #h2-argumentos-footer{
+        font-size: 22px;
+        margin: 0px 0px 20px 0px;
+        text-align: center;
+        color: #193722;
+    }
+
+    #p-argumentos-footer{
+        font-size: 19px;
+        margin: 0px 0px 20px 0px;
+        text-align: center;
+    }
+
+    #imagem-argumentos-footer{
+        display: none;
+        height: 100%;
+        width: 40%;
+        background-color: #193722;
+    }
+
 }
