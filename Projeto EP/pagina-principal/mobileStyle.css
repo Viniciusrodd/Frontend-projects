@@ -13,8 +13,8 @@
 /*COMEÇO DA PÁGINA*/
 
     div#imagem-header{
+        height: 140vh;
         background-image: url(../imagens/mulher-correndo.jpg);
-        background-attachment: fixed;
         background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -25,8 +25,9 @@
 
 
     header{
+        padding-top: 15px;
         justify-content: center;
-        height: 17vh;
+        height: 19vh;
     }
 
     #titles-header-1{
@@ -53,7 +54,6 @@
     
     .h1-conteudos{
         font-size: 38px;
-        background-color: black;
     }
     .h1-conteudos:hover{
         transform: none;
@@ -61,11 +61,10 @@
     
     div#container-button-1{
         justify-content: center;
+        margin: 20px 0px 40px 0px;
     }
     
     #btt-conteudo-1{
-        border: 3px solid black;
-        color: black;
         margin: 0px;
     }
     #btt-conteudo-1:hover{
@@ -87,7 +86,6 @@
 
     .p-conteudo-2{
         font-size: 27px;
-        background-color: black;
     }
     .p-conteudo-2:hover{
         transform: none;
@@ -96,6 +94,11 @@
 
 /*SECTION*/
 
+
+    div.container-sessao-1{
+        height: 60vh;
+        margin-top: 60px;
+    }
 
     .h1-sessao-1{
         font-size: 32px;
@@ -137,9 +140,11 @@
     }
 
     div.cards{
-        height: 40vh;
+        height: 60vh;
         width: 90vw;
         padding: 20px 10px 20px 10px;
+        border-bottom: 3px solid white;
+        border-radius: 20px 20px 0px 0px;
     }
     div.cards:hover{
         transform: none;
@@ -169,13 +174,14 @@
     }
 
     div#descrição-produto{
-        height: 50vh;
+        align-items: flex-start;
+        height: 60vh;
         width: 90%;
         border-radius: 40px 40px 0px 0px;
     }
 
     li{
-        font-size: 25px;
+        font-size: 22px;
     }
 
     div#imagem-produto{
@@ -183,6 +189,7 @@
         width: 90%;
         background-size: cover;
         border-radius: 0px 0px 40px 40px;
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 3px;
     }
 
 
@@ -191,7 +198,7 @@
 
     div#div-container-argumentos-4{
         padding: 10px 0px 10px 0px;
-        height: 200vh;
+        height: 215vh;
     }
 
     h1#h1-argumentos-4{
@@ -202,17 +209,18 @@
 
     h2#h2-argumentos-4{
         font-size: 30px;
-        margin: 30px 0px 0px 0px;
+        margin: 60px 0px 0px 0px;
     }
 
     div#argumentos-cards-2{
         justify-content: center;
         flex-direction: column;
         height: 100%;
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     div.cards-2{
+        justify-content: space-around;
         height: 35vh;
         width: 100%;
         margin: 10px 0px 10px 0px;
@@ -222,6 +230,7 @@
     }
 
     p.p-cards-2{
+        margin: 0px;
         font-size: 25px;
     }
 
@@ -235,6 +244,7 @@
     }
 
     h1#h1-resultados{
+        font-size: 40px;
         margin: 50px 0px 30px 0px;
         text-align: center;
     }
@@ -248,6 +258,7 @@
 
 
     h1.h1-compras{
+        font-size: 37px;
         text-align: center;
     }
 
@@ -259,6 +270,7 @@
     }
 
     h2#h2-compras{
+        font-size: 28px;
         text-align: center;
     }
 
