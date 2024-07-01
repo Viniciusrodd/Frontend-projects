@@ -14,8 +14,8 @@
 
     div#imagem-header{
         height: 140vh;
-        background-image: url(../imagens/mulher-correndo.jpg);
-        background-position: center top;
+        background-image: url(../imagens/por-do-sol.jpg);
+        background-position: center left;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -96,7 +96,7 @@
 
 
     div.container-sessao-1{
-        height: 60vh;
+        height: 50vh;
         margin-top: 60px;
     }
 
@@ -129,7 +129,7 @@
 
 
     h1.h1-argumentos{
-        font-size: 33px;
+        font-size: 28px;
     }
 
     div#argumentos-cards{
@@ -140,7 +140,7 @@
     }
 
     div.cards{
-        height: 60vh;
+        height: 55vh;
         width: 90vw;
         padding: 20px 10px 20px 10px;
         border-bottom: 3px solid white;
@@ -175,7 +175,7 @@
 
     div#descrição-produto{
         align-items: flex-start;
-        height: 60vh;
+        height: 55vh;
         width: 90%;
         border-radius: 40px 40px 0px 0px;
     }
@@ -197,7 +197,7 @@
 
 
     div#div-container-argumentos-4{
-        padding: 10px 0px 10px 0px;
+        padding: 0px 0px 10px 0px;
         height: 215vh;
     }
 
@@ -245,7 +245,7 @@
 
     h1#h1-resultados{
         font-size: 40px;
-        margin: 50px 0px 30px 0px;
+        margin: 60px 0px 30px 0px;
         text-align: center;
     }
 
