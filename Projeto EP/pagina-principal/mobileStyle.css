@@ -13,7 +13,7 @@
 /*COMEÇO DA PÁGINA*/
 
     div#imagem-header{
-        height: 150vh;
+        height: 140vh;
         background-image: url(../imagens/por-do-sol.jpg);
         background-position: center right;
         background-repeat: no-repeat;
@@ -45,11 +45,11 @@
     div#conteudo-container-1{
         justify-content: center;
         margin: 0px;
-        height: 35vh;
+        height: 30vh;
     }
     
     .conteudo-1{
-        width: 60vw;
+        width: 90vw;
         margin: 0px;
     }
     
@@ -78,15 +78,18 @@
 
     div#conteudo-container-2{
         justify-content: center;
-        height: 65vh;
+        height: 50vh;
+        margin-top: 0px;
     }
 
     .conteudo-2{
         width: 90vw;
+        margin-right: 0px;
     }
 
     .p-conteudo-2{
         font-size: 29px;
+        margin: 0px;
     }
     .p-conteudo-2:hover{
         transform: none;
