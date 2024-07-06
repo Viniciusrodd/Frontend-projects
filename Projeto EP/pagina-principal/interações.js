@@ -4,6 +4,7 @@ let sobreBtt = document.getElementById('sobre')
 let beneficiosBtt = document.getElementById('beneficios')
 let resultadosBtt = document.getElementById('resultados')
 let entregaBtt = document.getElementById('entrega')
+let iniciarBtt = document.getElementById('btt-conteudo-1')
 
 
 sobreBtt.addEventListener('click', () =>{
@@ -35,6 +36,14 @@ resultadosBtt.addEventListener('click', () =>{
 entregaBtt.addEventListener('click', () =>{
     let entregaConteudo = document.getElementById('container-footer-6')
     entregaConteudo.scrollIntoView({
+        behavior: 'smooth'
+    })
+})
+
+
+iniciarBtt.addEventListener('click', () =>{
+    let iniciarConteudo = document.getElementById('sessao-conteudo-1')
+    iniciarConteudo.scrollIntoView({
         behavior: 'smooth'
     })
 })
