@@ -394,10 +394,11 @@ div#descrição-produto{
     align-items: center;
     height: 70vh;
     width: 35%;
-    background-color: black;
+    background-color: #005f72;
     border-radius: 40px 0px 0px 40px;
     cursor: pointer;
     border: 3px solid black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 li{
@@ -752,5 +753,7 @@ section#container-footer-6{
 #imagem-argumentos-footer{
     height: 100%;
     width: 40%;
-    background-color: #193722;
+    background-image: url(../imagens/valores.jpg);
+    background-size: contain;
+    background-position: center center;
 }
