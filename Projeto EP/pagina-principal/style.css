@@ -586,6 +586,8 @@ h1.h1-compras{
 }
 
 #iframe-compras{
+    height: 280px;
+    width: 500px;
     border-radius: 20px;
     border: 3px solid white;
     margin-top: 40px;
@@ -594,6 +596,10 @@ h1.h1-compras{
 }
 #iframe-compras:hover{
     transform: scale(1.05);
+}
+
+video{
+    height: 100%;
 }
 
 h2#h2-compras{
