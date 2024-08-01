@@ -265,12 +265,23 @@
         text-align: center;
     }
 
+    /*
     #iframe-compras{
         width: 80%;
     }
     #iframe-compras:hover{
         transform: none;
     }
+    */
+    video{
+        height: 220px;
+        width: 395px;
+    }
+    video:hover{
+        height: 220px;
+        width: 395px;
+    }
+
 
     h2#h2-compras{
         font-size: 28px;
