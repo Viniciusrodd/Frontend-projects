@@ -147,7 +147,7 @@ div#container-button-1{
     margin-right: 300px;
     font-size: 25px;
     font-weight: bold;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     border: none;
     color: white;
     background-color: #287FB6;
@@ -776,7 +776,7 @@ section#container-footer-6{
 
 #imagem-argumentos-footer{
     height: 100%;
-    width: 40%;
+    width: 35%;
     background-image: url(../imagens/valores.jpg);
     background-size: contain;
     background-position: center center;

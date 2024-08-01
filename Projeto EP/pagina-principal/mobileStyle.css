@@ -14,8 +14,8 @@
 
     div#imagem-header{
         height: 140vh;
-        background-image: url(../imagens/por-do-sol.jpg);
-        background-position: center right;
+        background-image: url(../imagens/mulher-correndo.jpg);
+        background-position: center left;
         background-repeat: no-repeat;
         background-size: cover;
     }
