@@ -600,7 +600,7 @@ h1.h1-compras{
 }
 */
 
-video{
+#video-iframe-compras{
     height: 280px;
     width: 500px;
     border-radius: 20px;
@@ -609,13 +609,7 @@ video{
     margin-bottom: 40px;
     transition: transform 0.3s ease;
 }
-video:hover{
-    height: 280px;
-    width: 500px;
-    border-radius: 20px;
-    border: 3px solid white;
-    margin-top: 40px;
-    margin-bottom: 40px;
+#video-iframe-compras:hover{
     transition: transform 0.3s ease;
 
 }
@@ -632,7 +626,7 @@ div#container-cards-compras{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 80vh;
+    height: 90vh;
     width: 85%;
     padding: 5px;
 }
@@ -646,11 +640,37 @@ div.cards-compras{
     width: 30%;
     margin: 0px 10px 0px 10px;
     border-radius: 20px;
-    background-color: white;
     transition: transform 0.3s ease;
+    
+    cursor: pointer;
+    /*
+    background-image: url(../imagens/criativo-compras-imagem.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    */
 }
 .cards-compras:hover{
     transform: scale(1.05);
+}
+
+.img-div-compras{
+    height: 85%;
+    width: 95%;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.video-compras{
+    height: 100%;
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.video-compras:hover{
+    transition: transform 0.3s ease;
 }
 
 .btt-compras{
