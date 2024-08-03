@@ -273,11 +273,11 @@
         transform: none;
     }
     */
-    video{
+    #video-iframe-compras{
         height: 220px;
         width: 395px;
     }
-    video:hover{
+    #video-iframe-compras:hover{
         height: 220px;
         width: 395px;
     }
@@ -291,12 +291,12 @@
     div#container-cards-compras{
         justify-content: space-around;
         flex-direction: column;
-        height: 250vh;
+        height: 430vh;
     }
 
     div.cards-compras{
-        height: 60vh;
-        width: 90%;
+        height: 100vh;
+        width: 80%;
     }
     .cards-compras:hover{
         transform: none
