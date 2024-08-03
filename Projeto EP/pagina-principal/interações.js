@@ -5,7 +5,8 @@ let beneficiosBtt = document.getElementById('beneficios')
 let resultadosBtt = document.getElementById('resultados')
 let entregaBtt = document.getElementById('entrega')
 let iniciarBtt = document.getElementById('btt-conteudo-1')
-
+let comprarAgora1Btt = document.getElementById('btt-compraragora-1')
+let comprarAgora2Btt = document.getElementById('btt-compraragora-2')
 
 sobreBtt.addEventListener('click', () =>{
     if(sobreBtt){
@@ -44,6 +45,21 @@ entregaBtt.addEventListener('click', () =>{
 iniciarBtt.addEventListener('click', () =>{
     let iniciarConteudo = document.getElementById('sessao-conteudo-1')
     iniciarConteudo.scrollIntoView({
+        behavior: 'smooth'
+    })
+})
+
+
+var cardsCompras = document.getElementById('container-cards-compras')
+comprarAgora1Btt.addEventListener('click', () =>{
+    cardsCompras.scrollIntoView({
+        behavior: 'smooth'
+    })
+})
+
+
+comprarAgora2Btt.addEventListener('click', () =>{
+    cardsCompras.scrollIntoView({
         behavior: 'smooth'
     })
 })
