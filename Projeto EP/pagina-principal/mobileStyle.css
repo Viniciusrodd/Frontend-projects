@@ -296,7 +296,7 @@
 
     div.cards-compras{
         height: 100vh;
-        width: 80%;
+        width: 90%;
     }
     .cards-compras:hover{
         transform: none
