@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*   search for this    */
+    list-style: none;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+header{
+    position: fixed; /*   search for this    */
+    width: 80vw;
+    left: 50%;
+    transform: translateX(-50%); /*   search for this    */
+    display: grid; /*   search for this    */
+    align-items: center;
+    grid-template-columns: 1fr 600px; /*   search for this    */
+    gap: 100px; /*   search for this    */
+    z-index: 2; /*   search for this    */
+
+    & img{
+        width: 250px;
+    }
+
+    & nav{
+
+        & ul{
+            display: grid;
+            grid-template-columns: repeat(3, 200px);
+        }
+
+    }
+
+}
+
+section{
+    background-image: linear-gradient(#470964, #791fd3);
+    height: 100vh;
+    position: relative;
+
+    & .list{
+        width: 70vw;
+        height: 100%;
+        margin: auto;
+        position: relative;
+
+        & .item{
+            position: absolute; /*   search for this    */
+            inset: 0; /*   search for this    */
+
+            & .car-img{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%); /*   search for this    */
+                width: 70%;
+
+                & img{
+                    width: 100%;
+                    transform: rotate(-30deg); /*   search for this    */
+                }
+
+            }
+
+            & .content{
+                position: absolute;
+                right: 100px;
+                width: 70%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                align-items: end;
+                gap: 20px;
+
+                & .car-information{
+                    font-weight: bold;
+                }
+
+                & h2{
+                    font-size: 8em;
+                    line-height: 1em;
+                }
+
+                & .description{
+                    color: #d9d9d9;
+                    font-size: 12px;
+                    text-align: right;
+                    max-width: 400px;
+                }
+
+                & .information{
+                    border-radius: 30px;
+                    height: 35px;
+                    width: 120px;
+                    text-transform: uppercase;
+                    border: solid 2px #791fd3;
+                    background-color: #beff1b;
+                    color: #000;
+                    cursor: pointer;
+                }
+
+            }
+
+
+
+
+
+        }
+
+    }
+
+}
+
+.arrows{
+    
+    & button{
+
+        & img{
+            width: 100px;
+        }
+
+    }
+
+}
