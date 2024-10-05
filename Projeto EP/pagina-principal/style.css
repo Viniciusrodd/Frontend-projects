@@ -39,13 +39,17 @@ mark{
     width: 100%;
 }
 
-div#imagem-header{
-    height: 120vh;
-    width: 100%;
-    background-image: url(../imagens/mulher-correndo.jpg);
+div#imagem-header-container{
+    background-image: url(../imagens/mulher-correndo-3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+div#imagem-header{
+    height: 120vh;
+    width: 100%;
+    background-color: rgba(0, 53, 88, 0.429);
 }
 
 
