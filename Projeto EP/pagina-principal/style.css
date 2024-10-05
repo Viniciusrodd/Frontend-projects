@@ -5,6 +5,8 @@
     --cor02: #193722;
     --cor03: #7aa789;
     --cor04: #d3efdc;
+    --cor05: rgb(255, 94, 94);
+    --cor06: #287FB6;
 }
 
 
@@ -191,6 +193,47 @@ div#conteudo-container-2{
 }
 .p-conteudo-2:hover{
     transform: scale(1.03);
+}
+
+
+/*SECTION PRODUTOS*/
+
+
+section#sessao-produtos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 25vh;
+    width: 100%;
+    background-color: var(--cor01);
+
+    & #chá{
+        height: 80%;
+        width: 17%;
+        background-image: url(../imagens/cha.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    & #produto-digital{
+        height: 80%;
+        width: 17%;
+        background-image: url(../imagens/peso.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    & #lift-detox{
+        height: 80%;
+        width: 17%;
+        background-image: url(../imagens/secando.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
 
